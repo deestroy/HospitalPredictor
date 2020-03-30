@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+
+* {
+
+}
+
+.red-button {
+    background-color: #f54242;
+    border: none;
+    border-radius: 24px!important;
+    height: 60px;
+    width: 50%;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing: .5px;
+}
+
+.col-sm-4 {
+    background-color: #f54242;
+
+}
