@@ -6,6 +6,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1,h2,h3 {
@@ -82,11 +84,7 @@ h4,h5,h6 {
 .nav-link,
 .navbar-brand {
   color: #011627;
-}
-
-.nav-link,
-.navbar-brand {
-  color: #011627;
+  margin-right: 1em !important;
 }
 
 .nav-link:hover,
@@ -168,6 +166,19 @@ h4,h5,h6 {
     width: 100%;
     padding: 10px 0px;
     text-align: center;
+  }
+  #submitButton {
+    justify-content: center !important;
+    align-content: center !important;
+    text-align: center !important;
+    margin-left: 7em;
+  }
+  .map-container {
+    width: 100%;
+  }
+
+  #logo {
+    height: 0.8em;
   }
   .call-to-action .container {
     width: 100% !important;
