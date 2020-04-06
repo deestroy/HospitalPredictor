@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="327" height="40" viewBox="0 0 327 40">
+  <g id="Group_9" data-name="Group 9" transform="translate(-139 -47)">
+    <g id="Group_4" data-name="Group 4" transform="translate(93)">
+      <text id="hospi_al_predictor" data-name="hospi   al predictor" transform="translate(46 78)" fill="#0a0a0a" font-size="40" font-family="Helvetica"><tspan x="0" y="0" xml:space="preserve">hospi   al predictor</tspan></text>
+      <g id="Group_3" data-name="Group 3" transform="translate(-6.5 -88)">
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="6" height="25" transform="translate(160 142)" fill="red"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="6" height="25" transform="translate(175.5 151.5) rotate(90)" fill="red"/>
+      </g>
+    </g>
+  </g>
+</svg>
