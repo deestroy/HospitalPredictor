@@ -1,10 +1,9 @@
 FROM python:3.8
 
 COPY . /app
-WORKDIR / app
+WORKDIR /app
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install flask python-dotenv firebase_admin
 
-ENV PORT 8080
-
-CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 app:app
+ENTRYPOINT ["python3"]
+CMD ["app.py"]
