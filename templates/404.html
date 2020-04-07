@@ -10,25 +10,5 @@
         <h1>
             Dummy 404 template
         </h1>
-        <br>
-        <h2>Some dummy data</h2>
-        <table border='1px solid black' cellpadding='5'>
-            <tr>
-                <th>Hospital Name</th>
-                <th>Address</th>
-                <th>City</th>
-                <th>Number of Beds</th>
-                <th>Occupancy (%)</th>
-            </tr>
-            {% for hospital in data %}
-            <tr>
-                <td>{{ hospital.name }}</td>
-                <td>{{ hospital.address }}</td>
-                <td>{{ hospital.city }}</td>
-                <td>{{ hospital.num_beds }}</td>
-                <td>{{ hospital.occupancy }}</td>
-            </tr>
-            {% endfor %}
-        </table>
     </body>
 </html>

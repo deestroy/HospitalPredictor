@@ -22,24 +22,6 @@ cred = credentials.Certificate(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'))
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-hospital_data = \
-[
-    {
-        'name': 'The Ottawa Hopsital, General Campus',
-        'address': '501 Smyth Road',
-        'city': 'Ottawa',
-        'num_beds': 1232,
-        'occupancy': 0.76
-    },
-    {
-        'name': 'CHEO',
-        'address': '401 Smyth Road',
-        'city': 'Ottawa',
-        'num_beds': 167,
-        'occupancy': 0.76
-    }
-]
-
 
 # main page
 @app.route('/')
@@ -50,36 +32,37 @@ def index():
 # 404 page
 @app.route('/404')  
 def error_page():
-    return render_template('404.html', data=hospital_data)
+    return render_template('404.html')
 
 
-@app.route('/hospital-data', methods = ['GET'])
-def get_all_hospital_data():
+# data form page
+@app.route('/data-form')
+def data_form():
+    return render_template('data_form.html')
+
+
+# heat map page
+@app.route('/map')
+def map():
     hospitals = db.collection('hospitals').stream()    
     data = []
     for hospital in hospitals:
         data.append(hospital.to_dict())
     
-    return render_template('404.html', data=data)
+    return render_template('map.html', data=data)
 
 
-# update existing hospital with new data (all fields)
-@app.route('/add-hospital-data', methods = ['GET', 'POST'])
+# add new hospital data (all fields)
+@app.route('/add-hospital-data', methods = ['POST'])
 def add_hospital_data():
 
-    # DUMMY DATA FOR TESTING
-    if request.method == 'GET':
-        for hospital in hospital_data:
-            db.collection(u'hospitals').document(hospital['name']).set(hospital)
-        return redirect(url_for('index'))
-
-    elif request.method == 'POST':
+    if request.method == 'POST':
         req_data = request.get_json()
         hospital = Hospital(req_data['name'], req_data['address'], req_data['city'], req_data['num_beds'], req_data['occupancy'])
         db.collection(u'hospitals').document(req_data['name']).set(hospital.to_dict())
         return redirect(url_for('index'))
     
-    return redirect(url_for('error_page'), data=hospital_data)
+    return redirect(url_for('error_page'))
 
 
 # returns data for specified hospital
@@ -95,7 +78,7 @@ def get_hospital_data():
             hospital_data = hospitals[0].to_dict()
             return jsonify(hospital_data)
     
-    return redirect(url_for('error_page'), data=hospital_data)
+    return redirect(url_for('error_page'))
 
 
 if __name__ == '__main__':

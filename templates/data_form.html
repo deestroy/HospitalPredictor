@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Hospital Predictor</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>
+            Form to enter hospital data
+        </h1>
+        <table>
+            <tr>
+                <td>Hospital Name</td>
+                <td><input type="text" id="name_field"/><td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" id="address_field"/><td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" id="city_field"/><td>
+            </tr>
+            <tr>
+                <td>Number of Beds</td>
+                <td><input type="int" id="num_beds_field"/><td>
+            </tr>
+            <tr>
+                <td>Occupancy (%)</td>
+                <td><input type="int" id="occupancy_field"/><td>
+            </tr>
+        </table>
+        <br>
+        <button type="button" id="submit_btn">Submit Data</button>
+    </body>
+    <script>
+        $("submit_btn").click(function() {
+            var name = $("#name_field").text();
+            var address = $("#address_field").text();
+            var city = $("#city_field").text();
+            var num_beds = $("num_beds_field").text();
+            var occupancy = $("occupancy_field").text();
+        });
+    </script>
+</html>
