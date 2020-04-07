@@ -23,15 +23,11 @@ cred = credentials.Certificate(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'))
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-def format_server_time():
-  server_time = time.localtime()
-  return time.strftime("%I:%M:%S %p", server_time)
 
 # main page
 @app.route('/')
 def index():
-    context = { 'server_time': format_server_time() }
-    return render_template('index.html', context=context)
+    return render_template('index.html')
 
 
 # 404 page
@@ -62,8 +58,8 @@ def map():
 def add_hospital_data():
 
     if request.method == 'POST':
-        req_data = request.get_json()
-        hospital = Hospital(req_data['name'], req_data['address'], req_data['city'], req_data['num_beds'], req_data['occupancy'])
+        req_data = request.form
+        hospital = Hospital(req_data.get('name'), req_data.get('address'), req_data.get('city'), req_data.get('num_beds'), req_data.get('occupancy'))
         db.collection(u'hospitals').document(req_data['name']).set(hospital.to_dict())
         return redirect(url_for('index'))
     
