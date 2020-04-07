@@ -1,4 +1,5 @@
 import os
+import time
 from dotenv import load_dotenv
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 import firebase_admin
@@ -18,11 +19,15 @@ cred = credentials.Certificate(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'))
 firebase_admin.initialize_app()
 db = firestore.client()
 
+def format_server_time():
+  server_time = time.localtime()
+  return time.strftime("%I:%M:%S %p", server_time)
 
 # main page
 @app.route('/')
 def index():
-    return render_template('index.html')
+    context = { 'server_time': format_server_time() }
+    return render_template('index.html', context=context)
 
 
 # update existing hospital with new data (all fields)
