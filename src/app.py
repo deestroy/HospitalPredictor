@@ -71,7 +71,7 @@ def add_hospital_data():
 def get_hospital_data():
 
     if request.method == 'POST':
-        name = request.form['name']
+        name = request.form.get('name')
 
         hospitals = db.collection(u'hospitals').where(u'name', u'==', name).stream()
         
