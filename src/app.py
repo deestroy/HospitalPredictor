@@ -23,6 +23,9 @@ cred = credentials.Certificate(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'))
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
+# google maps javascript api key
+maps_api_key = os.environ.get('GOOGLE_MAPS_API_KEY')
+
 
 # main page
 @app.route('/')
@@ -50,7 +53,7 @@ def map():
     for hospital in hospitals:
         data.append(hospital.to_dict())
     
-    return render_template('map.html', data=data)
+    return render_template('map.html', data=data, maps_api_key=maps_api_key)
 
 
 # add new hospital data (all fields)

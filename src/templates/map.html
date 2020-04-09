@@ -5,6 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Hospital Predictor</title>
+        <style>
+            #map {
+                height: 600px;
+                width: 600px;
+                margin: 50px;
+            }
+        </style>
     </head>
     <body>
         <h1>
@@ -28,5 +35,115 @@
             </tr>
             {% endfor %}
         </table>
+        <br>
+        <h1>Map</h1>
+        <div id="map"></div>
+        <script>
+            function init_map() {
+
+                // location of map center
+                var map_center = {lat: 45.39625, lng: -75.721222};
+
+                var styled_map_type = new google.maps.StyledMapType(
+                    [
+                        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+                        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+                        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                        {
+                            featureType: 'road',
+                            elementType: 'geometry',
+                            stylers: [{color: '#38414e'}]
+                        },
+                        {
+                            featureType: 'road',
+                            elementType: 'geometry.stroke',
+                            stylers: [{color: '#212a37'}]
+                        },
+                        {
+                            featureType: 'road',
+                            elementType: 'labels.text.fill',
+                            stylers: [{color: '#9ca5b3'}]
+                        },
+                        {
+                            featureType: 'road.highway',
+                            elementType: 'geometry',
+                            stylers: [{color: '#746855'}]
+                        },
+                        {
+                            featureType: 'road.highway',
+                            elementType: 'geometry.stroke',
+                            stylers: [{color: '#1f2835'}]
+                        },
+                        {
+                            featureType: 'road.highway',
+                            elementType: 'labels.text.fill',
+                            stylers: [{color: '#f3d19c'}]
+                        },
+                        {
+                            featureType: 'water',
+                            elementType: 'geometry',
+                            stylers: [{color: '#17263c'}]
+                        },
+                        {
+                            featureType: 'water',
+                            elementType: 'labels.text.fill',
+                            stylers: [{color: '#515c6d'}]
+                        },
+                        {
+                            featureType: 'water',
+                            elementType: 'labels.text.stroke',
+                            stylers: [{color: '#17263c'}]
+                        },
+
+                        // hide unecessary features
+                        {
+                            featureType: 'poi',
+                            stylers: [{visibility: 'off'}]
+                        },
+                        {
+                            featureType: 'transit',
+                            stylers: [{visibility: 'off'}]
+                        }
+                    ],
+                    {name: 'Hospitals Info'}
+                );
+
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: map_center,
+                    zoom: 15,
+                    mapTypeControlOptions: {
+                        mapTypeIds: ['roadmap', 'styled_map']
+                    },
+                    disableDefaultUI: true
+                });
+                map.mapTypes.set('styled_map', styled_map_type);
+                map.setMapTypeId('styled_map');
+
+                var hospital_marker_icon = {
+                    url: '../static/img/hospital_marker.png',
+                    scaledSize: new google.maps.Size(50, 50)
+                };
+
+                // place a marker
+                var marker = new google.maps.Marker({
+                    position: map_center, 
+                    icon: hospital_marker_icon,
+                    map: map
+                });
+
+                // add info window
+                var infowindow = new google.maps.InfoWindow({
+                    content: '<b>The Ottawa General Hospital, Civic Campus</b><div>1053 Carling Ave, Ottawa, ON, K1Y 4E9</div>'
+                });
+                marker.addListener('mouseover', function() {
+                    infowindow.open(map, marker);
+                });
+                marker.addListener('mouseout', function() {
+                    infowindow.close();
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=init_map"
+                type="text/javascript"></script>
     </body>
 </html>
