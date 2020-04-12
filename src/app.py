@@ -2,7 +2,7 @@ import os
 import time
 from dotenv import load_dotenv
 
-from flask import Flask, render_template, request, jsonify, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for
 import json
 
 import firebase_admin
@@ -24,7 +24,7 @@ cred = credentials.Certificate(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'))
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-# google maps javascript api key
+# google maps api key
 maps_api_key = os.environ.get('GOOGLE_MAPS_API_KEY')
 
 
@@ -46,7 +46,7 @@ def data_form():
     return render_template('data_form.html')
 
 
-# heat map page
+# map page
 @app.route('/map')
 def map():
     hospitals = db.collection('hospitals').stream()    
@@ -70,7 +70,7 @@ def add_hospital_data():
     return redirect(url_for('error_page'))
 
 
-# gets all hospital data
+# get all hospital data from database
 @app.route('/get-hospital-data', methods = ['GET'])
 def get_hospital_data():
 

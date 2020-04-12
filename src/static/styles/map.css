@@ -4,7 +4,7 @@ body {
 
 #map {
     height: 600px;
-    width: 600px;
+    width: 1000px;
     margin: 50px;
 }
 
@@ -45,11 +45,13 @@ body {
     padding: 2px;
     width: 1em;
 }
+
 .gm-style .controls button {
     border: 0;
     background-color: white;
     color: rgba(0, 0, 0, 0.6);
 }
+
 .gm-style .controls button:hover {
     color: rgba(0, 0, 0, 0.9);
 }
@@ -59,6 +61,7 @@ body {
     flex-direction: column;
     height: auto;
 }
+
 .gm-style .controls.zoom-control button {
     font: 0.85em Roboto;
     font-weight: bold;
@@ -77,9 +80,11 @@ body {
     margin: 0 1px;
     padding: 0 6px;
 }
+
 .gm-style .controls.maptype-control.maptype-control-is-hospital-data .maptype-control-hospital-data {
     font-weight: 700;
 }
+
 .gm-style .controls.maptype-control.maptype-control-is-heat-map .maptype-control-heat-map {
     font-weight: 700;
 }
