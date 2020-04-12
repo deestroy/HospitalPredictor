@@ -71,3 +71,4 @@ __pycache__/
 venv/
 firebase_key/
 .vscode/
+misc/

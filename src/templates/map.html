@@ -5,13 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Hospital Predictor</title>
-        <style>
-            #map {
-                height: 600px;
-                width: 600px;
-                margin: 50px;
-            }
-        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/map.css') }}" type="text/css">
+        <script type="text/javascript" src="{{ url_for('static', filename='scripts/infobubble.js') }}" type="text/javascript"></script>
     </head>
     <body>
         <h1>
@@ -38,61 +35,73 @@
         <br>
         <h1>Map</h1>
         <div id="map"></div>
+        <div style="display:none">
+            <div class="controls zoom-control">
+                <button class="zoom-control-in" title="Zoom In">+</button>
+                <button class="zoom-control-out" title="Zoom Out">-</button>
+            </div>
+            <div class="controls maptype-control maptype-control-is-hospital-data">
+                <button class="maptype-control-hospital-data" title="Hospital Data">Hospital Data</button>
+                <button class="maptype-control-heat-map" title="Heap Map">Heat Map</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="{{ url_for('static', filename='scripts/map.js') }}"></script>
         <script>
             function init_map() {
 
-                // location of map center
-                var map_center = {lat: 45.39625, lng: -75.721222};
+                // arbitrary location of map center
+                var map_center = {lat: 45.401056, lng: -75.651306};
 
-                var styled_map_type = new google.maps.StyledMapType(
+                // styled map - hospital data
+                var hospital_data_type = new google.maps.StyledMapType(
                     [
-                        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-                        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-                        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                        {elementType: 'geometry', stylers: [{color: '#e7f0d3'}]},
+                        {elementType: 'labels.text.stroke', stylers: [{color: '#f2f3f5'}]},
+                        {elementType: 'labels.text.fill', stylers: [{color: '#f2ae29'}]},
                         {
                             featureType: 'road',
                             elementType: 'geometry',
-                            stylers: [{color: '#38414e'}]
+                            stylers: [{color: '#f7f8fa'}]
                         },
                         {
                             featureType: 'road',
                             elementType: 'geometry.stroke',
-                            stylers: [{color: '#212a37'}]
+                            stylers: [{color: '#ebeef2'}]
                         },
                         {
                             featureType: 'road',
                             elementType: 'labels.text.fill',
-                            stylers: [{color: '#9ca5b3'}]
+                            stylers: [{color: '#b3b7bd'}]
                         },
                         {
                             featureType: 'road.highway',
                             elementType: 'geometry',
-                            stylers: [{color: '#746855'}]
+                            stylers: [{color: '#f0e5a8'}]
                         },
                         {
                             featureType: 'road.highway',
                             elementType: 'geometry.stroke',
-                            stylers: [{color: '#1f2835'}]
+                            stylers: [{color: '#f5da82'}]
                         },
                         {
                             featureType: 'road.highway',
                             elementType: 'labels.text.fill',
-                            stylers: [{color: '#f3d19c'}]
+                            stylers: [{color: '#917c5c'}]
                         },
                         {
                             featureType: 'water',
                             elementType: 'geometry',
-                            stylers: [{color: '#17263c'}]
+                            stylers: [{color: '#afcdfa'}]
                         },
                         {
                             featureType: 'water',
                             elementType: 'labels.text.fill',
-                            stylers: [{color: '#515c6d'}]
+                            stylers: [{color: '#395580'}]
                         },
                         {
                             featureType: 'water',
                             elementType: 'labels.text.stroke',
-                            stylers: [{color: '#17263c'}]
+                            stylers: [{color: '#22467a'}]
                         },
 
                         // hide unecessary features
@@ -108,39 +117,84 @@
                     {name: 'Hospitals Info'}
                 );
 
+                // TODO - make heat map type
+
+                // create map
                 var map = new google.maps.Map(document.getElementById('map'), {
                     center: map_center,
                     zoom: 15,
                     mapTypeControlOptions: {
-                        mapTypeIds: ['roadmap', 'styled_map']
+                        mapTypeIds: ['heat_map', 'hospital_data_map']
                     },
                     disableDefaultUI: true
                 });
-                map.mapTypes.set('styled_map', styled_map_type);
-                map.setMapTypeId('styled_map');
-
+                map.mapTypes.set('hospital_data_map', hospital_data_type);
+                map.setMapTypeId('hospital_data_map');
+                
+                init_zoom_control(map);
+                init_map_type_control(map);
+                
+                // hospital marker icon
                 var hospital_marker_icon = {
-                    url: '../static/img/hospital_marker.png',
+                    url: "{{ url_for('static', filename='img/hospital_marker.png') }}",
                     scaledSize: new google.maps.Size(50, 50)
                 };
 
-                // place a marker
-                var marker = new google.maps.Marker({
-                    position: map_center, 
-                    icon: hospital_marker_icon,
-                    map: map
-                });
+                // bundle hospital data with markers and info bubbles
+                // currently it is not necessary to store this data, but it may be useful later
+                var hospital_data_and_markers = []; // array of dicts
 
-                // add info window
-                var infowindow = new google.maps.InfoWindow({
-                    content: '<b>The Ottawa General Hospital, Civic Campus</b><div>1053 Carling Ave, Ottawa, ON, K1Y 4E9</div>'
-                });
-                marker.addListener('mouseover', function() {
-                    infowindow.open(map, marker);
-                });
-                marker.addListener('mouseout', function() {
-                    infowindow.close();
-                });
+                $.get("/get-hospital-data", function(response) {
+                        var data = JSON.parse(response);   
+
+                        for (i = 0; i < data.length; i++) {
+                            let hospital = {
+                                'name': data[i].name,
+                                'address': data[i].address,
+                                'city': data[i].city,
+                                'num_beds': data[i].num_beds,
+                                'occupancy': data[i].occupancy
+                            };
+
+                            // make Geocoding API call
+                            var geocoder = new google.maps.Geocoder();
+                            geocoder.geocode({'address': hospital.address + ' ' + hospital.city, 'region': 'CA'}, function(results, status) {
+                                if (status == 'OK') {
+                                    
+                                    // marker
+                                    let marker = new google.maps.Marker({
+                                        position: results[0].geometry.location,
+                                        icon: hospital_marker_icon,
+                                        map: map,
+                                        animation: google.maps.Animation.DROP
+                                    });
+
+                                    // info bubble
+                                    let info_bubble = generate_info_bubble(hospital);
+
+                                    // marker event listeners
+                                    marker.addListener('mouseover', function() {
+                                        info_bubble.open(map, marker);
+                                    });
+                                    marker.addListener('mouseout', function() {
+                                        info_bubble.close();
+                                    });
+
+                                    // put everything in a dict
+                                    let dict = {
+                                        'hospital': hospital,
+                                        'marker': marker,
+                                        'infobubble': info_bubble
+                                    };
+
+                                    hospital_data_and_markers.push(dict);
+                                }
+                                else 
+                                    alert('Geocoding failed due to the following reason: ' + status);
+                            });
+                        }
+                    }
+                );
             }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=init_map"
