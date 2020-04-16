@@ -5,14 +5,84 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Hospital Predictor</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="../../static/styles/main.css">
+        <link rel="stylesheet" type="text/css" href="../../static/styles/questionTrans.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+        <title>Hospital Predictor</title>
+        <script defer src="/__/firebase/7.13.2/firebase-app.js"></script>
+        <!-- include only the Firebase features as you need -->
+        <script defer src="/__/firebase/7.13.2/firebase-auth.js"></script>
+        <script defer src="/__/firebase/7.13.2/firebase-database.js"></script>
+        <script defer src="/__/firebase/7.13.2/firebase-messaging.js"></script>
+        <script defer src="/__/firebase/7.13.2/firebase-storage.js"></script>
+        <!-- initialize the SDK after all desired features are loaded -->
+        <script defer src="/__/firebase/init.js"></script>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+            <div class="container">
+                <!--<a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='.././static/img/logov4.svg'}}" height="33vh" id="logo"></a>-->
+                <a class="navbar-brand" href="#"><img src="./../../static/img/logov4.svg" height="33vh" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('map') }}">Heat Map</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#all-to-action ">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('data_form') }}">Add Data</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-secondary" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Start Landing for Questionaire-->
+        <section class="landing">
+            <div style="background: url(../../../static/img/background.svg)" class="page-holder bg-cover">
+                <div class="container py-5">
+                    <div class="row py-5 middle-text">
+                        <header class="text-left inside-text py-5 col-lg-6">
+                            <h1 class="display-4 font-weight-bold mb-4 pr-4">Add Data</h1>
+                            <p class="lead mb-0">Add information bruh you be doing nothing....</p>
+                            <p class="font-italic">coick a link <a href="https://bootstrapious.com" class="inside-text">
+                                <u>this one</u></a>
+                            </p>
+                        </header>
+                        <div class="inside-text text-right col-lg-6 py-5">
+                            <p class="lead">It's not a good approch to deal directly with <code class="bg-white px-2 py-1 rounded">body</code> So, create a wrapper container and make it a full-window height.</p>
+                            <p class="lead">Set the wrapper initial height to full window height using <code class="bg-white px-2 py-1 rounded">min-height: 100vh</code></p>
+                            <p class="lead">Use <code class="bg-white px-2 py-1 rounded">.bg-cover</code> to make the background fit all viewports.</p>
+                            <p><a href="#" class="btn btn-primary shadow mr-2">Discover More</a><a href="#" class="btn btn-outline-secondary">Some another action</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start Landing Page Caption-->
+        
+        <!--
         <h1>
             Form to enter hospital data
-        </h1>
+        </h1>-->
         
         <!-- Make these fields mandatory -->
+        <!--
         <table>
             <tr>
                 <td>Hospital Name</td>
@@ -36,10 +106,10 @@
             </tr>
         </table>
         <br>
-        <button type="button" id="submit-btn">Submit Data</button>
+        <button type="button" id="submit-btn">Submit Data</button>-->
     
         <!-- Upload hospital data to firestore database -->
-        <script type="text/javascript">        
+        <!--<script type="text/javascript">        
             $(document).ready(function() {
                 $("#submit-btn").click(function() {
                     var name = $("#name-field").val();
@@ -62,6 +132,6 @@
                     );
                 });
             });
-        </script>
+        </script>-->
     </body>
 </html>
