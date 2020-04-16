@@ -1,10 +1,12 @@
 var map;
 var hospital_marker_icon;
+var heatmap;
 
 // callback function to google maps api call
 function init_map() {
 
     map = create_map();
+    heatmap = create_heatmap_layer(map);
 
     // hospital marker icon
     hospital_marker_icon = {
@@ -15,6 +17,7 @@ function init_map() {
     // bundle hospital data with markers and info bubbles
     // currently it is not necessary to store this data, but it may be useful later
     var hospital_data_and_markers = []; // array of dicts
+    var locations = [];
 
     $.get("/get-hospital-data", function(response) {
         var data = JSON.parse(response);   
@@ -47,6 +50,10 @@ function init_map() {
                         'infobubble': info_bubble
                     };
                     hospital_data_and_markers.push(dict);
+
+                    // update heatmap data
+                    locations.push({location: results[0].geometry.location, weight: hospital.occupancy * hospital.num_beds});
+                    heatmap.setData(locations);
                 }
                 else 
                     alert('Geocoding failed due to the following reason: ' + status);
@@ -55,7 +62,34 @@ function init_map() {
     });
 }
 
-// TODO - make heat map type
+// heatmap layer
+function create_heatmap_layer(map) {
+    return new google.maps.visualization.HeatmapLayer({
+        data: [],
+        map: map,
+        radius: 20,
+        gradient: [
+            'rgba(235, 217, 52, 0)',
+            'rgba(235, 217, 52, 1)',
+            'rgba(235, 189, 52, 1)',
+            'rgba(235, 189, 52, 1)',
+            'rgba(235, 147, 52, 1)',
+            'rgba(235, 147, 52, 1)',
+            'rgba(235, 104, 52, 1)',
+            'rgba(235, 104, 52, 1)',
+            'rgba(235, 104, 52, 1)',
+            'rgba(235, 104, 52, 1)',
+            'rgba(235, 64, 52, 1)',
+            'rgba(235, 64, 52, 1)',
+            'rgba(235, 64, 52, 1)',
+            'rgba(235, 64, 52, 1)'
+          ]
+    });
+}
+
+function toggleHeatmap() {
+    heatmap.setMap(heatmap.getMap() ? null : map);
+}
 
 // create map
 function create_map() {
@@ -68,7 +102,7 @@ function create_map() {
         center: map_center,
         zoom: 15,
         mapTypeControlOptions: {
-            mapTypeIds: ['heat_map', 'hospital_data_map']
+            mapTypeIds: ['map_type_2', 'hospital_data_map']
         },
         disableDefaultUI: true
     });
@@ -168,15 +202,16 @@ function init_map_type_control(map) {
     var map_type_control_div = document.querySelector('.maptype-control');
     document.querySelector('.maptype-control-hospital-data').onclick = function() {
         map_type_control_div.classList.add('maptype-control-is-hospital-data');
-        map_type_control_div.classList.remove('maptype-control-is-heat-map');
+        map_type_control_div.classList.remove('maptype-control-is-map-type-2');
         map.setMapTypeId('hospital_data_map');
     };
-    document.querySelector('.maptype-control-heat-map').onclick = function() {
+    document.querySelector('.maptype-control-map-type-2').onclick = function() {
         map_type_control_div.classList.remove('maptype-control-is-hospital-data');
-        map_type_control_div.classList.add('maptype-control-is-heat-map');
-        map.setMapTypeId('heat_map');
+        map_type_control_div.classList.add('maptype-control-is-map-type-2');
+        map.setMapTypeId('map_type_2');
     };
     map.controls[google.maps.ControlPosition.LEFT_TOP].push(map_type_control_div);
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(document.querySelector('#btn-heatmap-toggle'));
 }
 
 // generate info box
@@ -190,7 +225,7 @@ function generate_info_bubble(hospital) {
         arrowSize: 10,
         borderWidth: 1,
         shadowStyle: 1,
-        disableAutoPan: false,
+        disableAutoPan: true,
         hideCloseButton: true,
         arrowPosition: 30,
         backgroundClassName: 'ib',

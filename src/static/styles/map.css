@@ -35,6 +35,23 @@ body {
     font-weight: 500;
 }
 
+#btn-heatmap-toggle {
+    display: inline-block;
+    border: 0;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 6px;
+    padding: 2px;
+    font-size: 1.7em
+}
+
+#btn-heatmap-toggle:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+
 .gm-style .controls {
     font-size: 28px;
     background-color: white;
@@ -90,6 +107,6 @@ body {
     font-weight: 700;
 }
 
-.gm-style .controls.maptype-control.maptype-control-is-heat-map .maptype-control-heat-map {
+.gm-style .controls.maptype-control.maptype-control-is-map-type-2 .maptype-control-map-type-2 {
     font-weight: 700;
 }
