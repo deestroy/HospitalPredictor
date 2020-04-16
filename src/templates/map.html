@@ -40,13 +40,14 @@
             </div>
             <div class="controls maptype-control maptype-control-is-hospital-data">
                 <button class="maptype-control-hospital-data" title="Hospital Data">Hospital Data</button>
-                <button class="maptype-control-heat-map" title="Heap Map">Heat Map</button>
+                <button class="maptype-control-map-type-2" title="Map Type 2">Map Type 2</button>
+                <button id="btn-heatmap-toggle" title="Toggle Heatmap" onclick="toggleHeatmap()">Toggle Heatmap</button>
             </div>
         </div>
 
         <!-- Scripts -->
         <script type="text/javascript" src="{{ url_for('static', filename='scripts/map.js') }}"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=init_map"
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&libraries=visualization&callback=init_map"
                 type="text/javascript"></script>
     </body>
 </html>
