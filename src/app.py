@@ -2,7 +2,8 @@ import os
 import time
 from dotenv import load_dotenv
 
-from flask import Flask, render_template, request, jsonify, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for
+import json
 
 import firebase_admin
 from firebase_admin import credentials
@@ -16,12 +17,15 @@ dotenv_path = '.env'
 load_dotenv(dotenv_path)
 
 # initialize flask application
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 # firebase setup
 cred = credentials.Certificate(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'))
 firebase_admin.initialize_app(cred)
 db = firestore.client()
+
+# google maps api key
+maps_api_key = os.environ.get('GOOGLE_MAPS_API_KEY')
 
 
 # main page
@@ -42,7 +46,7 @@ def data_form():
     return render_template('data_form.html')
 
 
-# heat map page
+# map page
 @app.route('/map')
 def map():
     hospitals = db.collection('hospitals').stream()    
@@ -50,7 +54,7 @@ def map():
     for hospital in hospitals:
         data.append(hospital.to_dict())
     
-    return render_template('map.html', data=data)
+    return render_template('map.html', data=data, maps_api_key=maps_api_key)
 
 
 # add new hospital data (all fields)
@@ -66,19 +70,17 @@ def add_hospital_data():
     return redirect(url_for('error_page'))
 
 
-# returns data for specified hospital
-@app.route('/get-hospital-data', methods = ['POST'])
+# get all hospital data from database
+@app.route('/get-hospital-data', methods = ['GET'])
 def get_hospital_data():
 
-    if request.method == 'POST':
-        name = request.form.get('name')
+    if request.method == 'GET':
+        hospitals = db.collection('hospitals').stream()    
+        data = []
+        for hospital in hospitals:
+            data.append(hospital.to_dict())
+        return json.dumps(data)
 
-        hospitals = db.collection(u'hospitals').where(u'name', u'==', name).stream()
-        
-        if len(hospitals) > 0:        
-            hospital_data = hospitals[0].to_dict()
-            return jsonify(hospital_data)
-    
     return redirect(url_for('error_page'))
 
 
