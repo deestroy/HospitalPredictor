@@ -1,0 +1,40 @@
+html,
+body,
+header{
+  margin: 0;
+  padding:0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+@media(min-width: 768px) {
+  .page-holder {
+    min-height: 100vh;
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+  }
+
+}
+
+.inside-text {
+  color: rgb(177, 24, 44);
+}
+
+.middle-text {
+  margin: 30% 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .page-holder {
+
+    width:100% !important;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+}
