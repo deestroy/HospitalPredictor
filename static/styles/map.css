@@ -1,9 +1,20 @@
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 
 
 .side-color {
-    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background: linear-gradient(-60deg, #FAB1B1 0%, #FF4646 100%);
+}
+
+#personOne {
+    background: #FAB1B1
+}
+
+#personTwo {
+    background: rgb(243, 71, 94);
+    color: white;
 }
