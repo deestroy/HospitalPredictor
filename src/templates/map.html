@@ -99,7 +99,7 @@
                 <td>{{ hospital.address }}</td>
                 <td>{{ hospital.city }}</td>
                 <td>{{ hospital.num_beds }}</td>
-                <td>{{ hospital.occupancy }}</td>
+                <td>{{ hospital.percent_occupancy }}</td>
             </tr>
             {% endfor %}
         </table>
@@ -114,7 +114,10 @@
             <div class="controls maptype-control maptype-control-is-hospital-data">
                 <button class="maptype-control-hospital-data" title="Hospital Data">Hospital Data</button>
                 <button class="maptype-control-map-type-2" title="Map Type 2">Map Type 2</button>
-                <button id="btn-heatmap-toggle" title="Toggle Heatmap" onclick="toggleHeatmap()">Toggle Heatmap</button>
+            </div>
+            <div class="controls toggle-control">
+                <button class="btn-toggle-heatmap" title="Toggle Heatmap" onclick="toggleHeatmap()">Toggle Heatmap</button>
+                <button class="btn-toggle-markers" title="Toggle Markers" onclick="toggleMarkers()">Toggle Markers</button>
             </div>
         </div>
 

@@ -1,6 +1,7 @@
 var map;
 var hospital_marker_icon;
 var heatmap;
+var hospital_data_and_markers
 
 // callback function to google maps api call
 function init_map() {
@@ -16,58 +17,60 @@ function init_map() {
 
     // bundle hospital data with markers and info bubbles
     // currently it is not necessary to store this data, but it may be useful later
-    var hospital_data_and_markers = []; // array of dicts
+    hospital_data_and_markers = []; // array of dicts
     var locations = [];
 
     $.get("/get-hospital-data", function(response) {
         var data = JSON.parse(response);   
-
-        for (i = 0; i < data.length; i++) {
+        
+        for (i = 0; i < data.length; ++i) {
 
             let hospital = data[i];
+            let location = new google.maps.LatLng(hospital.lat, hospital.lng);
 
-            // make Geocoding API call
-            var geocoder = new google.maps.Geocoder();
-            geocoder.geocode({'address': hospital.address + ' ' + hospital.city, 'region': 'CA'}, function(results, status) {
-                if (status == 'OK') {
-                    
-                    // marker and info_bubble
-                    let marker = generate_marker(results[0].geometry.location);
-                    let info_bubble = generate_info_bubble(hospital);
+            // marker and info_bubble
+            let marker = generate_marker(location);
+            let info_bubble = generate_info_bubble(hospital);
 
-                    // marker event listeners
-                    marker.addListener('mouseover', function() {
-                        info_bubble.open(map, marker);
-                    });
-                    marker.addListener('mouseout', function() {
-                        info_bubble.close();
-                    });
-
-                    // put everything in a dict
-                    let dict = {
-                        'hospital': hospital,
-                        'marker': marker,
-                        'infobubble': info_bubble
-                    };
-                    hospital_data_and_markers.push(dict);
-
-                    // update heatmap data
-                    locations.push({location: results[0].geometry.location, weight: hospital.occupancy * hospital.num_beds});
-                    heatmap.setData(locations);
-                }
-                else 
-                    alert('Geocoding failed due to the following reason: ' + status);
+            // marker event listeners
+            marker.addListener('mouseover', function() {
+                info_bubble.open(map, marker);
             });
+            marker.addListener('mouseout', function() {
+                info_bubble.close();
+            });
+
+            // put everything in a dict
+            let dict = {
+                'hospital': hospital,
+                'marker': marker,
+                'infobubble': info_bubble
+            };
+            hospital_data_and_markers.push(dict);
+
+            // update heatmap data
+            locations.push({location: location, weight: hospital.occupancy * hospital.num_beds});
+            heatmap.setData(locations);
         }
     });
 }
+
+// make Geocoding API call
+// var geocoder = new google.maps.Geocoder();
+// geocoder.geocode({'address': hospital.address + ' ' + hospital.city, 'region': 'CA'}, function(results, status) {
+//     if (status == 'OK') {
+//         // latlng = results[0].geometry.location);
+//     }
+//     else 
+//         alert('Geocoding failed due to the following reason: ' + status);
+// });
 
 // heatmap layer
 function create_heatmap_layer(map) {
     return new google.maps.visualization.HeatmapLayer({
         data: [],
         map: map,
-        radius: 20,
+        radius: 30,
         gradient: [
             'rgba(235, 217, 52, 0)',
             'rgba(235, 217, 52, 1)',
@@ -89,6 +92,11 @@ function create_heatmap_layer(map) {
 
 function toggleHeatmap() {
     heatmap.setMap(heatmap.getMap() ? null : map);
+}
+
+function toggleMarkers() {
+    for (i = 0; i < hospital_data_and_markers.length; ++i)
+        hospital_data_and_markers[i]['marker'].setVisible(!hospital_data_and_markers[i]['marker'].getVisible());
 }
 
 // create map
@@ -211,7 +219,7 @@ function init_map_type_control(map) {
         map.setMapTypeId('map_type_2');
     };
     map.controls[google.maps.ControlPosition.LEFT_TOP].push(map_type_control_div);
-    map.controls[google.maps.ControlPosition.TOP_CENTER].push(document.querySelector('#btn-heatmap-toggle'));
+    map.controls[google.maps.ControlPosition.RIGHT_TOP].push(document.querySelector('.toggle-control'));
 }
 
 // generate info box
@@ -231,8 +239,10 @@ function generate_info_bubble(hospital) {
         backgroundClassName: 'ib',
         arrowStyle: 0,
         arrowPosition: 20,
-        maxHeight: 500,
-        maxWidth: 250
+        maxHeight: 180,
+        maxWidth: 250,
+        minWidth: 200,
+        minHeight: 180
     });
 }
 
@@ -243,16 +253,16 @@ function generate_content_string(hospital) {
                 '<hr style="border:1px dashed #ec3716">' +
                 '<table class="ib-content" cellpadding="5">' +
                     '<tr>' +
-                        '<td valign="middle"><img width="20" height="20" src="../static/img/location.png"/></td>' +
-                        '<td valign="middle">' + hospital.address + '</td>' +
+                        '<td><div align="center"><img width="20" height="20" src="../static/img/location.png"/></div></td>' +
+                        '<td style="padding:3px 3px 3px 3px">' + hospital.address + '</td>' +
                     '</tr>' +
                     '<tr>' +
-                        '<td valign="middle"><img width="30" height="30" src="../static/img/hospital_bed.png"/></td>' +
-                        '<td valign="middle">' + hospital.num_beds + ' beds</td>' +
+                        '<td><div align="center"><img width="30" height="30" src="../static/img/hospital_bed.png"/></div></td>' +
+                        '<td style="padding:3px 3px 3px 3px">' + hospital.num_beds + ' beds</td>' +
                     '</tr>' +
                     '<tr>' +
-                        '<td valign="middle"><img width="30" height="30" src="../static/img/percentage_pie.png"/></td>' +
-                        '<td valign="middle">' + hospital.occupancy + '% occupancy</td>' +
+                        '<td><div align="center"><img width="30" height="30" src="../static/img/percentage_pie.png"/></div></td>' +
+                        '<td style="padding:3px 3px 3px 3px">' + hospital.percent_occupancy + '% occupancy</td>' +
                     '</tr>' +
                 '</table>' +
             '</div>'
