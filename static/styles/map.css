@@ -9,6 +9,13 @@ body {
 .side-color {
     background: linear-gradient(-60deg, #FAB1B1 0%, #FF4646 100%);
 }
+@media(min-width: 768px) {
+    .side-color {
+        height: 100vh;
+    }
+
+}
+
 
 #personOne {
     background: #FAB1B1

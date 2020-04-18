@@ -92,6 +92,7 @@ h4,h5,h6 {
   
   .bg-cover {
     background-size: cover !important;
+    background: rgba(255, 35, 137, 0.377);
   }
 
 }
