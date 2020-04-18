@@ -1,0 +1,4 @@
+flask==1.1.2
+firebase_admin
+python-dotenv
+gunicorn==19.9.0
