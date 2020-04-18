@@ -81,28 +81,6 @@
                 <img src="../../static/img/hospital.svg" class="img-fluid">
             </div>
         </section>
-        
-        <h1>
-            Hospital Data
-        </h1>
-        <table border='1px solid black' cellpadding='5'>
-            <tr>
-                <th>Hospital Name</th>
-                <th>Address</th>
-                <th>City</th>
-                <th>Number of Beds</th>
-                <th>Occupancy (%)</th>
-            </tr>
-            {% for hospital in data %}
-            <tr>
-                <td>{{ hospital.name }}</td>
-                <td>{{ hospital.address }}</td>
-                <td>{{ hospital.city }}</td>
-                <td>{{ hospital.num_beds }}</td>
-                <td>{{ hospital.percent_occupancy }}</td>
-            </tr>
-            {% endfor %}
-        </table>
         <br>
         <h1>Map</h1>
         <div id="map"></div>

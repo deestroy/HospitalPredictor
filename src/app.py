@@ -39,7 +39,7 @@ def index():
 def error_page():
     return render_template('404.html')
 
-
+    
 # data form page
 @app.route('/data-form')
 def data_form():
