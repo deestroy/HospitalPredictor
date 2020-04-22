@@ -68,7 +68,7 @@ node_modules/
 # ----------------
 *.pyc
 __pycache__/
-venv/
+#venv/
 firebase_key/
 .vscode/
 misc/
