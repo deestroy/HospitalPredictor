@@ -1,13 +1,88 @@
-html,
-body,
-header{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-body, html {
-  height: 100%;
+body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3 {
+  font-weight: 700;
+}
+
+h4,h5,h6 {
+  font-weight: 500;
+}
+/* buttons */
+.btn-outline-secondary {
+  background-color: transparent !important;
+  border-color: #011627 !important;
+  color: #011627 !important;
+  border-radius: 0;
+  position: relative;
+}
+
+.btn-outline-secondary:before {
+  content: '';
+  position: absolute;
+  background-color: #FABFBF;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-outline-secondary:hover:before {
+  width:100%;
+}
+
+.btn-secondary {
+  background: #011627 !important;
+  border-radius: 0;
+  border-color: #011627 !important;
+}
+
+.btn-secondary:hover {
+  color: #FF7474 !important;
+} 
+
+.btn-primary {
+  background: #FF7474 !important;
+  border-radius: 0;
+  border-color: #FF7474 !important;
+  color: #011627 !important;
+}
+
+.btn-primary:hover {
+  background: #011627 !important;
+  color: #FF7474 !important;
+}
+
+#bmain {
+  margin-right: 13px;
+}
+
+/*Navbar*/
+
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #011627;
+  margin-right: 1em !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #FF7474;
 }
 
 @media(min-width: 768px) {
@@ -17,6 +92,7 @@ body, html {
   
   .bg-cover {
     background-size: cover !important;
+    background: rgba(255, 35, 137, 0.377);
   }
 
 }
