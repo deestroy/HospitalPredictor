@@ -130,27 +130,27 @@
     <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="354" cy="16" rx="354" ry="16" transform="translate(42 999)" fill="rgba(183,110,110,0.36)"/>
     <rect id="Rectangle_22" data-name="Rectangle 22" width="455" height="248" transform="translate(77 710)" fill="#fff"/>
     <path id="Path_23" data-name="Path 23" d="M34,0c215.876,11.617,206.66,34,206.66,34V90.358a34.075,34.075,0,0,1-26.692,33.21,33.572,33.572,0,0,1-7.3.787H34a34,34,0,0,1-34-34V34A34,34,0,0,1,34,0Z" transform="translate(503.74 833.459)" fill="#fff"/>
-    <path id="Path_24" data-name="Path 24" d="M28.181,0l125.7.421c1.572,0-1.768-.293,0,0,13.1,2.157,0,13.768,0,27.76A28.181,28.181,0,0,1,125.7,56.362H28.181A28.181,28.181,0,0,1,28.181,0Z" transform="translate(590.52 900.557)" fill="red"/>
-    <rect id="Rectangle_23" data-name="Rectangle 23" width="583" height="57" transform="translate(77 901)" fill="red"/>
+    <path id="Path_24" data-name="Path 24" d="M28.181,0l125.7.421c1.572,0-1.768-.293,0,0,13.1,2.157,0,13.768,0,27.76A28.181,28.181,0,0,1,125.7,56.362H28.181A28.181,28.181,0,0,1,28.181,0Z" transform="translate(590.52 900.557)" fill="#FF5050"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="583" height="57" transform="translate(77 901)" fill="#FF5050"/>
     <path id="Path_21" data-name="Path 21" d="M92.566,7.878l78.405,114.545L6.372,168.866-38,7.878Z" transform="translate(489.689 731.734)" fill="#fff"/>
     <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="56.5" cy="57" rx="56.5" ry="57" transform="translate(182 901)"/>
     <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="56.5" cy="57" rx="56.5" ry="57" transform="translate(591 901)"/>
-    <path id="Path_22" data-name="Path 22" d="M0-11.9,58.151-1.254v13.42H0Z" transform="translate(532.369 739.882)" fill="red"/>
+    <path id="Path_22" data-name="Path 22" d="M0-11.9,58.151-1.254v13.42H0Z" transform="translate(532.369 739.882)" fill="#FF5050"/>
     <g id="Group_11" data-name="Group 11" transform="translate(198.223 778.887)">
       <g id="Group_1" data-name="Group 1" transform="translate(0)">
         <rect id="Rectangle_4" data-name="Rectangle 4" width="21" height="57" transform="translate(18.777 0.113)" fill="#ff3838"/>
         <rect id="Rectangle_5" data-name="Rectangle 5" width="20.807" height="57.869" transform="translate(57.869 18.531) rotate(90)" fill="#ff3838"/>
       </g>
     </g>
-    <rect id="Rectangle_24" data-name="Rectangle 24" width="363" height="3" transform="translate(77 864)" fill="red"/>
-    <rect id="Rectangle_25" data-name="Rectangle 25" width="363" height="4" transform="translate(77 855)" fill="red"/>
-    <rect id="Rectangle_28" data-name="Rectangle 28" width="204" height="3" transform="translate(540 893)" fill="red"/>
-    <rect id="Rectangle_29" data-name="Rectangle 29" width="204" height="3" transform="translate(540 884)" fill="red"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="363" height="3" transform="translate(77 864)" fill="#FF5050"/>
+    <rect id="Rectangle_25" data-name="Rectangle 25" width="363" height="4" transform="translate(77 855)" fill="#FF5050"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="204" height="3" transform="translate(540 893)" fill="#FF5050"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="204" height="3" transform="translate(540 884)" fill="#FF5050"/>
     <g transform="matrix(1, 0, 0, 1, -0.01, 0)" filter="url(#Rectangle_32)">
       <rect id="Rectangle_32-2" data-name="Rectangle 32" width="4" height="149" transform="translate(532.01 752)" fill="url(#linear-gradient-3)"/>
     </g>
-    <rect id="Rectangle_30" data-name="Rectangle 30" width="104.672" height="3.579" transform="translate(440.404 854.981) rotate(16)" fill="red"/>
-    <rect id="Rectangle_31" data-name="Rectangle 31" width="104.672" height="3.579" transform="translate(439.51 863.927) rotate(16)" fill="red"/>
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="104.672" height="3.579" transform="translate(440.404 854.981) rotate(16)" fill="#FF5050"/>
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="104.672" height="3.579" transform="translate(439.51 863.927) rotate(16)" fill="#FF5050"/>
     <circle id="Ellipse_10" data-name="Ellipse 10" cx="31" cy="31" r="31" transform="translate(208 926)" fill="#fff"/>
     <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="31.5" cy="31" rx="31.5" ry="31" transform="translate(616 926)" fill="#fdfdfd"/>
     <path id="Path_25" data-name="Path 25" d="M0,0H53.552l47.541,71.818L0,76.044Z" transform="translate(541.315 769.94)" fill="#d3fff0"/>
