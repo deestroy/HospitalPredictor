@@ -1,6 +1,7 @@
 var map;
 var hospital_marker_icon;
 var heatmap;
+var heatmap2;
 var hospital_data_and_markers
 
 // callback function to google maps api call
@@ -8,6 +9,7 @@ function init_map() {
 
     map = create_map();
     heatmap = create_heatmap_layer(map);
+    heatmap2 = create_heatmap2_layer(map);
 
     // hospital marker icon
     hospital_marker_icon = {
@@ -19,13 +21,17 @@ function init_map() {
     // currently it is not necessary to store this data, but it may be useful later
     hospital_data_and_markers = []; // array of dicts
     var locations = [];
+    var cases_points = []
 
     $.get("/get-hospital-data", function(response) {
         var data = JSON.parse(response);   
+        var hospitals = data['hospitals']
+        var cases = data['canada_cases']
         
-        for (i = 0; i < data.length; ++i) {
+        // hospital data
+        for (i = 0; i < hospitals.length; ++i) {
 
-            let hospital = data[i];
+            let hospital = hospitals[i];
             let location = new google.maps.LatLng(hospital.lat, hospital.lng);
 
             // marker and info_bubble
@@ -49,9 +55,14 @@ function init_map() {
             hospital_data_and_markers.push(dict);
 
             // update heatmap data
-            locations.push({location: location, weight: hospital.occupancy * hospital.num_beds});
-            heatmap.setData(locations);
+            locations.push({location: location, weight: hospital.percent_occupancy / hospital.num_beds});
         }
+        heatmap.setData(locations);
+
+        // cases data
+        for (i = 0; i < cases.length; ++i)
+            cases_points.push({location: new google.maps.LatLng(cases[i][0], cases[i][1])});
+        heatmap2.setData(cases_points);
     });
 }
 
@@ -90,8 +101,39 @@ function create_heatmap_layer(map) {
     });
 }
 
+// heatmap2 layer
+function create_heatmap2_layer(map) {
+    return new google.maps.visualization.HeatmapLayer({
+        data: [],
+        map: map,
+        radius: 30,
+        gradient: [
+            'rgba(252, 174, 174, 0)',
+            'rgba(252, 174, 174, 1)',
+            'rgba(252, 174, 174, 1)',
+            'rgba(250, 145, 145, 1)',
+            'rgba(250, 145, 145, 1)',
+            'rgba(250, 145, 145, 1)',
+            'rgba(247, 116, 116, 1)',
+            'rgba(247, 116, 116, 1)',
+            'rgba(247, 116, 116, 1)',
+            'rgba(247, 116, 116, 1)',
+            'rgba(255, 102, 102, 1)',
+            'rgba(255, 102, 102, 1)',
+            'rgba(255, 102, 102, 1)',
+            'rgba(255, 102, 102, 1)'
+          ]
+    });
+}
+
+// button toggle functions
+
 function toggleHeatmap() {
     heatmap.setMap(heatmap.getMap() ? null : map);
+}
+
+function toggleHeatmap2() {
+    heatmap2.setMap(heatmap2.getMap() ? null : map);
 }
 
 function toggleMarkers() {
@@ -109,9 +151,6 @@ function create_map() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: map_center,
         zoom: 15,
-        mapTypeControlOptions: {
-            mapTypeIds: ['map_type_2', 'hospital_data_map']
-        },
         disableDefaultUI: true
     });
 
@@ -121,7 +160,7 @@ function create_map() {
     
     // init controls
     init_zoom_control(map);
-    init_map_type_control(map);
+    init_toggle_control(map);
 
     return map;
 }
@@ -205,21 +244,9 @@ function init_zoom_control(map) {
         document.querySelector('.zoom-control'));
 }
 
-// initialize map type controls
-function init_map_type_control(map) {
-    var map_type_control_div = document.querySelector('.maptype-control');
-    document.querySelector('.maptype-control-hospital-data').onclick = function() {
-        map_type_control_div.classList.add('maptype-control-is-hospital-data');
-        map_type_control_div.classList.remove('maptype-control-is-map-type-2');
-        map.setMapTypeId('hospital_data_map');
-    };
-    document.querySelector('.maptype-control-map-type-2').onclick = function() {
-        map_type_control_div.classList.remove('maptype-control-is-hospital-data');
-        map_type_control_div.classList.add('maptype-control-is-map-type-2');
-        map.setMapTypeId('map_type_2');
-    };
-    map.controls[google.maps.ControlPosition.LEFT_TOP].push(map_type_control_div);
-    map.controls[google.maps.ControlPosition.RIGHT_TOP].push(document.querySelector('.toggle-control'));
+// initialize toggle controls
+function init_toggle_control(map) {
+    map.controls[google.maps.ControlPosition.LEFT_TOP].push(document.querySelector('.toggle-control'));
 }
 
 // generate info box

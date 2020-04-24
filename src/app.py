@@ -9,8 +9,6 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
-from models import Hospital
-
 
 # load environment variables
 dotenv_path = '.env'
@@ -39,7 +37,7 @@ def index():
 def error_page():
     return render_template('404.html')
 
-    
+
 # data form page
 @app.route('/data-form')
 def data_form():
@@ -49,12 +47,7 @@ def data_form():
 # map page
 @app.route('/map')
 def map():
-    hospitals = db.collection('hospitals').stream()    
-    data = []
-    for hospital in hospitals:
-        data.append(hospital.to_dict())
-    
-    return render_template('map.html', data=data, maps_api_key=maps_api_key)
+    return render_template('map.html', maps_api_key=maps_api_key)
 
 
 # add new hospital data (all fields)
@@ -63,8 +56,20 @@ def add_hospital_data():
 
     if request.method == 'POST':
         req_data = request.form
-        hospital = Hospital(req_data.get('name'), req_data.get('address'), req_data.get('city'), req_data.get('num_beds'), req_data.get('occupancy'))
-        db.collection(u'hospitals').document(req_data['name']).set(hospital.to_dict())
+        hospital = {
+            'name': req_data.get('name'), 
+            'address': req_data.get('address'), 
+            'city': req_data.get('city'), 
+            'country': req_data.get('country'),
+            'health_region': req_data.get('health_region'),
+            'lat': req_data.get('lat'),
+            'lng': req_data.get('lng'),
+            'num_beds': req_data.get('num_beds'), 
+            'percent_occupancy': req_data.get('percent_occupancy'),
+            'postal_code': req_data.get('postal_code'),
+            'province': req_data.get('province')
+        }
+        db.collection(u'hospitals').document(req_data['name']).set(hospital)
         return redirect(url_for('index'))
     
     return redirect(url_for('error_page'))
@@ -75,10 +80,17 @@ def add_hospital_data():
 def get_hospital_data():
 
     if request.method == 'GET':
-        hospitals = db.collection('hospitals').stream()    
-        data = []
+
+        hospitals = db.collection('hospitals').stream()  
+        cases = db.collection('canada_cases').stream()
+        
+        data = {'hospitals': [], 'canada_cases': []}
         for hospital in hospitals:
-            data.append(hospital.to_dict())
+            data['hospitals'].append(hospital.to_dict())
+        for case in cases:
+            case = case.to_dict()['cases']
+            for i in range(0, len(case), 2):
+                data['canada_cases'].append([case[i], case[i+1]])
         return json.dumps(data)
 
     return redirect(url_for('error_page'))
