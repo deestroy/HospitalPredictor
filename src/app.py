@@ -25,6 +25,9 @@ db = firestore.client()
 # google maps api key
 maps_api_key = os.environ.get('GOOGLE_MAPS_API_KEY')
 
+# db cache
+data = None
+
 
 # main page
 @app.route('/')
@@ -80,20 +83,28 @@ def add_hospital_data():
 def get_hospital_data():
 
     if request.method == 'GET':
-
-        hospitals = db.collection('hospitals').stream()  
-        cases = db.collection('canada_cases').stream()
-        
-        data = {'hospitals': [], 'canada_cases': []}
-        for hospital in hospitals:
-            data['hospitals'].append(hospital.to_dict())
-        for case in cases:
-            case = case.to_dict()['cases']
-            for i in range(0, len(case), 2):
-                data['canada_cases'].append([case[i], case[i+1]])
+        global data
+        if data is None: 
+            print('Performed db query')
+            data = db_query()
         return json.dumps(data)
 
     return redirect(url_for('error_page'))
+
+
+# retrieve data from db
+def db_query():
+    hospitals = db.collection('hospitals').stream()  
+    cases = db.collection('canada_cases').stream()
+    
+    data = {'hospitals': [], 'canada_cases': []}
+    for hospital in hospitals:
+        data['hospitals'].append(hospital.to_dict())
+    for case in cases:
+        case = case.to_dict()['cases']
+        for i in range(0, len(case), 2):
+            data['canada_cases'].append([case[i], case[i+1]])
+    return data
 
 
 if __name__ == '__main__':

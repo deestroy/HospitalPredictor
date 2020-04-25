@@ -3,13 +3,48 @@ var hospital_marker_icon;
 var heatmap;
 var heatmap2;
 var hospital_data_and_markers
+var curr_info_bubble;
+var curr_marker;
 
 // callback function to google maps api call
 function init_map() {
 
     map = create_map();
+    map.setClickableIcons(false);
     heatmap = create_heatmap_layer(map);
     heatmap2 = create_heatmap2_layer(map);
+    curr_info_bubble = null;
+    curr_marker = null;
+
+    // search box
+    var input = document.getElementById('pac-input');
+    var search_box = new google.maps.places.SearchBox(input);
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(document.getElementById('search_box'));
+
+    // bias search box results towards current map's viewport
+    map.addListener('bounds_changed', function() {
+        search_box.setBounds(map.getBounds());
+    });
+
+    search_box.addListener('places_changed', function() {
+        var places = search_box.getPlaces();
+        if (places.length == 0)
+            return;
+
+        var bounds = new google.maps.LatLngBounds();
+        places.forEach(function(place) {
+            if (!place.geometry) {
+                console.log("Returned place contains no geometry");
+                return;
+            }
+            // only geocodes have viewport
+            if (place.geometry.viewport)
+                bounds.union(place.geometry.viewport);
+            else
+                bounds.extend(place.geometry.location);
+        });
+        map.fitBounds(bounds);
+    });
 
     // hospital marker icon
     hospital_marker_icon = {
@@ -39,11 +74,19 @@ function init_map() {
             let info_bubble = generate_info_bubble(hospital);
 
             // marker event listeners
-            marker.addListener('mouseover', function() {
-                info_bubble.open(map, marker);
-            });
-            marker.addListener('mouseout', function() {
-                info_bubble.close();
+            marker.addListener('click', function() {
+                if (info_bubble.isOpen_) {
+                    info_bubble.close();
+                    curr_info_bubble = null;
+                    curr_marker = null;
+                }
+                else {
+                    info_bubble.open(map, marker);
+                    if (curr_info_bubble)
+                        curr_info_bubble.close();
+                    curr_info_bubble = info_bubble;
+                    curr_marker = marker;
+                }
             });
 
             // put everything in a dict
@@ -137,6 +180,12 @@ function toggleHeatmap2() {
 }
 
 function toggleMarkers() {
+    if (curr_info_bubble) {
+        if (hospital_data_and_markers[0]['marker'].getVisible())
+            curr_info_bubble.close();
+        else
+            curr_info_bubble.open(map, curr_marker);
+    }
     for (i = 0; i < hospital_data_and_markers.length; ++i)
         hospital_data_and_markers[i]['marker'].setVisible(!hospital_data_and_markers[i]['marker'].getVisible());
 }
@@ -249,7 +298,7 @@ function init_toggle_control(map) {
     map.controls[google.maps.ControlPosition.LEFT_TOP].push(document.querySelector('.toggle-control'));
 }
 
-// generate info box
+// generate info bubble
 function generate_info_bubble(hospital) {
     return info_bubble = new InfoBubble({
         content: generate_content_string(hospital),
@@ -266,10 +315,10 @@ function generate_info_bubble(hospital) {
         backgroundClassName: 'ib',
         arrowStyle: 0,
         arrowPosition: 20,
-        maxHeight: 180,
-        maxWidth: 250,
-        minWidth: 200,
-        minHeight: 180
+        maxHeight: 200,
+        maxWidth: 300,
+        minWidth: 300,
+        minHeight: 200
     });
 }
 
@@ -281,7 +330,7 @@ function generate_content_string(hospital) {
                 '<table class="ib-content" cellpadding="5">' +
                     '<tr>' +
                         '<td><div align="center"><img width="20" height="20" src="../static/img/location.png"/></div></td>' +
-                        '<td style="padding:3px 3px 3px 3px">' + hospital.address + '</td>' +
+                        '<td style="padding:3px 3px 3px 3px">' + hospital.address + ', ' + hospital.city + '<br/>' + hospital.province + ' ' + hospital.postal_code + '</td>' +
                     '</tr>' +
                     '<tr>' +
                         '<td><div align="center"><img width="30" height="30" src="../static/img/hospital_bed.png"/></div></td>' +
