@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+html {
+    background-color: #fff;
+    color: #c1c1c1;
+    text-rendering: optimizeLegibility;
+}
+
+.hospitalBG {
+    background-color: rgb(235, 255, 239);
+}
+
+.ambulance {
+    background: #fff5bd;
+}
+
+@media(min-width: 1000px) {
+    .main {
+        
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main {
+       
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        height: 100vh;
+        background: blue;
+    }
+}
+

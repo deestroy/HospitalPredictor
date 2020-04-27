@@ -45,6 +45,10 @@ def error_page():
 def data_form():
     return render_template('data_form.html')
 
+# about page
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 # map page
 @app.route('/map')
@@ -56,7 +60,7 @@ def map():
     
     return render_template('map.html', data=data, maps_api_key=maps_api_key)
 
-
+"""
 # add new hospital data (all fields)
 @app.route('/add-hospital-data', methods = ['POST'])
 def add_hospital_data():
@@ -81,7 +85,7 @@ def get_hospital_data():
             data.append(hospital.to_dict())
         return json.dumps(data)
 
-    return redirect(url_for('error_page'))
+    return redirect(url_for('error_page'))"""
 
 
 if __name__ == '__main__':

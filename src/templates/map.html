@@ -43,7 +43,7 @@
                             <a class="nav-link" href="{{ url_for('map') }}">Heat Map</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#all-to-action ">About</a>
+                            <a class="nav-link" href="{{ url_for('about') }}">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url_for('data_form') }}">Add Data</a>
@@ -99,8 +99,7 @@
             </div>
         </div>
 
-        <!-- Scripts -->
-        <script type="text/javascript" src="{{ url_for('static', filename='scripts/map.js') }}"></script>
+        <!-- Scripts -->        <script type="text/javascript" src="{{ url_for('static', filename='scripts/map.js') }}"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&libraries=visualization&callback=init_map"
                 type="text/javascript"></script>
     </body>

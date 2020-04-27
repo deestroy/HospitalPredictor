@@ -20,7 +20,7 @@ h4,h5,h6 {
 
 #bTitle {
   width: 70%;
-  height: 6px;
+  height: 4px;
 }
 
 /* buttons */
@@ -73,11 +73,12 @@ h4,h5,h6 {
 #bmain {
   margin-right: 13px;
 }
+/*images*/
 
 /*Navbar*/
 
 .navbar {
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-bottom: 1px solid #eee;
 }
 
@@ -98,7 +99,7 @@ h4,h5,h6 {
 
 /* Call to action */
 .call-to-action {
-  background: #FF5050;
+  background: rgb(205, 227, 255);
   color: #fafaff;
 }
 
@@ -111,7 +112,7 @@ h4,h5,h6 {
 /*information*/
 .light {
   color: white;
-  background: rgb(255, 190, 190);
+  background: rgb(255, 211, 211);
   height: 300px;
 }
 
@@ -150,7 +151,7 @@ h4,h5,h6 {
 
 /*footer*/
 .footer {
-  background: rgb(173, 40, 40);
+  background: rgb(250, 190, 198);
   color: #fafaff;
 }
 

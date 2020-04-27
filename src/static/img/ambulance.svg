@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="682.22" height="311" viewBox="0 0 682.22 311">
+  <defs>
+    <filter id="Rectangle_41" x="239" y="56" width="279" height="134" filterUnits="userSpaceOnUse">
+      <feOffset dx="-7" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#210404" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_22" x="0" y="0" width="473" height="266" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="2.634" y1="0.431" x2="-3.523" y2="0.435" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.97" stop-color="#adadad"/>
+      <stop offset="1" stop-color="#ffe0e0"/>
+    </linearGradient>
+    <filter id="Rectangle_32" x="459" y="39" width="22" height="167" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(-652 -336)">
+    <g transform="matrix(1, 0, 0, 1, 652, 336)" filter="url(#Rectangle_41)">
+      <rect id="Rectangle_41-2" data-name="Rectangle 41" width="116" height="261" transform="translate(255 178) rotate(-90)" fill="rgba(250,249,232,0.72)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 652, 336)" filter="url(#Rectangle_22)">
+      <rect id="Rectangle_22-2" data-name="Rectangle 22" width="455" height="248" transform="translate(9 6)" fill="#f0f0f0"/>
+    </g>
+    <path id="Path_23" data-name="Path 23" d="M34,0c215.876,11.617,206.66,34,206.66,34V90.358a34.075,34.075,0,0,1-26.692,33.21,33.572,33.572,0,0,1-7.3.787H34a34,34,0,0,1-34-34V34A34,34,0,0,1,34,0Z" transform="translate(1087.74 465.459)" fill="#f0f0f0"/>
+    <path id="Path_24" data-name="Path 24" d="M28.181,0l125.7.421c1.572,0-1.768-.293,0,0,13.1,2.157,0,13.768,0,27.76A28.181,28.181,0,0,1,125.7,56.362H28.181A28.181,28.181,0,0,1,28.181,0Z" transform="translate(1174.52 532.557)" fill="red"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="583" height="57" transform="translate(661 533)" fill="red"/>
+    <path id="Path_21" data-name="Path 21" d="M92.566,7.878l78.405,114.545L6.372,168.866-38,7.878Z" transform="translate(1073.689 363.734)" fill="#f0f0f0"/>
+    <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="56.5" cy="57" rx="56.5" ry="57" transform="translate(766 533)"/>
+    <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="56.5" cy="57" rx="56.5" ry="57" transform="translate(1175 533)"/>
+    <path id="Path_22" data-name="Path 22" d="M0-11.9,58.151-1.254v13.42H0Z" transform="translate(1116.369 371.882)" fill="red"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(782.223 410.887)">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="21" height="57" transform="translate(18.777 0.113)" fill="#ff3838"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="20.807" height="57.869" transform="translate(57.869 18.531) rotate(90)" fill="#ff3838"/>
+    </g>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="363" height="3" transform="translate(661 496)" fill="red"/>
+    <rect id="Rectangle_25" data-name="Rectangle 25" width="363" height="4" transform="translate(661 487)" fill="red"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="204" height="3" transform="translate(1124 525)" fill="red"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="204" height="3" transform="translate(1124 516)" fill="red"/>
+    <g transform="matrix(1, 0, 0, 1, 652, 336)" filter="url(#Rectangle_32)">
+      <rect id="Rectangle_32-2" data-name="Rectangle 32" width="4" height="149" transform="translate(464 48)" fill="url(#linear-gradient)"/>
+    </g>
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="104.672" height="3.579" transform="translate(1024.404 486.981) rotate(16)" fill="red"/>
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="104.672" height="3.579" transform="translate(1023.51 495.927) rotate(16)" fill="red"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="31" cy="31" r="31" transform="translate(792 558)" fill="#fff"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="31.5" cy="31" rx="31.5" ry="31" transform="translate(1200 558)" fill="#fdfdfd"/>
+    <path id="Path_25" data-name="Path 25" d="M0,0H53.552l47.541,71.818L0,76.044Z" transform="translate(1125.315 401.94)" fill="#d3fff0"/>
+  </g>
+</svg>
