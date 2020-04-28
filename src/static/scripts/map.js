@@ -98,7 +98,8 @@ function init_map() {
             hospital_data_and_markers.push(dict);
 
             // update heatmap data
-            locations.push({location: location, weight: hospital.percent_occupancy / hospital.num_beds});
+            var occupancy = hospital.percent_occupancy >= 0 ? hospital.percent_occupancy : 0;
+            locations.push({location: location, weight: occupancy / hospital.num_beds});
         }
         heatmap.setData(locations);
 
@@ -324,21 +325,22 @@ function generate_info_bubble(hospital) {
 
 // generate content string for infobox
 function generate_content_string(hospital) {
+    var occupancy = hospital.percent_occupancy >= 0 ? hospital.percent_occupancy.toString() + '% occupancy' : 'Insufficient data';
     return '<div class="ib-container">' +
-                '<div class="ib-title">' + hospital.name + '</div>' +
+                '<div class="ib-title" align="left">' + hospital.name + '</div>' +
                 '<hr style="border:1px dashed #ec3716">' +
                 '<table class="ib-content" cellpadding="5">' +
                     '<tr>' +
                         '<td><div align="center"><img width="20" height="20" src="../static/img/location.png"/></div></td>' +
-                        '<td style="padding:3px 3px 3px 3px">' + hospital.address + ', ' + hospital.city + '<br/>' + hospital.province + ' ' + hospital.postal_code + '</td>' +
+                        '<td style="padding:3px 3px 3px 3px" align="left">' + hospital.address + ', ' + hospital.city + '<br/>' + hospital.province + ' ' + hospital.postal_code + '</td>' +
                     '</tr>' +
                     '<tr>' +
                         '<td><div align="center"><img width="30" height="30" src="../static/img/hospital_bed.png"/></div></td>' +
-                        '<td style="padding:3px 3px 3px 3px">' + hospital.num_beds + ' beds</td>' +
+                        '<td style="padding:3px 3px 3px 3px" align="left">' + hospital.num_beds + ' beds</td>' +
                     '</tr>' +
                     '<tr>' +
                         '<td><div align="center"><img width="30" height="30" src="../static/img/percentage_pie.png"/></div></td>' +
-                        '<td style="padding:3px 3px 3px 3px">' + hospital.percent_occupancy + '% occupancy</td>' +
+                        '<td style="padding:3px 3px 3px 3px" align="left">' + occupancy + '</td>' +
                     '</tr>' +
                 '</table>' +
             '</div>'
