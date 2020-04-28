@@ -49,9 +49,12 @@ def update_hospital_data():
     
     if request.method == 'POST':
         req_data = request.form
-        x = str(req_data.keys())
-        db.collection(u'ontario_cases').document(u'0').set({'data': x})
-        return redirect(url_for('home'))
+        iter = req_data.lists()
+        x = {}
+        for key, val in iter:
+            x[str(key)] = str(val)
+        db.collection(u'ontario_cases').document(u'0').set({'data': str(x)})
+        return redirect(url_for('index'))
     
     return redirect(url_for('error_page'))
 
