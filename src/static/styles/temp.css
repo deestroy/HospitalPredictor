@@ -18,7 +18,7 @@ html {
 }
 
 .ambulance {
-    background: #fff5bd;
+    background: #ffe8bd;
 }
 
 @media(min-width: 1000px) {
@@ -29,6 +29,7 @@ html {
         
 
     }
+    
 }
 
 @media only screen and (max-width: 900px) {
@@ -37,6 +38,12 @@ html {
         padding: 0 0 0 0;
         margin: 0 0 0 0;
         height: 100vh;
+    
+    }
+
+    #ambulance {
+        height: 50%;
+    
     }
 }
 
