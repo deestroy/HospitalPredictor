@@ -178,8 +178,13 @@ h4,h5,h6 {
     width: 100%;
   }
 
+  #hp {
+    height: 0;
+    width: 0;
+    
+  }
   #logo {
-    height: 0.8em;
+    height: 2em;
   }
   .call-to-action .container {
     width: 100% !important;

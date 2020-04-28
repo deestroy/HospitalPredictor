@@ -134,6 +134,10 @@ body {
     border: 0;
     background-color: white;
     color: rgba(0, 0, 0, 0.6);
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
 }
 
 .gm-style .controls button:hover {
@@ -170,13 +174,26 @@ body {
 .side-color {
     background: linear-gradient(-60deg, rgb(250, 243, 177) 0%, rgb(188, 255, 149) 100%);
 }
+
+
 @media(min-width: 768px) {
     .side-color {
         height:67vh;
     }
-
+   
 }
 
+@media(max-width: 900px) {
+    #map-div {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #ambulance {
+        margin-top: 3vh;
+        height: 140px;
+    }
+}
 #personOne {
     background: rgb(250, 209, 209);
 }
@@ -213,3 +230,4 @@ body {
     position: relative;
     width: 300px;
 }
+
