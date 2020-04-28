@@ -198,7 +198,7 @@ function create_map() {
     var map_center = {lat: 45.401056, lng: -75.651306};
 
     // create map
-    var map = new google.maps.Map(document.getElementById('map'), {
+    var map = new google.maps.Map(document.getElementById('map-div'), {
         center: map_center,
         zoom: 15,
         disableDefaultUI: true

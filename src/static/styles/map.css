@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#map {
+#map-div {
     height: 600px;
     width: 1000px;
     margin: 50px;
