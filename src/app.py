@@ -41,27 +41,17 @@ def error_page():
     return render_template('404.html')
 
 
-# add new hospital data (all fields)
-@app.route('/add-hospital-data', methods = ['POST'])
-def add_hospital_data():
+# update hospital data
+@app.route('/update-hospital-data', methods = ['POST'])
+def update_hospital_data():
 
+    #TODO - Edit return codes
+    
     if request.method == 'POST':
         req_data = request.form
-        hospital = {
-            'name': req_data.get('name'), 
-            'address': req_data.get('address'), 
-            'city': req_data.get('city'), 
-            'country': req_data.get('country'),
-            'health_region': req_data.get('health_region'),
-            'lat': req_data.get('lat'),
-            'lng': req_data.get('lng'),
-            'num_beds': req_data.get('num_beds'), 
-            'percent_occupancy': req_data.get('percent_occupancy'),
-            'postal_code': req_data.get('postal_code'),
-            'province': req_data.get('province')
-        }
-        db.collection(u'hospitals').document(req_data['name']).set(hospital)
-        return redirect(url_for('index'))
+        x = str(req_data.keys())
+        db.collection(u'ontario_cases').document(u'0').set({'data': x})
+        return redirect(url_for('home'))
     
     return redirect(url_for('error_page'))
 
