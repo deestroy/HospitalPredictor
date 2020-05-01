@@ -2,7 +2,7 @@ import os
 import time
 from dotenv import load_dotenv
 
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify
 import json
 
 import firebase_admin
@@ -44,19 +44,13 @@ def error_page():
 # update hospital data
 @app.route('/update-hospital-data', methods = ['POST'])
 def update_hospital_data():
-
-    #TODO - Edit return codes
     
     if request.method == 'POST':
-        req_data = request.form
-        iter = req_data.lists()
-        x = {}
-        for key, val in iter:
-            x[str(key)] = str(val)
-        db.collection(u'ontario_cases').document(u'0').set({'data': str(x)})
-        return redirect(url_for('index'))
+        data = request.get_json()
+        db.collection(u'ontario_cases').document(u'0').set({'data': str(data)})
+        return jsonify({'Success':True}), 200
     
-    return redirect(url_for('error_page'))
+    return jsonify({'Error': 'Bad Request (expected POST)'}), 400
 
 
 # get all hospital data from database
