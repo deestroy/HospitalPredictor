@@ -53,7 +53,7 @@ def update_hospital_data():
             # if general public and been to hospital: get hospital and get rating
             # if covid: get postal code
             
-            questions = data['form_respons']['definition']['fields']
+            questions = data['form_response']['definition']['fields']
             answers = data['form_response']['answers']
 
             qa_pairs = {}
@@ -86,7 +86,7 @@ def update_hospital_data():
                 h = db.collection(u'hospitals').document(hospital).to_dict()
                 num_responses = h['num_responses']
                 curr_occupancy = max(0, h['percent_occupancy'])
-                updated_occupancy = (curr_occupancy + rating*10*scale) / (num_responses + scale)
+                updated_occupancy = int((curr_occupancy + rating*10*scale) / (num_responses + scale))
                 db.collection(u'hospitals').document(hospital).update({u'num_responses': num_responses+1, u'percent_occupancy': updated_occupancy})
 
             # FOR TESTING PURPOSES
@@ -94,7 +94,7 @@ def update_hospital_data():
                 h = db.collection(u'ontario_cases').document(hospital).to_dict()
                 num_responses = h['num_responses']
                 curr_occupancy = max(0, h['percent_occupancy'])
-                updated_occupancy = (curr_occupancy + rating*10*scale) / (num_responses + scale)
+                updated_occupancy = int((curr_occupancy + rating*10*scale) / (num_responses + scale))
                 db.collection(u'ontario_cases').document(u'0').update({u'num_responses': num_responses+1, u'percent_occupancy': updated_occupancy})
 
             return jsonify({'Success':True}), 200
