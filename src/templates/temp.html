@@ -15,6 +15,13 @@
         <title>Hospital Predictor</title>
         <link rel="shortcut icon" href="../static/img/logo.svg" height="100">
         <script type="text/javascript" src="{{ url_for('static', filename='scripts/infobubble.js') }}" type="text/javascript"></script>
+        <script type="text/javascript">
+            var onloadCallback = function() {
+              grecaptcha.render('html_element', {
+                'sitekey' : '6LcvhPEUAAAAAH3B0VMbitKJ6w79sPBW4wXRWJxr'
+              });
+            };
+          </script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg fixed-top">
@@ -54,9 +61,9 @@
                         <div class="home-content offset-lg-0 col-lg-10">
                             <h1 class="pb-2 mt-5">Find out how your local hospital is doing in light of COVID-19</h1>
                             <div class="heading-line" id="bTitle"></div>
-                            <p class="pb-3 mt-4"> In such uncertain times, we at Hospital Predictor would like to provide valuable data about how your local hospital is doing while flattening the curve.
-                                With data at our disposal we can find our sense of community and provide hospitals the space they deserve.
-                                Lets band together and come out as a better, stronger and more data-driven community. Find out more by clicking the links below:</p>
+                            <p class="pb-3 mt-4"> In such uncertain times, we at Hospital Predictor would like to provide valuable <b>crowd-sourced data</b> about how your local hospital is doing while flattening the curve.
+                                With data at our disposal, we can keep ourselves and our community more informed.<br>
+                                Lets band together and come out as a better, stronger and more data driven community. Find out more by clicking the links below:</p>
                             <button class="btn btn-lg btn-secondary" id="heat-map-btn" href="#map">Explore the Heat Map</button>
                             <button class="btn btn-lg btn-secondary" id="add-data-btn" href="#add=data">Add Data</button>
                         </div>
@@ -73,7 +80,7 @@
             <div class="container text-center w-80">
                 <h2 class="py-3" style="color:rgb(19, 18, 18)">How do we get our data?</h2>
                 <div class="mx-auto heading-line"></div>
-                <p class="py-3" style="color:rgb(24, 24, 24)">We get our data from multiple government databases as well as live updates provided by the hospital patients/staff. We combine historical data about hospital stays with up to date COVID-19 data to give the most accurate information as possible.</p>
+                <p class="py-3" style="color:rgb(24, 24, 24)">We get our data from multiple government databases as well as live updates provided by the hospital patients/staff. We combine historical data about hospital stays with up to date community-provided COVID-19 data to give the most accurate information as possible.</p>
                 <div class="row mb-4 mt-5">
                     <div class="col-md-4 light d-flex align-items-center justify-content-center">
                         <div class="text-center">
@@ -94,7 +101,7 @@
         <section class="cindyMap pt-5 map" id="map">
             <div class="container text-center w-80">
                 <h1>Map</h1>
-                <p>Use the heat map to explore how your local hospital is dealing with COVID-19. Search for your local hospital or hover over the icon to see the overview to see the <b>occupancy rate at each hospital </b>. The more data we can have, the more accurate information about the map we can provide.<br> The number of beds are provided by the <a href="https://www.cihi.ca/en/covid-19-resources"> Canadian Institute for Health Information.</a></p>
+                <p>Use the heat map to explore how your local hospital is dealing with COVID-19. Search for your local hospital or hover over the icon to see the overview of the <b>bed occupancy rate at each hospital</b>. <br>The more data we can have, the more accurate information about the map we can provide.The number of beds are provided by the <a href="https://www.cihi.ca/en/covid-19-resources"> Canadian Institute for Health Information.</a></p>
                 
                 <div id="map-div"></div>
                 <div id="search_box">
@@ -120,6 +127,9 @@
                     <header class="text-left inside-text py-5 col-lg-6">
                         <h1 class="mb-4 pr-4">Add Data</h1>
                         <p class="lead mb-0">Contribute to our data set and help us provide better data!</p>
+                        <p class="pt-3"> We rely on data from individuals like you to make our maps have the latest, most up to date information.
+                            We use you data to update the bed occupancy rates in hospitals across Canada and predict future occupancy rates using our algorithms.
+                        </p>
                         
                     </header>
                     <div class="inside-text text-right col-lg-6 py-5">
@@ -185,7 +195,7 @@
                     <div class="mx-auto heading-line"></div>
                 </div>
                 <div align="center">
-                    <form>
+                    <form action="?" method="POST">
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input id="email" class="form-control" type="email" aria-describedby="emailHint" placeholder="Enter email">
@@ -200,6 +210,7 @@
                             <textarea id="message" class="form-control" placeholder="Enter message" rows="5"></textarea>
                         </div>
                         <button type="submit" class="btn btn-lg btn-outline-secondary" id="submitButton">Submit</button>
+                        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
                     </form>
                 </div>
 
