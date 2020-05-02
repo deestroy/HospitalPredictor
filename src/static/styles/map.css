@@ -40,7 +40,8 @@ body {
     outline: none;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     background-color: #fff;
-    font-family: Roboto;}
+    font-family: Roboto;
+}
 
 #pac-container {
     padding-bottom: 12px;
@@ -183,15 +184,30 @@ body {
    
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1000px) {
     #map-div {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-    #ambulance {
+   #ambulance {
         margin-top: 3vh;
-        height: 140px;
+    }
+    #main-name {
+        font-size:0px;
+    }
+    #cindy {
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 50%;
+        display: flex;
+        flex: 0 0 300px;
+        height: 300px;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        width: 90%;
     }
 }
 #personOne {
