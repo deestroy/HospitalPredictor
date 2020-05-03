@@ -32,7 +32,7 @@ data = None
 # main page
 @app.route('/')
 def index():
-    return render_template('temp.html', maps_api_key=maps_api_key)
+    return render_template('index.html', maps_api_key=maps_api_key)
 
 
 # 404 page
@@ -59,50 +59,54 @@ def update_hospital_data():
             qa_pairs = {}
 
             for q, a in zip(questions, answers):
-                qa_pairs[q['title']] = [a[a['type']]]
-
-            scale, postal_code = -1, -1
+                qa_pairs[q['title']] = a[a['type']]['label'] if a['type'] == 'choice' else a[a['type']]
 
             # health care worker
-            if qa_pairs['Which best descibes you']['label'] == 'Health Care Worker':
-                hospital = qa_pairs['Which hospital do you work at']['label']
-                rating = qa_pairs['On a scale of 1 to 10, how would you describe the current situation at your hospital?']
+            if qa_pairs['Which best describes you?'] == 'Health Care Worker':
+                hospital = qa_pairs['Which hospital do you work at?']
+                rating = qa_pairs['On a scale of 0 to 10, how would you describe the current situation at your hospital?']
                 scale = 2
 
             # general public
-            elif qa_pairs['Have you been in a hospital in the last 24 hours']['label'] == 'Yes':
-                hospital = qa_pairs['Which hospital are you at / have you visited?']['label']
-                rating = qa_pairs['On a scale of 1 to 10, how would you describe the current situation at your hospital?']
+            elif qa_pairs['Have you been in a hospital in the last 24 hours?'] == 'Yes':
+                hospital = qa_pairs['Which hospital are you at / have you visited?']
+                rating = qa_pairs['On a scale of 0 to 10, how would you describe the current situation at your hospital?']
                 scale = 1
 
             # has covid
             # WHAT TO DO WITH THIS DATA?
-            if qa_pairs['Do you have COVID-19']['label'] == 'Yes' and 'What is your Postal Code' in qa_pairs:
-                postal_code = qa_pairs['What is your Postal Code']
+            if qa_pairs['Do you have COVID-19?'] == 'Yes' and 'What is your Postal Code?' in qa_pairs:
+                postal_code = qa_pairs['What is your Postal Code?']
 
 
             # update occupancy field
             if scale > 0 and hospital != 'Other':
-                h = db.collection(u'hospitals').document(hospital).to_dict()
-                num_responses = h['num_responses']
-                curr_occupancy = max(0, h['percent_occupancy'])
-                updated_occupancy = int((curr_occupancy + rating*10*scale) / (num_responses + scale))
-                db.collection(u'hospitals').document(hospital).update({u'num_responses': num_responses+1, u'percent_occupancy': updated_occupancy})
+                try:
+                    h = db.collection(u'hospitals').document(hospital).get().to_dict()
+                    num_responses = h['num_responses']
+                    curr_occupancy = max(0, h['percent_occupancy'])
+                    updated_occupancy = round((curr_occupancy + rating*10*scale) / (num_responses + scale))
+                    db.collection(u'hospitals').document(hospital).update({u'num_responses': num_responses+1, u'percent_occupancy': updated_occupancy})
+                except:
+                    return jsonify({'Error': 'Hospital does not exist in database'}), 400
 
             # FOR TESTING PURPOSES
             elif scale > 0 and hospital == 'Other':
-                h = db.collection(u'ontario_cases').document(hospital).to_dict()
-                num_responses = h['num_responses']
-                curr_occupancy = max(0, h['percent_occupancy'])
-                updated_occupancy = int((curr_occupancy + rating*10*scale) / (num_responses + scale))
-                db.collection(u'ontario_cases').document(u'0').update({u'num_responses': num_responses+1, u'percent_occupancy': updated_occupancy})
+                try:
+                    h = db.collection(u'ontario_cases').document(u'0').get().to_dict()
+                    num_responses = h['num_responses']
+                    curr_occupancy = max(0, h['percent_occupancy'])
+                    updated_occupancy = round((curr_occupancy + rating*10*scale) / (num_responses + scale))
+                    db.collection(u'ontario_cases').document(u'0').update({u'num_responses': num_responses+1, u'percent_occupancy': updated_occupancy})
+                except:
+                    return jsonify({'Error': 'DB testing failed'}), 400
 
             return jsonify({'Success':True}), 200
         
         except:
-            return jsonify({'Error': 'Something went wrong'})
+            return jsonify({'Error': 'Something went wrong'}), 400
     
-    return jsonify({'Error': 'Bad Request (expected POST)'}), 400
+    return jsonify({'Error': 'Method not allowed (expected POST)'}), 405
 
 
 # get all hospital data from database
