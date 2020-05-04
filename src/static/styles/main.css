@@ -23,6 +23,14 @@ h4,h5,h6 {
   height: 4px;
 }
 
+/* anchors */
+#a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
 /* buttons */
 .btn-outline-secondary {
   background-color: transparent !important;
