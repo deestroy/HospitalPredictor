@@ -78,7 +78,7 @@ def update_hospital_data():
         if qa_pairs['Do you have COVID-19?'] == 'Yes' and 'What is your Postal Code?' in qa_pairs:
             try:
                 postal_code = qa_pairs['What is your Postal Code?']
-                id = db.collection(u'covid_collected_data').document(u'size').get().to_dict()['value']
+                id = db.collection(u'covid_collected_data').document(u'size').get().to_dict()['size']
                 db.collection(u'covid_collected_data').document(str(id)).set({u'postal_code': postal_code, u'timestamp': timestamp})
                 db.collection(u'covid_collected_data').document(u'size').update({u'size': id+1})
             except:
@@ -88,7 +88,7 @@ def update_hospital_data():
         if 'Is there any other data you would like to see on this website?' in qa_pairs:
             try:
                 feedback = qa_pairs['Is there any other data you would like to see on this website?']
-                id = db.collection(u'feedback').document(u'size').get().to_dict()['value']
+                id = db.collection(u'feedback').document(u'size').get().to_dict()['size']
                 db.collection(u'feedback').document(str(id)).set({u'feedback': feedback, u'timestamp': timestamp})
                 db.collection(u'feedback').document(u'size').update({u'size': id+1})
             except:

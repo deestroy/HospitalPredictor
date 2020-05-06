@@ -84,12 +84,11 @@
                 <div class="row mb-4 mt-5">
                     <div class="col-md-4 light d-flex align-items-center justify-content-center">
                         <div class="text-center">
-                            <h4 class="py-3" style="color:rgb(228, 65, 65)">Follow us to get live updates!
-                            </h4>
-                            <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
-                            <a class="m-2" href="#"><i class="fa fa-instagram"></i></a>
-                            <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
-                            <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+                            <h4 class="py-3" style="color:rgb(228, 65, 65)">Share this website!</h4>
+                            <a class="m-2" href="http://www.facebook.com/sharer.php?u=https://hospitalpredictor.ca/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a class="m-2" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://hospitalpredictor.ca/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a class="m-2" href="https://twitter.com/share?url=https://hospitalpredictor.ca/&amp;text=Understand how your local hospital is dealing with COVID-19&amp;hashtags=COVID-19,hospital,hospitalpredictor,canada,coronavirus" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a class="m-2" href="http://reddit.com/submit?url=https://hospitalpredictor.ca/&amp;title=Check the availabilty of your local hospital during COVID-19" target="_blank"><i class="fa fa-reddit-alien"></i></a>
                         </div>
                     </div>
                     <div class="col-md-8 d-flex align-items-center justify-content-center pl-5">
@@ -166,7 +165,7 @@
                                         <img src="../static/img/cindy.jpg" id="cindy" class="mx-auto pb-2">
                                         <p class="mt-3 py-3">Cindy Li is a first year Mechatronics student at the University of Waterloo. She primarily focused on developing the backend.</p>
                                         <div class="text-center mb-5">
-                                            <a class="m-2" href="https://www.linkedin.com/in/cindy-li-50856a169/"><i class="fa fa-linkedin"></i></a>
+                                            <a class="m-2 recolor" href="https://www.linkedin.com/in/cindy-li-50856a169/"><i class="fa fa-linkedin"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 my-auto pt-3" id="personTwo">
@@ -174,7 +173,7 @@
                                         <img src="../static/img/deeee.jpeg" id="dee" class="mx-auto pb-2">
                                         <p class="mt-3 py-3"> Dhriti Aravind is a first year Computer Systems Engineering student at Carleton University who enjoys UI/UX design.</p>
                                         <div class="text-center mb-5">
-                                            <a class="m-2" href="https://www.linkedin.com/in/dhriti-dee-aravind-10b61b18a/"><i class="fa fa-linkedin"></i></a>
+                                            <a class="m-2 recolor" id="d" href="https://www.linkedin.com/in/dhriti-dee-aravind-10b61b18a/"><i class="fa fa-linkedin"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -195,21 +194,25 @@
                     <div class="mx-auto heading-line"></div>
                 </div>
                 <div align="center">
-                    <form action="?" method="POST">
+                    <form class="contact-form" action="contactform.php" method="post">
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input id="email" class="form-control" type="email" aria-describedby="emailHint" placeholder="Enter email">
-                            <small id="emailHint" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <small id="emailHint" name="mail" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input id="name" class="form-control" type="text" placeholder="Enter name">
+                            <input id="name" name="name" class="form-control" type="text" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Subject</label>
+                            <input id="subject" name="subject" class="form-control" placeholder="Enter subject">
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" class="form-control" placeholder="Enter message" rows="5"></textarea>
+                            <textarea id="message" name="message" class="form-control" placeholder="Enter message" rows="5"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-lg btn-outline-secondary" id="submitButton">Submit</button>
+                        <button type="submit" class="btn btn-lg btn-outline-secondary" id="submitButton" name="submit">Submit</button>
                         <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
                     </form>
                 </div>
