@@ -126,9 +126,19 @@ h4,h5,h6 {
 
 .light i {
   font-size: 1.3rem;
-  color: white;
+  color: rgb(21, 115, 255);
+  background: #01162700;
 }
 
+.recolor {
+  font-size: 1.3rem;
+  color: rgb(21, 115, 255);
+  background: #01162700;
+}
+
+#d i {
+  background:rgb(171, 214, 255);
+}
 .dark {
   color: black;
   background: #f2f3f3;
