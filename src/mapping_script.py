@@ -30,7 +30,7 @@ maps_api_key = os.environ.get('GOOGLE_MAPS_API_KEY')
 
 
 # flag to only activate a specific part of the script
-part = 4
+part = 0
 
 
 # ----- PART 1 -----

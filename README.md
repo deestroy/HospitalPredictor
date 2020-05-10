@@ -5,6 +5,7 @@ Hospital Predictor is a website which aims to collect and visualize Canadian hos
 This project is still a work in progress and can be accessed at [hospitalpredictor.ca](https://www.hospitalpredictor.ca).
 
 Hospital beds data is provided by the [Canadian Institue for Health and Information](cihi.ca/en/covid-19-resources).
+Canadian COVID-19 cases data is provided by [github.com/ishaberry/Covid19Canada](https://github.com/ishaberry/Covid19Canada).
 
 ## Contributors
 **Dhriti Aravind** - [deestroy](https://github.com/deestroy)
