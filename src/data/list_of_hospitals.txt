@@ -1,0 +1,592 @@
+100 Mile District General Hospital
+A M Guy Memorial Health Centre
+Abbotsford Regional Hospital and Cancer Centre
+Aberdeen Hospital
+Alberta Children’s Hospital
+Alberta Hospital Edmonton
+Alexandra Hospital
+Alexandra Marine and General Hospital
+All Saints Springhill Hospital
+Almonte General Hospital
+Altona Community Memorial
+Annapolis Community Health Centre
+Anson General Hospital
+Arborg and Districts Health Centre
+Arcola Health Centre
+Arnprior & District Memorial Hospital
+Arrow Lakes Hospital
+Ashcroft Hospital and Community Health Centre
+Assiniboia Union Hospital
+Athabasca Healthcare Centre
+Atikokan General Hospital
+BC Cancer Agency
+Baie Verte Peninsula Health Centre
+Balcarres Integrated Care Centre
+Baldur Health Centre
+Barrhead Healthcare Centre
+Bassano Health Centre
+Battlefords Union Hospital
+Baycrest
+Bayview Memorial Health Centre
+Beausejour District Hospital
+Beaverlodge Municipal Hospital
+Bella Coola General Hospital
+Bentley Care Centre
+Bethany Meadows
+Bethesda Hospital
+Big Country Hospital
+Biggar Hospital
+Bingham Memorial Hospital
+Birtle Health Centre
+Blind River District Health Centre
+Bluewater Health
+Boissevain Health Centre District
+Bonavista Peninsula Health Centre
+Bonne Bay Health Centre
+Boundary Hospital
+Boundary Trails Health Centre
+Bow Island Health Centre
+Boyle Healthcare Centre
+Brandon General Hospital
+Brant Community Healthcare System
+Breton Health Centre
+Broadview Union Hospital
+Brockville General Hospital
+Brooks Health Centre
+Bruyère Continuing Care
+Buchanan Memorial Community Health Centre
+Bulkley Valley District Hospital
+Burin Peninsula Health Care Centre
+Burnaby Hospital
+Calder Health Centre
+Cambridge Memorial Hospital
+Campbellford Memorial Hospital
+Campbellton Regional Hospital
+Canmore General Hospital
+Canora Hospital
+Cape Breton Healthcare Complex
+Carberry Health Center
+Carbonear General Hospital
+Cardston Health Centre
+Cariboo Memorial Hospital
+Carleton Place and District Memorial Hospital
+Carman Memorial Hospital
+Casey House
+Centracare
+Central Butte Regency Hospital
+Central Newfoundland Regional Health Centre
+Central Peace Health Complex
+Centre for Addiction and Mental Health
+Chaleur Regional Hospital
+Charles S Curtis Memorial Hospital
+Charlotte County Hospital
+Chatham-Kent Health Alliance
+Chemainus Health Care Centre
+Chetwynd Hospital and Health Centre
+Children’s Hospital of Eastern Ontario
+Children’s and Women’s Health Centre of British Columbia
+Chilliwack General Hospital
+Chinook Regional Hospital
+Churchill Health Centre
+Claresholm General Hospital
+Clinton Public Hospital
+Colchester East Hants Health Centre
+Cold Lake Healthcare Centre
+Collingwood General and Marine Hospital
+Concordia Hospital
+Connaigre Peninsula Health Centre
+Consort Hospital and Care Centre
+Cormorant Island Community Health Centre
+Cornwall Community Hospital
+Coronation Hospital and Care Centre
+Cottage-Worthington Pavilion
+Covenant Health Bonnyville Healthcare Centre
+Covenant Health Grey Nuns Community Hospital
+Covenant Health Killam Health Care Centre
+Covenant Health Mary Immaculate Care Centre
+Covenant Health Mineral Springs Hospital
+Covenant Health Misericordia Community Hospital
+Covenant Health Our Lady of the Rosary Hospital
+Covenant Health St Joseph’s General Hospital
+Covenant Health St Mary’s Hospital [Camrose]
+Covenant Health St Michael’s Health Centre
+Cowichan District Hospital
+Creston Valley Hospital
+Cross Cancer Institute
+Crowsnest Pass Health Centre
+Cumberland Regional Health Care Centre
+Cypress Regional Hospital
+Dartmouth General Hospital
+Dauphin Regional Health Centre
+Davidson Health Centre
+Dawson City Community Hospital
+Dawson Creek and District Hospital
+Daysland Health Centre
+DeSalaberry District Health Centre
+Deep River and District Hospital
+Deer Lodge Centre
+Deloraine Health Centre
+Delta Hospital
+Devon General Hospital
+Didsbury District Health Services
+Digby General Hospital
+Dr A A Wilkinson Memorial Health Centre
+Dr Charles L LeGrow Health Centre
+Dr Everett Chalmers Regional Hospital
+Dr FH Wigmore Regional Hospital
+Dr G B Cross Memorial Hospital
+Dr Georges-L-Dumont University Hospital Centre
+Dr Helmcken Memorial Hospital
+Dr Hugh Twomey Health Centre
+Dr Leonard A Miller Centre
+Dr S Beckley Health Centre
+Dr Walter Templeman Health Centre
+Dr YK Jeon Kittiwake Health Centre
+Drayton Valley Hospital and Care Centre
+Drumheller Health Centre
+Dryden Regional Health Centre
+E M Crowe Memorial Hospital
+Eagle Ridge Hospital
+East Coast Forensic Psychiatric Hospital
+East Kootenay Regional Hospital
+Eastern Memorial Hospital
+Eastern Shore Memorial Hospital
+Edmundston Regional Hospital
+Edson Healthcare Centre
+Elk Point Healthcare Centre
+Elk Valley Hospital
+Emerson Hospital
+Emmanuel Care - St Anthony’s Hospital
+Emmanuel Care - St Joseph’s Hospital [Estevan]
+Emmanuel Care - St Joseph’s Hospital/Foyer d’Youville
+Emmanuel Care - St Paul’s Hospital
+Emmanuel Care - St Peter’s Hospital [Melville]
+Enfant-Jésus RHSJ † Hospital
+Englehart and District Hospital
+Erickson District Health Centre
+Erie Shores HealthCare
+Espanola General Hospital
+Fairview Health Complex
+Fishermen’s Memorial Hospital
+Flin Flon General Hospital
+Fogo Island Health Centre
+Foothills Medical Centre
+Forensic Psychiatric Hospital
+Fort Macleod Health Centre
+Fort Nelson General Hospital
+Fort Saskatchewan Community Hospital
+Fort Smith Health Centre
+Fort St John Hospital and Health Centre
+Four Counties Health Services
+Fox Creek Healthcare Centre
+Fraser Canyon Hospital
+G F Strong Rehabilitation Centre
+G R Baker Memorial Hospital
+George Pearson Centre
+Georgian Bay General Hospital
+Geraldton District Hospital
+Gillam Hospital Inc
+Gimli Community Health Centre
+Glenboro Health Centre
+Glenrose Rehabilitation Hospital
+Golden and District General Hospital
+Grace Hospital
+Grand Falls General Hospital
+Grand Manan Hospital
+Grand River Hospital
+Grande Cache Community Health Complex
+Grandview District Hospital
+Green Bay Health Centre
+Grey Bruce Health Services
+Groves Memorial Community Hospital
+Guelph General Hospital
+Guysborough Memorial Hospital
+Haida Gwaii Hospital and Health Centre
+Haldimand War Memorial Hospital
+Haliburton Highlands Health Services
+Halton Healthcare Services
+Hamilton Health Sciences
+Hamiota District Health Centre
+Hanna Health Centre
+Hanover and District Hospital
+Hants Community Hospital
+Hardisty Health Centre
+Hay River Regional Health Centre
+Headwaters Health Care Centre
+Health Sciences Centre Winnipeg
+Health Sciences Centre-St John’s
+Health Sciences North / Horizon Santé-Nord
+Herbert and District Integrated Health Facility
+High Prairie Health Complex
+High River General Hospital
+Hillsborough Hospital
+Hillside Centre
+Hinton Healthcare Centre
+Holland Bloorview Kids Rehabilitation Hospital
+Holy Family Hospital
+Homewood Health Centre Inc
+Hornepayne Community Hospital
+Hospital for Sick Children
+Hotel Dieu Shaver Health and Rehabilitation Centre
+Hotel-Dieu of St Joseph
+Hudson Bay Health Care Facility
+Humber River Hospital
+Humboldt District Hospital
+Hôpital Glengarry Memorial Hospital
+Hôpital Montfort
+Hôpital Notre-Dame Hospital
+Hôpital de Mattawa Hospital
+Hôpital de Smooth Rock Falls Hospital
+Hôpital général de Hawkesbury & District General Hospital
+Hôpital privé Beechwood Private Hospital
+Hôtel-Dieu Grace Healthcare
+Hôtel-Dieu Saint-Joseph de Saint-Quentin
+IWK Health Centre
+Indian Head Hospital
+Innisfail Health Centre
+Inuvik Regional Hospital
+Invermere and District Hospital
+Inverness Consolidated Memorial Hospital
+James Paton Memorial Regional Health Centre
+Janeway Children’s Health and Rehabilitation Centre
+Joseph Brant Hospital
+Juan de Fuca Hospitals
+Kamsack Hospital and Nursing Home
+Kelowna General Hospital
+Kelvington Hospital
+Kemptville District Hospital
+Kerrobert Integrated Health Centre
+Kindersley and District Health Centre
+Kings County Memorial Hospital
+Kingston Health Sciences Centre
+Kipling Integrated Health Centre
+Kirkland and District Hospital
+Kitimat Hospital and Health Centre
+Kootenay Boundary Regional Hospital
+Kootenay Lake Hospital
+La Loche Health Centre
+La Ronge Health Centre
+Labrador Health Centre
+Labrador South Health Centre
+Labrador West Health Centre
+Lacombe Hospital and Care Centre
+Lady Dunn Health Centre
+Lady Minto Gulf Islands Hospital
+Lady Minto Hospital
+Lake of the Woods District Hospital
+Lakeridge Health
+Lakes District Hospital and Health Centre
+Lakeshore Health Centre
+Lamont Health Care Centre
+Lamèque Hospital and Community Health Centre
+Langley Memorial Hospital
+Lanigan Hospital
+Leader Hospital
+Leduc Community Hospital
+Lennox and Addington County General Hospital
+Lillian Fraser Memorial Hospital
+Lillooet Hospital and Health Centre
+Lions Gate Hospital
+Listowel Memorial Hospital
+Lloydminster Hospital
+London Health Sciences Centre
+Lorne Memorial Hospital
+Louis Brier Home and Hospital
+Lynn Lake Hospital
+MacGregor Health Centre
+Mackenzie Health
+Mackenzie and District Hospital and Health Centre
+Maidstone Health Complex
+Manitoba Adolescent Treatment Centre
+Manitoulin Health Centre
+Manning Community Health Centre
+Mannville Care Centre
+Markham Stouffville Hospital
+Mayerthorpe Healthcare Centre
+McBride and District Hospital
+McCreary/Alonsa Health Centre
+Medicine Hat Regional Hospital
+Melfort Hospital
+Melita Health Centre
+Menno Hospital
+Michael Garron Hospital
+Milk River Health Centre
+Mills Memorial Hospital
+Minnedosa District Hospital
+Miramichi Regional Hospital
+Misericordia Health Centre
+Mission Memorial Hospital
+Morris General Hospital
+Mount Saint Joseph Hospital
+Mount St Mary Hospital
+Muskoka Algonquin Healthcare
+Musquodoboit Valley Memorial Hospital
+Nanaimo Regional General Hospital
+Neepawa Health Centre
+Niagara Health System
+Nicola Valley Health Centre
+Nipawin Hospital
+Nipigon District Memorial Hospital
+Norfolk General Hospital
+North Bay Regional Health Centre
+North Cumberland Memorial Hospital
+North Wellington Health Care Corporation
+North York General Hospital
+North of Superior Healthcare Group
+Northern Haida Gwaii Hospital and Health Centre
+Northern Lights Regional Health Centre
+Northumberland Hills Hospital
+Northwest Health Centre
+Northwest Health Facility
+Notre Dame Bay Memorial Health Centre
+Notre Dame Hospital
+Nova Scotia Hospital
+Oilfields General Hospital
+Olds Hospital and Care Centre
+Ontario Shores Centre for Mental Health Sciences
+Orillia Soldiers’ Memorial Hospital
+Oromocto Public Hospital
+Outlook and District Health Centre
+Overlander Extended Care Hospital
+O’Leary Community Hospital
+Parkland Integrated Health Centre
+Pasqua Hospital
+Peace Arch Hospital
+Peace River Community Health Centre
+Pembina Manitou Health Centre
+Pembroke Regional Hospital Inc
+Penticton Regional Hospital
+Perth and Smiths Falls District Hospital
+Peter Lougheed Centre
+Peterborough Regional Health Centre
+Pinawa Hospital
+Pincher Creek Health Centre
+Pine Falls Health Complex
+Placentia Health Centre
+Pleasant Valley Health Centre
+Ponoka Hospital and Care Centre
+Porcupine Carragana Hospital
+Port Hardy Hospital
+Port McNeill and District Hospital
+Portage District General Hospital
+Powell River General Hospital
+Preeceville and District Health Centre
+Prince County Hospital
+Prince Rupert Regional Hospital
+Princeton General Hospital
+Providence Healthcare
+Provost Health Centre
+Queen Alexandra Centre for Children’s Health
+Queen Elizabeth Hospital
+Queen Elizabeth II Health Sciences Centre
+Queen Elizabeth II Hospital
+Queen Victoria Hospital
+Queens General Hospital
+Queensway Carleton Hospital
+Queen’s Park & Fellburn Care Centres
+Quinte Health Care
+R W Large Memorial Hospital
+Raymond Health Centre
+Red Deer Regional Hospital Centre
+Red Lake Margaret Cochenour Memorial Hospital
+Redvers Health Centre
+Redwater Health Centre
+Regina General Hospital
+Renfrew Victoria Hospital
+Restigouche Hospital Centre
+Ridge Meadows Hospital and Health Care Centre
+Rimbey Hospital and Care Centre
+Rivers Health Centre
+Riverside Health Care Facilities Inc
+Riverside Health Complex
+Riverview Health Centre
+Roblin District Health Centre
+Rock Lake Health District Hospital
+Rocky Mountain House Health Centre
+Rockyview General Hospital
+Rosetown Health Centre
+Roseway Hospital
+Ross Memorial Hospital
+Rossburn District Health Centre
+Rosthern Hospital
+Royal Alexandra Hospital
+Royal Columbian Hospital
+Royal Inland Hospital
+Royal Jubilee Hospital
+Royal Ottawa Health Care Group
+Royal University Hospital
+Royal Victoria Regional Health Centre
+Rufus Guinchard Health Care Centre
+Runnymede Healthcare Centre
+Russell Health Centre
+Saanich Peninsula Hospital
+Sackville Memorial Hospital
+Sacred Heart Community Health Centre
+Sacred Heart Hospital
+Saint John Regional Hospital
+Santé Manitouwadge Health
+Saskatchewan Hospital
+Saskatoon City Hospital
+Sault Area Hospital
+Scarborough and Rouge Hospital
+Seaforth Community Hospital
+Selkirk Regional Health Centre
+Sensenbrenner Hospital
+Services de santé de Chapleau Health Services
+Seton (Jasper) Healthcare Centre
+Seven Oaks General Hospital
+Seven Regions Health Centre
+Shaunavon Hospital and Care Centre
+Shoal Lake-Strathclair Health Centre
+Shouldice Hospital
+Shuswap Lake General Hospital
+Sinai Health System
+Sioux Lookout Meno Ya Win Health Centre
+Sir Thomas Roddick Hospital
+Slave Lake Healthcare Centre
+Smoky Lake Healthcare Centre
+Snow Lake Health Centre
+Soldiers Memorial Hospital
+Souris Health Centre
+Souris Hospital
+South Bruce Grey Health Centre
+South Cumberland Community Care Centre
+South Health Campus
+South Hills Tertiary Psychiatric Rehabilitation Centre
+South Huron Hospital
+South Okanagan General Hospital
+South Shore Regional Hospital
+Southeast Integrated Care Centre - Moosomin
+Southlake Regional Health Centre
+Southwest Integrated Healthcare Facility
+Squamish General Hospital
+St Boniface General Hospital
+St Clare’s Mercy Hospital
+St Claude Health Centre
+St Francis Memorial Hospital
+St John Hospital
+St Joseph’s Care Group
+St Joseph’s Continuing Care Centre McConnell Avenue Site
+St Joseph’s General Hospital [Elliot Lake]
+St Joseph’s Health Care London
+St Joseph’s Health Centre
+St Joseph’s Health Centre Guelph
+St Joseph’s Health Centre Toronto
+St Joseph’s Healthcare Hamilton
+St Joseph’s Hospital
+St Joseph’s Integrated Care Centre
+St Martha’s Regional Hospital
+St Marys Memorial Hospital
+St Mary’s General Hospital
+St Mary’s Hospital [Sechelt]
+St Mary’s Memorial Hospital
+St Mary’s of the Lake Hospital
+St Michael’s Centre
+St Michael’s Hospital
+St Paul’s Hospital
+St Theresa General Hospital
+St Therese-St Paul Healthcare Centre
+St Thomas Elgin General Hospital
+Stan Cassidy Centre for Rehabilitation
+Stanton Territorial Hospital
+Ste Anne Hospital
+Ste Rose General Hospital
+Stella-Maris-de-Kent Hospital
+Stettler Hospital and Care Centre
+Stevenson Memorial Hospital
+Stonewall and District Health Centre
+Strait Richmond Hospital
+Stratford General Hospital
+Strathmore District Health Services
+Strathroy Middlesex General Hospital
+Stuart Lake Hospital
+Sturgeon Community Hospital
+Summerland Health Centre
+Sundre Hospital and Care Centre
+Sunnybrook Health Sciences Centre
+Surrey Memorial Hospital
+Sussex Health Centre
+Sutherland Harris Memorial Hospital
+Swan Hills Healthcare Centre
+Swan River Valley Hospital
+Taber Health Centre
+Temiskaming Hospital
+Teulon/Hunter Memorial Hospital
+The Centennial Centre for Mental Health and Brain Injury
+The Moncton Hospital
+The North Island Hospital Campbell River and District Campus
+The North Island Hospital Comox Valley Campus
+The Ottawa Hospital
+The Pas Health Complex
+The Richmond Hospital
+The Salvation Army Toronto Grace Health Centre
+Thompson General Hospital
+Three Hills Health Centre
+Thunder Bay Regional Health Sciences Centre
+Tiger Hills Health District
+Tillsonburg District Memorial Hospital
+Timmins and District Hospital
+Tisdale Hospital
+Tofield Health Centre
+Tofino General Hospital
+Tracadie-Sheila Hospital
+Tri-Lake Health District
+Trillium Health Partners
+Twin Oaks Memorial Hospital
+Two Hills Health Centre
+US Memorial Health Centre
+UBC Hospital
+Unity and District Health Centre
+University Health Network
+University Hospital of Northern British Columbia
+University of Alberta Hospital
+University of Ottawa Heart Institute
+Upper River Valley Hospital
+Valley Regional Hospital
+Valleyview Health Centre
+Vancouver General Hospital
+Vermilion Health Centre
+Vernon Jubilee Hospital
+Victoria County Memorial Hospital
+Victoria General Hospital
+Victoria General Hospital
+Victoria Hospital
+Victorian Community Health Centre of Kaslo
+Viking Health Centre
+Virden District Hospital
+Vita and District Health Centre
+Vulcan Community Health Centre
+Wabasca/Desmarais Healthcare Centre
+Wadena Hospital
+Wainwright Health Centre
+Wascana Rehabilitation Centre
+Waterford Hospital
+Watrous Hospital
+Watson Lake Community Hospital
+Wawanesa and District Memorial Health Centre
+Waypoint Centre for Mental Health Care
+West Coast General Hospital
+West Haldimand General Hospital
+West Nipissing General Hospital
+West Park Healthcare Centre
+West Parry Sound Health Centre
+WestView Health Centre
+Western Hospital
+Western Memorial Regional Hospital
+Westlock Healthcare Centre
+Wetaskiwin Hospital and Care Centre
+Weyburn General Hospital
+Whitecourt Healthcare Centre
+Whitehorse General Hospital
+William J Cadzow - Lac La Biche Healthcare Centre
+William Osler Health System
+Winchester District Memorial Hospital
+Windsor Regional Hospital
+Wingham and District Hospital
+Winnipegosis General Hospital
+Wolseley Memorial Hospital
+Woodstock General Hospital
+Wrinch Memorial Hospital
+Wynyard Integrated Hospital
+Yarmouth Regional Hospital
+Yorkton Regional Health Centre

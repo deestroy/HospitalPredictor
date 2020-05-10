@@ -116,6 +116,7 @@ def update_hospital_data():
             except:
                 return jsonify({'Error': 'DB testing failed'}), 400
 
+        db_query()
         return jsonify({'Success': True}), 200
     
     except:
@@ -127,13 +128,15 @@ def update_hospital_data():
 def get_hospital_data():
     global data
     if data is None: 
-        data = db_query()
+        db_query()
         print('Performed db query') # for testing
     return json.dumps(data)
 
 
 # retrieve data from db
 def db_query():
+    global data
+
     hospitals = db.collection('hospitals').stream()  
     cases = db.collection('canada_cases').stream()
     
@@ -144,7 +147,6 @@ def db_query():
         case = case.to_dict()['cases']
         for i in range(0, len(case), 2):
             data['canada_cases'].append([case[i], case[i+1]])
-    return data
 
 
 if __name__ == '__main__':

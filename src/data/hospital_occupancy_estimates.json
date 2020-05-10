@@ -1,0 +1,2902 @@
+{
+    "100 Mile District General Hospital": {
+        "beds_occupied": 21,
+        "occupancy": 100,
+        "total_beds": 21
+    },
+    "A M Guy Memorial Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 19,
+        "total_beds": 21
+    },
+    "Abbotsford Regional Hospital and Cancer Centre": {
+        "beds_occupied": 4,
+        "occupancy": 2,
+        "total_beds": 254
+    },
+    "Aberdeen Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 5,
+        "total_beds": 101
+    },
+    "Alberta Children\u2019s Hospital": {
+        "beds_occupied": 129,
+        "occupancy": 100,
+        "total_beds": 129
+    },
+    "Alberta Hospital Edmonton": {
+        "beds_occupied": 35,
+        "occupancy": 10,
+        "total_beds": 334
+    },
+    "Alexandra Hospital": {
+        "beds_occupied": 21,
+        "occupancy": 100,
+        "total_beds": 21
+    },
+    "Alexandra Marine and General Hospital": {
+        "beds_occupied": 8,
+        "occupancy": 36,
+        "total_beds": 22
+    },
+    "All Saints Springhill Hospital": {
+        "beds_occupied": 30,
+        "occupancy": 100,
+        "total_beds": 30
+    },
+    "Almonte General Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 19,
+        "total_beds": 21
+    },
+    "Altona Community Memorial": {
+        "beds_occupied": 10,
+        "occupancy": 45,
+        "total_beds": 22
+    },
+    "Annapolis Community Health Centre": {
+        "beds_occupied": 5,
+        "occupancy": 83,
+        "total_beds": 6
+    },
+    "Anson General Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 100,
+        "total_beds": 34
+    },
+    "Arborg and Districts Health Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Arcola Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 8,
+        "total_beds": 12
+    },
+    "Arnprior & District Memorial Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 5,
+        "total_beds": 44
+    },
+    "Arrow Lakes Hospital": {
+        "beds_occupied": 6,
+        "occupancy": 100,
+        "total_beds": 6
+    },
+    "Ashcroft Hospital and Community Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 4,
+        "total_beds": 25
+    },
+    "Assiniboia Union Hospital": {
+        "beds_occupied": 17,
+        "occupancy": 100,
+        "total_beds": 17
+    },
+    "Athabasca Healthcare Centre": {
+        "beds_occupied": 4,
+        "occupancy": 15,
+        "total_beds": 27
+    },
+    "Atikokan General Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 27,
+        "total_beds": 15
+    },
+    "BC Cancer Agency": {
+        "beds_occupied": 19,
+        "occupancy": 100,
+        "total_beds": 19
+    },
+    "Baie Verte Peninsula Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 14,
+        "total_beds": 7
+    },
+    "Balcarres Integrated Care Centre": {
+        "beds_occupied": 9,
+        "occupancy": 100,
+        "total_beds": 9
+    },
+    "Baldur Health Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Barrhead Healthcare Centre": {
+        "beds_occupied": 34,
+        "occupancy": 100,
+        "total_beds": 34
+    },
+    "Bassano Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 100,
+        "total_beds": 4
+    },
+    "Battlefords Union Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 23,
+        "total_beds": 69
+    },
+    "Baycrest": {
+        "beds_occupied": 210,
+        "occupancy": 80,
+        "total_beds": 262
+    },
+    "Bayview Memorial Health Centre": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Beausejour District Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 30
+    },
+    "Beaverlodge Municipal Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 22,
+        "total_beds": 18
+    },
+    "Bella Coola General Hospital": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Bentley Care Centre": {
+        "beds_occupied": 3,
+        "occupancy": 19,
+        "total_beds": 16
+    },
+    "Bethany Meadows": {
+        "beds_occupied": 10,
+        "occupancy": 15,
+        "total_beds": 65
+    },
+    "Bethesda Hospital": {
+        "beds_occupied": 51,
+        "occupancy": 96,
+        "total_beds": 53
+    },
+    "Big Country Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Biggar Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 13,
+        "total_beds": 15
+    },
+    "Bingham Memorial Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 8,
+        "total_beds": 37
+    },
+    "Birtle Health Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Blind River District Health Centre": {
+        "beds_occupied": 40,
+        "occupancy": 100,
+        "total_beds": 40
+    },
+    "Bluewater Health": {
+        "beds_occupied": 2,
+        "occupancy": 1,
+        "total_beds": 178
+    },
+    "Boissevain Health Centre District": {
+        "beds_occupied": 6,
+        "occupancy": 55,
+        "total_beds": 11
+    },
+    "Bonavista Peninsula Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 40,
+        "total_beds": 10
+    },
+    "Bonne Bay Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 12,
+        "total_beds": 8
+    },
+    "Boundary Hospital": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Boundary Trails Health Centre": {
+        "beds_occupied": 57,
+        "occupancy": 88,
+        "total_beds": 65
+    },
+    "Bow Island Health Centre": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Boyle Healthcare Centre": {
+        "beds_occupied": 3,
+        "occupancy": 15,
+        "total_beds": 20
+    },
+    "Brandon General Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 1,
+        "total_beds": 140
+    },
+    "Brant Community Healthcare System": {
+        "beds_occupied": 27,
+        "occupancy": 17,
+        "total_beds": 155
+    },
+    "Breton Health Centre": {
+        "beds_occupied": 16,
+        "occupancy": 70,
+        "total_beds": 23
+    },
+    "Broadview Union Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 6,
+        "total_beds": 16
+    },
+    "Brockville General Hospital": {
+        "beds_occupied": 77,
+        "occupancy": 100,
+        "total_beds": 77
+    },
+    "Brooks Health Centre": {
+        "beds_occupied": 37,
+        "occupancy": 100,
+        "total_beds": 37
+    },
+    "Bruy\u00e8re Continuing Care": {
+        "beds_occupied": 101,
+        "occupancy": 23,
+        "total_beds": 445
+    },
+    "Buchanan Memorial Community Health Centre": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Bulkley Valley District Hospital": {
+        "beds_occupied": 17,
+        "occupancy": 100,
+        "total_beds": 17
+    },
+    "Burin Peninsula Health Care Centre": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 35
+    },
+    "Burnaby Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 4,
+        "total_beds": 275
+    },
+    "Calder Health Centre": {
+        "beds_occupied": 3,
+        "occupancy": 100,
+        "total_beds": 3
+    },
+    "Cambridge Memorial Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 34,
+        "total_beds": 100
+    },
+    "Campbellford Memorial Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 45,
+        "total_beds": 11
+    },
+    "Campbellton Regional Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 100
+    },
+    "Canmore General Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 24,
+        "total_beds": 21
+    },
+    "Canora Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 100,
+        "total_beds": 16
+    },
+    "Cape Breton Healthcare Complex": {
+        "beds_occupied": 4,
+        "occupancy": 1,
+        "total_beds": 356
+    },
+    "Carberry Health Center": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Carbonear General Hospital": {
+        "beds_occupied": 6,
+        "occupancy": 8,
+        "total_beds": 72
+    },
+    "Cardston Health Centre": {
+        "beds_occupied": 19,
+        "occupancy": 100,
+        "total_beds": 19
+    },
+    "Cariboo Memorial Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 37
+    },
+    "Carleton Place and District Memorial Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 12,
+        "total_beds": 33
+    },
+    "Carman Memorial Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 20,
+        "total_beds": 25
+    },
+    "Casey House": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Centracare": {
+        "beds_occupied": 6,
+        "occupancy": 12,
+        "total_beds": 50
+    },
+    "Central Butte Regency Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 100,
+        "total_beds": 5
+    },
+    "Central Newfoundland Regional Health Centre": {
+        "beds_occupied": 42,
+        "occupancy": 43,
+        "total_beds": 97
+    },
+    "Central Peace Health Complex": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Centre for Addiction and Mental Health": {
+        "beds_occupied": 463,
+        "occupancy": 100,
+        "total_beds": 463
+    },
+    "Chaleur Regional Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 144
+    },
+    "Charles S Curtis Memorial Hospital": {
+        "beds_occupied": 42,
+        "occupancy": 100,
+        "total_beds": 42
+    },
+    "Charlotte County Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 7,
+        "total_beds": 29
+    },
+    "Chatham-Kent Health Alliance": {
+        "beds_occupied": 4,
+        "occupancy": 3,
+        "total_beds": 125
+    },
+    "Chemainus Health Care Centre": {
+        "beds_occupied": 8,
+        "occupancy": 11,
+        "total_beds": 75
+    },
+    "Chetwynd Hospital and Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 25,
+        "total_beds": 4
+    },
+    "Children\u2019s Hospital of Eastern Ontario": {
+        "beds_occupied": 101,
+        "occupancy": 93,
+        "total_beds": 109
+    },
+    "Children\u2019s and Women\u2019s Health Centre of British Columbia": {
+        "beds_occupied": 57,
+        "occupancy": 21,
+        "total_beds": 274
+    },
+    "Chilliwack General Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 2,
+        "total_beds": 127
+    },
+    "Chinook Regional Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 222
+    },
+    "Churchill Health Centre": {
+        "beds_occupied": 17,
+        "occupancy": 85,
+        "total_beds": 20
+    },
+    "Claresholm General Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 12,
+        "total_beds": 16
+    },
+    "Clinton Public Hospital": {
+        "beds_occupied": 8,
+        "occupancy": 40,
+        "total_beds": 20
+    },
+    "Colchester East Hants Health Centre": {
+        "beds_occupied": 92,
+        "occupancy": 100,
+        "total_beds": 92
+    },
+    "Cold Lake Healthcare Centre": {
+        "beds_occupied": 24,
+        "occupancy": 100,
+        "total_beds": 24
+    },
+    "Collingwood General and Marine Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 21,
+        "total_beds": 75
+    },
+    "Concordia Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 9,
+        "total_beds": 185
+    },
+    "Connaigre Peninsula Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 4,
+        "total_beds": 24
+    },
+    "Consort Hospital and Care Centre": {
+        "beds_occupied": 5,
+        "occupancy": 100,
+        "total_beds": 5
+    },
+    "Cormorant Island Community Health Centre": {
+        "beds_occupied": 2,
+        "occupancy": 50,
+        "total_beds": 4
+    },
+    "Cornwall Community Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 119
+    },
+    "Coronation Hospital and Care Centre": {
+        "beds_occupied": 2,
+        "occupancy": 20,
+        "total_beds": 10
+    },
+    "Cottage-Worthington Pavilion": {
+        "beds_occupied": 3,
+        "occupancy": 2,
+        "total_beds": 144
+    },
+    "Covenant Health Bonnyville Healthcare Centre": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 33
+    },
+    "Covenant Health Grey Nuns Community Hospital": {
+        "beds_occupied": 35,
+        "occupancy": 12,
+        "total_beds": 285
+    },
+    "Covenant Health Killam Health Care Centre": {
+        "beds_occupied": 1,
+        "occupancy": 20,
+        "total_beds": 5
+    },
+    "Covenant Health Mary Immaculate Care Centre": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 30
+    },
+    "Covenant Health Mineral Springs Hospital": {
+        "beds_occupied": 9,
+        "occupancy": 41,
+        "total_beds": 22
+    },
+    "Covenant Health Misericordia Community Hospital": {
+        "beds_occupied": 35,
+        "occupancy": 13,
+        "total_beds": 268
+    },
+    "Covenant Health Our Lady of the Rosary Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 40,
+        "total_beds": 5
+    },
+    "Covenant Health St Joseph\u2019s General Hospital": {
+        "beds_occupied": 25,
+        "occupancy": 100,
+        "total_beds": 25
+    },
+    "Covenant Health St Mary\u2019s Hospital Camrose": {
+        "beds_occupied": 10,
+        "occupancy": 13,
+        "total_beds": 76
+    },
+    "Covenant Health St Michael\u2019s Health Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 106
+    },
+    "Cowichan District Hospital": {
+        "beds_occupied": 101,
+        "occupancy": 81,
+        "total_beds": 125
+    },
+    "Creston Valley Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 56,
+        "total_beds": 18
+    },
+    "Cross Cancer Institute": {
+        "beds_occupied": 34,
+        "occupancy": 62,
+        "total_beds": 55
+    },
+    "Crowsnest Pass Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 6,
+        "total_beds": 16
+    },
+    "Cumberland Regional Health Care Centre": {
+        "beds_occupied": 2,
+        "occupancy": 3,
+        "total_beds": 72
+    },
+    "Cypress Regional Hospital": {
+        "beds_occupied": 7,
+        "occupancy": 9,
+        "total_beds": 79
+    },
+    "Dartmouth General Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 115
+    },
+    "Dauphin Regional Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 72
+    },
+    "Davidson Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 67,
+        "total_beds": 6
+    },
+    "Dawson City Community Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 67,
+        "total_beds": 6
+    },
+    "Dawson Creek and District Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 31
+    },
+    "Daysland Health Centre": {
+        "beds_occupied": 5,
+        "occupancy": 19,
+        "total_beds": 26
+    },
+    "DeSalaberry District Health Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Deep River and District Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 25,
+        "total_beds": 12
+    },
+    "Deer Lodge Centre": {
+        "beds_occupied": 16,
+        "occupancy": 8,
+        "total_beds": 196
+    },
+    "Deloraine Health Centre": {
+        "beds_occupied": 6,
+        "occupancy": 43,
+        "total_beds": 14
+    },
+    "Delta Hospital": {
+        "beds_occupied": 57,
+        "occupancy": 98,
+        "total_beds": 58
+    },
+    "Devon General Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Didsbury District Health Services": {
+        "beds_occupied": 2,
+        "occupancy": 12,
+        "total_beds": 16
+    },
+    "Digby General Hospital": {
+        "beds_occupied": 20,
+        "occupancy": 100,
+        "total_beds": 20
+    },
+    "Dr A A Wilkinson Memorial Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 100,
+        "total_beds": 4
+    },
+    "Dr Charles L LeGrow Health Centre": {
+        "beds_occupied": 2,
+        "occupancy": 5,
+        "total_beds": 44
+    },
+    "Dr Everett Chalmers Regional Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 1,
+        "total_beds": 314
+    },
+    "Dr F H Wigmore Regional Hospital": {
+        "beds_occupied": 73,
+        "occupancy": 100,
+        "total_beds": 73
+    },
+    "Dr G B Cross Memorial Hospital": {
+        "beds_occupied": 30,
+        "occupancy": 35,
+        "total_beds": 85
+    },
+    "Dr Georges-L -Dumont University Hospital Centre": {
+        "beds_occupied": 3,
+        "occupancy": 1,
+        "total_beds": 302
+    },
+    "Dr Hugh Twomey Health Centre": {
+        "beds_occupied": 41,
+        "occupancy": 80,
+        "total_beds": 51
+    },
+    "Dr Leonard A Miller Centre": {
+        "beds_occupied": 2,
+        "occupancy": 2,
+        "total_beds": 128
+    },
+    "Dr S Beckley Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 2,
+        "total_beds": 61
+    },
+    "Dr Walter Templeman Health Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 20
+    },
+    "Dr Y K Jeon Kittiwake Health Centre": {
+        "beds_occupied": 10,
+        "occupancy": 18,
+        "total_beds": 57
+    },
+    "Drayton Valley Hospital and Care Centre": {
+        "beds_occupied": 36,
+        "occupancy": 100,
+        "total_beds": 36
+    },
+    "Drumheller Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 33
+    },
+    "Dryden Regional Health Centre": {
+        "beds_occupied": 34,
+        "occupancy": 83,
+        "total_beds": 41
+    },
+    "E M Crowe Memorial Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 23,
+        "total_beds": 13
+    },
+    "Eagle Ridge Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 7,
+        "total_beds": 147
+    },
+    "East Kootenay Regional Hospital": {
+        "beds_occupied": 51,
+        "occupancy": 72,
+        "total_beds": 71
+    },
+    "Eastern Memorial Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 33,
+        "total_beds": 6
+    },
+    "Eastern Shore Memorial Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 20,
+        "total_beds": 5
+    },
+    "Edmundston Regional Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 93
+    },
+    "Edson Healthcare Centre": {
+        "beds_occupied": 8,
+        "occupancy": 36,
+        "total_beds": 22
+    },
+    "Elk Point Healthcare Centre": {
+        "beds_occupied": 1,
+        "occupancy": 8,
+        "total_beds": 12
+    },
+    "Elk Valley Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 5,
+        "total_beds": 21
+    },
+    "Emerson Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 75,
+        "total_beds": 4
+    },
+    "Emmanuel Care - St Anthony\u2019s Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 5,
+        "total_beds": 22
+    },
+    "Emmanuel Care - St Joseph\u2019s Hospital Estevan": {
+        "beds_occupied": 3,
+        "occupancy": 6,
+        "total_beds": 53
+    },
+    "Emmanuel Care - St Paul\u2019s Hospital": {
+        "beds_occupied": 57,
+        "occupancy": 25,
+        "total_beds": 228
+    },
+    "Emmanuel Care - St Peter\u2019s Hospital Melville": {
+        "beds_occupied": 5,
+        "occupancy": 17,
+        "total_beds": 30
+    },
+    "Enfant-J\u00e9sus RHSJ \u2020 Hospital": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Englehart and District Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 29
+    },
+    "Erickson District Health Centre": {
+        "beds_occupied": 9,
+        "occupancy": 100,
+        "total_beds": 9
+    },
+    "Erie Shores HealthCare": {
+        "beds_occupied": 8,
+        "occupancy": 17,
+        "total_beds": 46
+    },
+    "Espanola General Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 100,
+        "total_beds": 15
+    },
+    "Fairview Health Complex": {
+        "beds_occupied": 25,
+        "occupancy": 100,
+        "total_beds": 25
+    },
+    "Fishermen\u2019s Memorial Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 6,
+        "total_beds": 18
+    },
+    "Fogo Island Health Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Foothills Medical Centre": {
+        "beds_occupied": 939,
+        "occupancy": 100,
+        "total_beds": 939
+    },
+    "Forensic Psychiatric Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 6,
+        "total_beds": 181
+    },
+    "Fort Macleod Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 100,
+        "total_beds": 4
+    },
+    "Fort Nelson General Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Fort Saskatchewan Community Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 94,
+        "total_beds": 36
+    },
+    "Fort Smith Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 17,
+        "total_beds": 6
+    },
+    "Fort St John Hospital and Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 2,
+        "total_beds": 45
+    },
+    "Four Counties Health Services": {
+        "beds_occupied": 4,
+        "occupancy": 33,
+        "total_beds": 12
+    },
+    "Fox Creek Healthcare Centre": {
+        "beds_occupied": 4,
+        "occupancy": 100,
+        "total_beds": 4
+    },
+    "Fraser Canyon Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 10,
+        "total_beds": 10
+    },
+    "G F Strong Rehabilitation Centre": {
+        "beds_occupied": 57,
+        "occupancy": 84,
+        "total_beds": 68
+    },
+    "G R Baker Memorial Hospital": {
+        "beds_occupied": 36,
+        "occupancy": 100,
+        "total_beds": 36
+    },
+    "George Pearson Centre": {
+        "beds_occupied": 57,
+        "occupancy": 50,
+        "total_beds": 114
+    },
+    "Georgian Bay General Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 23,
+        "total_beds": 69
+    },
+    "Geraldton District Hospital": {
+        "beds_occupied": 18,
+        "occupancy": 100,
+        "total_beds": 18
+    },
+    "Gillam Hospital Inc": {
+        "beds_occupied": 1,
+        "occupancy": 10,
+        "total_beds": 10
+    },
+    "Gimli Community Health Centre": {
+        "beds_occupied": 26,
+        "occupancy": 100,
+        "total_beds": 26
+    },
+    "Glenboro Health Centre": {
+        "beds_occupied": 11,
+        "occupancy": 100,
+        "total_beds": 11
+    },
+    "Glenrose Rehabilitation Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 14,
+        "total_beds": 244
+    },
+    "Golden and District General Hospital": {
+        "beds_occupied": 9,
+        "occupancy": 100,
+        "total_beds": 9
+    },
+    "Grace Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 8,
+        "total_beds": 209
+    },
+    "Grand Falls General Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 5,
+        "total_beds": 20
+    },
+    "Grand Manan Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 38,
+        "total_beds": 8
+    },
+    "Grand River Hospital": {
+        "beds_occupied": 130,
+        "occupancy": 52,
+        "total_beds": 249
+    },
+    "Grande Cache Community Health Complex": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Grandview District Hospital": {
+        "beds_occupied": 18,
+        "occupancy": 100,
+        "total_beds": 18
+    },
+    "Green Bay Health Centre": {
+        "beds_occupied": 9,
+        "occupancy": 100,
+        "total_beds": 9
+    },
+    "Grey Bruce Health Services": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 156
+    },
+    "Groves Memorial Community Hospital": {
+        "beds_occupied": 30,
+        "occupancy": 100,
+        "total_beds": 30
+    },
+    "Guelph General Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 18,
+        "total_beds": 189
+    },
+    "Guysborough Memorial Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 20,
+        "total_beds": 10
+    },
+    "Haida Gwaii Hospital and Health Centre": {
+        "beds_occupied": 5,
+        "occupancy": 100,
+        "total_beds": 5
+    },
+    "Haldimand War Memorial Hospital": {
+        "beds_occupied": 27,
+        "occupancy": 100,
+        "total_beds": 27
+    },
+    "Haliburton Highlands Health Services": {
+        "beds_occupied": 15,
+        "occupancy": 100,
+        "total_beds": 15
+    },
+    "Halton Healthcare Services": {
+        "beds_occupied": 376,
+        "occupancy": 98,
+        "total_beds": 382
+    },
+    "Hamilton Health Sciences": {
+        "beds_occupied": 59,
+        "occupancy": 7,
+        "total_beds": 835
+    },
+    "Hamiota District Health Centre": {
+        "beds_occupied": 20,
+        "occupancy": 100,
+        "total_beds": 20
+    },
+    "Hanna Health Centre": {
+        "beds_occupied": 17,
+        "occupancy": 100,
+        "total_beds": 17
+    },
+    "Hanover and District Hospital": {
+        "beds_occupied": 24,
+        "occupancy": 86,
+        "total_beds": 28
+    },
+    "Hants Community Hospital": {
+        "beds_occupied": 38,
+        "occupancy": 100,
+        "total_beds": 38
+    },
+    "Hardisty Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 20,
+        "total_beds": 5
+    },
+    "Headwaters Health Care Centre": {
+        "beds_occupied": 57,
+        "occupancy": 100,
+        "total_beds": 57
+    },
+    "Health Sciences Centre Winnipeg": {
+        "beds_occupied": 16,
+        "occupancy": 2,
+        "total_beds": 654
+    },
+    "Health Sciences Centre-St John\u2019s": {
+        "beds_occupied": 2,
+        "occupancy": 1,
+        "total_beds": 348
+    },
+    "Health Sciences North Horizon Sant\u00e9-Nord": {
+        "beds_occupied": 5,
+        "occupancy": 1,
+        "total_beds": 445
+    },
+    "Herbert and District Integrated Health Facility": {
+        "beds_occupied": 8,
+        "occupancy": 100,
+        "total_beds": 8
+    },
+    "High Prairie Health Complex": {
+        "beds_occupied": 10,
+        "occupancy": 40,
+        "total_beds": 25
+    },
+    "High River General Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 4,
+        "total_beds": 27
+    },
+    "Hillsborough Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 23,
+        "total_beds": 69
+    },
+    "Hillside Centre": {
+        "beds_occupied": 1,
+        "occupancy": 2,
+        "total_beds": 47
+    },
+    "Hinton Healthcare Centre": {
+        "beds_occupied": 7,
+        "occupancy": 30,
+        "total_beds": 23
+    },
+    "Holland Bloorview Kids Rehabilitation Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 6,
+        "total_beds": 62
+    },
+    "Holy Family Hospital": {
+        "beds_occupied": 57,
+        "occupancy": 28,
+        "total_beds": 207
+    },
+    "Homewood Health Centre Inc": {
+        "beds_occupied": 34,
+        "occupancy": 11,
+        "total_beds": 298
+    },
+    "Hornepayne Community Hospital": {
+        "beds_occupied": 6,
+        "occupancy": 100,
+        "total_beds": 6
+    },
+    "Hospital for Sick Children": {
+        "beds_occupied": 250,
+        "occupancy": 100,
+        "total_beds": 250
+    },
+    "Hotel Dieu Shaver Health and Rehabilitation Centre": {
+        "beds_occupied": 122,
+        "occupancy": 91,
+        "total_beds": 134
+    },
+    "Hotel-Dieu of St Joseph": {
+        "beds_occupied": 1,
+        "occupancy": 5,
+        "total_beds": 22
+    },
+    "Hudson Bay Health Care Facility": {
+        "beds_occupied": 5,
+        "occupancy": 100,
+        "total_beds": 5
+    },
+    "Humber River Hospital": {
+        "beds_occupied": 210,
+        "occupancy": 39,
+        "total_beds": 535
+    },
+    "Humboldt District Hospital": {
+        "beds_occupied": 38,
+        "occupancy": 100,
+        "total_beds": 38
+    },
+    "H\u00f4pital Glengarry Memorial Hospital": {
+        "beds_occupied": 22,
+        "occupancy": 100,
+        "total_beds": 22
+    },
+    "H\u00f4pital Montfort": {
+        "beds_occupied": 100,
+        "occupancy": 49,
+        "total_beds": 206
+    },
+    "H\u00f4pital Notre-Dame Hospital": {
+        "beds_occupied": 23,
+        "occupancy": 100,
+        "total_beds": 23
+    },
+    "H\u00f4pital de Mattawa Hospital": {
+        "beds_occupied": 19,
+        "occupancy": 100,
+        "total_beds": 19
+    },
+    "H\u00f4pital de Smooth Rock Falls Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 29,
+        "total_beds": 17
+    },
+    "H\u00f4pital g\u00e9n\u00e9ral de Hawkesbury & District General Hospital": {
+        "beds_occupied": 53,
+        "occupancy": 100,
+        "total_beds": 53
+    },
+    "H\u00f4pital priv\u00e9 Beechwood Private Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 94,
+        "total_beds": 17
+    },
+    "H\u00f4tel-Dieu Grace Healthcare": {
+        "beds_occupied": 100,
+        "occupancy": 39,
+        "total_beds": 259
+    },
+    "H\u00f4tel-Dieu Saint-Joseph de Saint-Quentin": {
+        "beds_occupied": 1,
+        "occupancy": 17,
+        "total_beds": 6
+    },
+    "IWK Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 115
+    },
+    "Indian Head Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 67,
+        "total_beds": 15
+    },
+    "Innisfail Health Centre": {
+        "beds_occupied": 28,
+        "occupancy": 100,
+        "total_beds": 28
+    },
+    "Inuvik Regional Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 2,
+        "total_beds": 51
+    },
+    "Invermere and District Hospital": {
+        "beds_occupied": 9,
+        "occupancy": 100,
+        "total_beds": 9
+    },
+    "Inverness Consolidated Memorial Hospital": {
+        "beds_occupied": 33,
+        "occupancy": 100,
+        "total_beds": 33
+    },
+    "James Paton Memorial Regional Health Centre": {
+        "beds_occupied": 7,
+        "occupancy": 8,
+        "total_beds": 85
+    },
+    "Janeway Children\u2019s Health and Rehabilitation Centre": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 79
+    },
+    "Joseph Brant Hospital": {
+        "beds_occupied": 59,
+        "occupancy": 33,
+        "total_beds": 178
+    },
+    "Juan de Fuca Hospitals": {
+        "beds_occupied": 1,
+        "occupancy": 0,
+        "total_beds": 487
+    },
+    "Kamsack Hospital and Nursing Home": {
+        "beds_occupied": 2,
+        "occupancy": 10,
+        "total_beds": 20
+    },
+    "Kelowna General Hospital": {
+        "beds_occupied": 8,
+        "occupancy": 2,
+        "total_beds": 343
+    },
+    "Kelvington Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 14,
+        "total_beds": 7
+    },
+    "Kemptville District Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 17,
+        "total_beds": 24
+    },
+    "Kerrobert Integrated Health Centre": {
+        "beds_occupied": 5,
+        "occupancy": 62,
+        "total_beds": 8
+    },
+    "Kindersley and District Health Centre": {
+        "beds_occupied": 2,
+        "occupancy": 8,
+        "total_beds": 26
+    },
+    "Kings County Memorial Hospital": {
+        "beds_occupied": 9,
+        "occupancy": 30,
+        "total_beds": 30
+    },
+    "Kingston Health Sciences Centre": {
+        "beds_occupied": 7,
+        "occupancy": 2,
+        "total_beds": 428
+    },
+    "Kipling Integrated Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 8,
+        "total_beds": 12
+    },
+    "Kirkland and District Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 38
+    },
+    "Kitimat Hospital and Health Centre": {
+        "beds_occupied": 6,
+        "occupancy": 35,
+        "total_beds": 17
+    },
+    "Kootenay Boundary Regional Hospital": {
+        "beds_occupied": 7,
+        "occupancy": 11,
+        "total_beds": 66
+    },
+    "Kootenay Lake Hospital": {
+        "beds_occupied": 33,
+        "occupancy": 100,
+        "total_beds": 33
+    },
+    "La Loche Health Centre": {
+        "beds_occupied": 6,
+        "occupancy": 32,
+        "total_beds": 19
+    },
+    "La Ronge Health Centre": {
+        "beds_occupied": 24,
+        "occupancy": 100,
+        "total_beds": 24
+    },
+    "Labrador Health Centre": {
+        "beds_occupied": 24,
+        "occupancy": 100,
+        "total_beds": 24
+    },
+    "Labrador West Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 7,
+        "total_beds": 15
+    },
+    "Lacombe Hospital and Care Centre": {
+        "beds_occupied": 3,
+        "occupancy": 10,
+        "total_beds": 31
+    },
+    "Lady Dunn Health Centre": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Lady Minto Gulf Islands Hospital": {
+        "beds_occupied": 22,
+        "occupancy": 100,
+        "total_beds": 22
+    },
+    "Lady Minto Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 15,
+        "total_beds": 33
+    },
+    "Lake of the Woods District Hospital": {
+        "beds_occupied": 22,
+        "occupancy": 40,
+        "total_beds": 55
+    },
+    "Lakeridge Health": {
+        "beds_occupied": 34,
+        "occupancy": 6,
+        "total_beds": 539
+    },
+    "Lakes District Hospital and Health Centre": {
+        "beds_occupied": 5,
+        "occupancy": 56,
+        "total_beds": 9
+    },
+    "Lakeshore Health Centre": {
+        "beds_occupied": 3,
+        "occupancy": 21,
+        "total_beds": 14
+    },
+    "Lamont Health Care Centre": {
+        "beds_occupied": 15,
+        "occupancy": 100,
+        "total_beds": 15
+    },
+    "Lam\u00e8que Hospital and Community Health Centre": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Langley Memorial Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 2,
+        "total_beds": 184
+    },
+    "Lanigan Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 40,
+        "total_beds": 10
+    },
+    "Leader Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Leduc Community Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 46,
+        "total_beds": 74
+    },
+    "Lennox and Addington County General Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 30
+    },
+    "Lillian Fraser Memorial Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Lillooet Hospital and Health Centre": {
+        "beds_occupied": 8,
+        "occupancy": 100,
+        "total_beds": 8
+    },
+    "Lions Gate Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 2,
+        "total_beds": 552
+    },
+    "Listowel Memorial Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 4,
+        "total_beds": 24
+    },
+    "Lloydminster Hospital": {
+        "beds_occupied": 54,
+        "occupancy": 100,
+        "total_beds": 54
+    },
+    "London Health Sciences Centre": {
+        "beds_occupied": 94,
+        "occupancy": 10,
+        "total_beds": 917
+    },
+    "Lorne Memorial Hospital": {
+        "beds_occupied": 18,
+        "occupancy": 100,
+        "total_beds": 18
+    },
+    "Louis Brier Home and Hospital": {
+        "beds_occupied": 57,
+        "occupancy": 26,
+        "total_beds": 218
+    },
+    "Lynn Lake Hospital": {
+        "beds_occupied": 19,
+        "occupancy": 100,
+        "total_beds": 19
+    },
+    "MacGregor Health Centre": {
+        "beds_occupied": 6,
+        "occupancy": 100,
+        "total_beds": 6
+    },
+    "Mackenzie Health": {
+        "beds_occupied": 210,
+        "occupancy": 84,
+        "total_beds": 251
+    },
+    "Mackenzie and District Hospital and Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 100,
+        "total_beds": 4
+    },
+    "Maidstone Health Complex": {
+        "beds_occupied": 24,
+        "occupancy": 86,
+        "total_beds": 28
+    },
+    "Manitoba Adolescent Treatment Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Manitoulin Health Centre": {
+        "beds_occupied": 5,
+        "occupancy": 16,
+        "total_beds": 32
+    },
+    "Manning Community Health Centre": {
+        "beds_occupied": 11,
+        "occupancy": 100,
+        "total_beds": 11
+    },
+    "Mannville Care Centre": {
+        "beds_occupied": 7,
+        "occupancy": 30,
+        "total_beds": 23
+    },
+    "Markham Stouffville Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 2,
+        "total_beds": 208
+    },
+    "Mayerthorpe Healthcare Centre": {
+        "beds_occupied": 25,
+        "occupancy": 100,
+        "total_beds": 25
+    },
+    "McBride and District Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 100,
+        "total_beds": 3
+    },
+    "McCreary Alonsa Health Centre": {
+        "beds_occupied": 13,
+        "occupancy": 100,
+        "total_beds": 13
+    },
+    "Medicine Hat Regional Hospital": {
+        "beds_occupied": 163,
+        "occupancy": 100,
+        "total_beds": 163
+    },
+    "Melfort Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 4,
+        "total_beds": 24
+    },
+    "Melita Health Centre": {
+        "beds_occupied": 11,
+        "occupancy": 100,
+        "total_beds": 11
+    },
+    "Menno Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 2,
+        "total_beds": 150
+    },
+    "Michael Garron Hospital": {
+        "beds_occupied": 236,
+        "occupancy": 100,
+        "total_beds": 236
+    },
+    "Milk River Health Centre": {
+        "beds_occupied": 24,
+        "occupancy": 100,
+        "total_beds": 24
+    },
+    "Mills Memorial Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 14,
+        "total_beds": 37
+    },
+    "Minnedosa District Hospital": {
+        "beds_occupied": 24,
+        "occupancy": 89,
+        "total_beds": 27
+    },
+    "Miramichi Regional Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 89
+    },
+    "Misericordia Health Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Mission Memorial Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 7,
+        "total_beds": 45
+    },
+    "Morris General Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 43,
+        "total_beds": 23
+    },
+    "Mount Saint Joseph Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 5,
+        "total_beds": 201
+    },
+    "Mount St Mary Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 0,
+        "total_beds": 200
+    },
+    "Muskoka Algonquin Healthcare": {
+        "beds_occupied": 80,
+        "occupancy": 100,
+        "total_beds": 80
+    },
+    "Musquodoboit Valley Memorial Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 67,
+        "total_beds": 6
+    },
+    "Nanaimo Regional General Hospital": {
+        "beds_occupied": 92,
+        "occupancy": 30,
+        "total_beds": 308
+    },
+    "Neepawa Health Centre": {
+        "beds_occupied": 35,
+        "occupancy": 100,
+        "total_beds": 35
+    },
+    "Niagara Health System": {
+        "beds_occupied": 122,
+        "occupancy": 25,
+        "total_beds": 495
+    },
+    "Nicola Valley Health Centre": {
+        "beds_occupied": 7,
+        "occupancy": 88,
+        "total_beds": 8
+    },
+    "Nipigon District Memorial Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 8
+    },
+    "Norfolk General Hospital": {
+        "beds_occupied": 41,
+        "occupancy": 57,
+        "total_beds": 72
+    },
+    "North Bay Regional Health Centre": {
+        "beds_occupied": 142,
+        "occupancy": 100,
+        "total_beds": 142
+    },
+    "North Cumberland Memorial Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 100,
+        "total_beds": 4
+    },
+    "North York General Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 1,
+        "total_beds": 360
+    },
+    "North of Superior Healthcare Group": {
+        "beds_occupied": 19,
+        "occupancy": 100,
+        "total_beds": 19
+    },
+    "Northern Haida Gwaii Hospital and Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 100,
+        "total_beds": 4
+    },
+    "Northern Lights Regional Health Centre": {
+        "beds_occupied": 16,
+        "occupancy": 17,
+        "total_beds": 95
+    },
+    "Northumberland Hills Hospital": {
+        "beds_occupied": 58,
+        "occupancy": 100,
+        "total_beds": 58
+    },
+    "Northwest Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 19,
+        "total_beds": 21
+    },
+    "Northwest Health Facility": {
+        "beds_occupied": 25,
+        "occupancy": 100,
+        "total_beds": 25
+    },
+    "Notre Dame Bay Memorial Health Centre": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Notre Dame Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Nova Scotia Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 98
+    },
+    "Oilfields General Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 13,
+        "total_beds": 15
+    },
+    "Olds Hospital and Care Centre": {
+        "beds_occupied": 33,
+        "occupancy": 100,
+        "total_beds": 33
+    },
+    "Ontario Shores Centre for Mental Health Sciences": {
+        "beds_occupied": 34,
+        "occupancy": 10,
+        "total_beds": 328
+    },
+    "Orillia Soldiers\u2019 Memorial Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 3,
+        "total_beds": 103
+    },
+    "Oromocto Public Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 14,
+        "total_beds": 28
+    },
+    "Outlook and District Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 31,
+        "total_beds": 13
+    },
+    "Overlander Extended Care Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 189
+    },
+    "O\u2019Leary Community Hospital": {
+        "beds_occupied": 13,
+        "occupancy": 100,
+        "total_beds": 13
+    },
+    "Parkland Integrated Health Centre": {
+        "beds_occupied": 10,
+        "occupancy": 50,
+        "total_beds": 20
+    },
+    "Pasqua Hospital": {
+        "beds_occupied": 17,
+        "occupancy": 7,
+        "total_beds": 249
+    },
+    "Peace Arch Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 2,
+        "total_beds": 147
+    },
+    "Peace River Community Health Centre": {
+        "beds_occupied": 31,
+        "occupancy": 100,
+        "total_beds": 31
+    },
+    "Pembina Manitou Health Centre": {
+        "beds_occupied": 8,
+        "occupancy": 100,
+        "total_beds": 8
+    },
+    "Pembroke Regional Hospital Inc": {
+        "beds_occupied": 137,
+        "occupancy": 100,
+        "total_beds": 137
+    },
+    "Penticton Regional Hospital": {
+        "beds_occupied": 30,
+        "occupancy": 24,
+        "total_beds": 124
+    },
+    "Perth and Smiths Falls District Hospital": {
+        "beds_occupied": 86,
+        "occupancy": 100,
+        "total_beds": 86
+    },
+    "Peter Lougheed Centre": {
+        "beds_occupied": 387,
+        "occupancy": 100,
+        "total_beds": 387
+    },
+    "Peterborough Regional Health Centre": {
+        "beds_occupied": 10,
+        "occupancy": 3,
+        "total_beds": 306
+    },
+    "Pinawa Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 6,
+        "total_beds": 17
+    },
+    "Pincher Creek Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 5,
+        "total_beds": 19
+    },
+    "Pine Falls Health Complex": {
+        "beds_occupied": 1,
+        "occupancy": 4,
+        "total_beds": 23
+    },
+    "Placentia Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 10,
+        "total_beds": 10
+    },
+    "Pleasant Valley Health Centre": {
+        "beds_occupied": 40,
+        "occupancy": 100,
+        "total_beds": 40
+    },
+    "Ponoka Hospital and Care Centre": {
+        "beds_occupied": 2,
+        "occupancy": 7,
+        "total_beds": 29
+    },
+    "Porcupine Carragana Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 14,
+        "total_beds": 7
+    },
+    "Port Hardy Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 12
+    },
+    "Port McNeill and District Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 20,
+        "total_beds": 10
+    },
+    "Portage District General Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 7,
+        "total_beds": 58
+    },
+    "Powell River General Hospital": {
+        "beds_occupied": 108,
+        "occupancy": 100,
+        "total_beds": 108
+    },
+    "Preeceville and District Health Centre": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Prince County Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 2,
+        "total_beds": 86
+    },
+    "Prince Rupert Regional Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 28
+    },
+    "Princeton General Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 17,
+        "total_beds": 6
+    },
+    "Providence Healthcare": {
+        "beds_occupied": 245,
+        "occupancy": 100,
+        "total_beds": 245
+    },
+    "Provost Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 27,
+        "total_beds": 15
+    },
+    "Queen Alexandra Centre for Children\u2019s Health": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 14
+    },
+    "Queen Elizabeth Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 8,
+        "total_beds": 189
+    },
+    "Queen Elizabeth II Health Sciences Centre": {
+        "beds_occupied": 1,
+        "occupancy": 0,
+        "total_beds": 661
+    },
+    "Queen Elizabeth II Hospital": {
+        "beds_occupied": 41,
+        "occupancy": 28,
+        "total_beds": 147
+    },
+    "Queen Victoria Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 100,
+        "total_beds": 16
+    },
+    "Queens General Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 22
+    },
+    "Queensway Carleton Hospital": {
+        "beds_occupied": 100,
+        "occupancy": 45,
+        "total_beds": 223
+    },
+    "Queen\u2019s Park & Fellburn Care Centres": {
+        "beds_occupied": 10,
+        "occupancy": 3,
+        "total_beds": 350
+    },
+    "Quinte Health Care": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 171
+    },
+    "R W Large Memorial Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 7,
+        "total_beds": 15
+    },
+    "Raymond Health Centre": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Red Deer Regional Hospital Centre": {
+        "beds_occupied": 300,
+        "occupancy": 100,
+        "total_beds": 300
+    },
+    "Red Lake Margaret Cochenour Memorial Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 6,
+        "total_beds": 17
+    },
+    "Redvers Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 20,
+        "total_beds": 5
+    },
+    "Redwater Health Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Regina General Hospital": {
+        "beds_occupied": 17,
+        "occupancy": 4,
+        "total_beds": 408
+    },
+    "Renfrew Victoria Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 6,
+        "total_beds": 31
+    },
+    "Restigouche Hospital Centre": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 140
+    },
+    "Ridge Meadows Hospital and Health Care Centre": {
+        "beds_occupied": 10,
+        "occupancy": 8,
+        "total_beds": 126
+    },
+    "Rimbey Hospital and Care Centre": {
+        "beds_occupied": 16,
+        "occupancy": 70,
+        "total_beds": 23
+    },
+    "Rivers Health Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 1
+    },
+    "Riverside Health Care Facilities Inc": {
+        "beds_occupied": 4,
+        "occupancy": 4,
+        "total_beds": 112
+    },
+    "Riverside Health Complex": {
+        "beds_occupied": 11,
+        "occupancy": 100,
+        "total_beds": 11
+    },
+    "Riverview Health Centre": {
+        "beds_occupied": 16,
+        "occupancy": 10,
+        "total_beds": 159
+    },
+    "Roblin District Health Centre": {
+        "beds_occupied": 25,
+        "occupancy": 100,
+        "total_beds": 25
+    },
+    "Rock Lake Health District Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 100,
+        "total_beds": 16
+    },
+    "Rocky Mountain House Health Centre": {
+        "beds_occupied": 3,
+        "occupancy": 10,
+        "total_beds": 31
+    },
+    "Rockyview General Hospital": {
+        "beds_occupied": 473,
+        "occupancy": 100,
+        "total_beds": 473
+    },
+    "Rosetown Health Centre": {
+        "beds_occupied": 2,
+        "occupancy": 10,
+        "total_beds": 21
+    },
+    "Roseway Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 19
+    },
+    "Ross Memorial Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 16,
+        "total_beds": 98
+    },
+    "Rossburn District Health Centre": {
+        "beds_occupied": 9,
+        "occupancy": 100,
+        "total_beds": 9
+    },
+    "Rosthern Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 21,
+        "total_beds": 19
+    },
+    "Royal Alexandra Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 4,
+        "total_beds": 782
+    },
+    "Royal Columbian Hospital": {
+        "beds_occupied": 9,
+        "occupancy": 2,
+        "total_beds": 424
+    },
+    "Royal Inland Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 0,
+        "total_beds": 214
+    },
+    "Royal Jubilee Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 370
+    },
+    "Royal Ottawa Health Care Group": {
+        "beds_occupied": 100,
+        "occupancy": 39,
+        "total_beds": 258
+    },
+    "Royal University Hospital": {
+        "beds_occupied": 75,
+        "occupancy": 23,
+        "total_beds": 322
+    },
+    "Royal Victoria Regional Health Centre": {
+        "beds_occupied": 16,
+        "occupancy": 6,
+        "total_beds": 256
+    },
+    "Runnymede Healthcare Centre": {
+        "beds_occupied": 206,
+        "occupancy": 100,
+        "total_beds": 206
+    },
+    "Russell Health Centre": {
+        "beds_occupied": 30,
+        "occupancy": 100,
+        "total_beds": 30
+    },
+    "Saanich Peninsula Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 5,
+        "total_beds": 59
+    },
+    "Sackville Memorial Hospital": {
+        "beds_occupied": 21,
+        "occupancy": 100,
+        "total_beds": 21
+    },
+    "Sacred Heart Community Health Centre": {
+        "beds_occupied": 20,
+        "occupancy": 100,
+        "total_beds": 20
+    },
+    "Sacred Heart Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 10,
+        "total_beds": 10
+    },
+    "Saint John Regional Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 1,
+        "total_beds": 392
+    },
+    "Sant\u00e9 Manitouwadge Health": {
+        "beds_occupied": 7,
+        "occupancy": 78,
+        "total_beds": 9
+    },
+    "Saskatchewan Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 8,
+        "total_beds": 193
+    },
+    "Saskatoon City Hospital": {
+        "beds_occupied": 75,
+        "occupancy": 82,
+        "total_beds": 92
+    },
+    "Sault Area Hospital": {
+        "beds_occupied": 133,
+        "occupancy": 100,
+        "total_beds": 133
+    },
+    "Scarborough and Rouge Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 1,
+        "total_beds": 743
+    },
+    "Seaforth Community Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 20
+    },
+    "Selkirk Regional Health Centre": {
+        "beds_occupied": 6,
+        "occupancy": 9,
+        "total_beds": 65
+    },
+    "Sensenbrenner Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 33
+    },
+    "Services de sant\u00e9 de Chapleau Health Services": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Seton (Jasper) Healthcare Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 11
+    },
+    "Seven Oaks General Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 8,
+        "total_beds": 194
+    },
+    "Seven Regions Health Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Shaunavon Hospital and Care Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 10
+    },
+    "Shoal Lake-Strathclair Health Centre": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Shouldice Hospital": {
+        "beds_occupied": 85,
+        "occupancy": 100,
+        "total_beds": 85
+    },
+    "Shuswap Lake General Hospital": {
+        "beds_occupied": 48,
+        "occupancy": 100,
+        "total_beds": 48
+    },
+    "Sinai Health System": {
+        "beds_occupied": 283,
+        "occupancy": 100,
+        "total_beds": 283
+    },
+    "Sioux Lookout Meno Ya Win Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 7,
+        "total_beds": 60
+    },
+    "Sir Thomas Roddick Hospital": {
+        "beds_occupied": 44,
+        "occupancy": 100,
+        "total_beds": 44
+    },
+    "Slave Lake Healthcare Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 24
+    },
+    "Smoky Lake Healthcare Centre": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Snow Lake Health Centre": {
+        "beds_occupied": 3,
+        "occupancy": 75,
+        "total_beds": 4
+    },
+    "Soldiers Memorial Hospital": {
+        "beds_occupied": 8,
+        "occupancy": 21,
+        "total_beds": 39
+    },
+    "Souris Health Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 25
+    },
+    "Souris Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 24,
+        "total_beds": 17
+    },
+    "South Bruce Grey Health Centre": {
+        "beds_occupied": 23,
+        "occupancy": 30,
+        "total_beds": 77
+    },
+    "South Cumberland Community Care Centre": {
+        "beds_occupied": 2,
+        "occupancy": 100,
+        "total_beds": 2
+    },
+    "South Health Campus": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 216
+    },
+    "South Hills Tertiary Psychiatric Rehabilitation Centre": {
+        "beds_occupied": 1,
+        "occupancy": 2,
+        "total_beds": 40
+    },
+    "South Huron Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 19
+    },
+    "South Okanagan General Hospital": {
+        "beds_occupied": 18,
+        "occupancy": 100,
+        "total_beds": 18
+    },
+    "South Shore Regional Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 70
+    },
+    "Southeast Integrated Care Centre - Moosomin": {
+        "beds_occupied": 6,
+        "occupancy": 22,
+        "total_beds": 27
+    },
+    "Southlake Regional Health Centre": {
+        "beds_occupied": 17,
+        "occupancy": 6,
+        "total_beds": 296
+    },
+    "Southwest Integrated Healthcare Facility": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Squamish General Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 24,
+        "total_beds": 21
+    },
+    "St Boniface General Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 3,
+        "total_beds": 499
+    },
+    "St Clare\u2019s Mercy Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 192
+    },
+    "St Claude Health Centre": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "St Francis Memorial Hospital": {
+        "beds_occupied": 20,
+        "occupancy": 100,
+        "total_beds": 20
+    },
+    "St John Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 18
+    },
+    "St Joseph\u2019s Care Group": {
+        "beds_occupied": 7,
+        "occupancy": 3,
+        "total_beds": 269
+    },
+    "St Joseph\u2019s Continuing Care Centre McConnell Avenue Site": {
+        "beds_occupied": 4,
+        "occupancy": 7,
+        "total_beds": 58
+    },
+    "St Joseph\u2019s General Hospital Elliot Lake": {
+        "beds_occupied": 2,
+        "occupancy": 4,
+        "total_beds": 53
+    },
+    "St Joseph\u2019s Health Care London": {
+        "beds_occupied": 94,
+        "occupancy": 19,
+        "total_beds": 488
+    },
+    "St Joseph\u2019s Health Centre": {
+        "beds_occupied": 4,
+        "occupancy": 31,
+        "total_beds": 13
+    },
+    "St Joseph\u2019s Health Centre Guelph": {
+        "beds_occupied": 33,
+        "occupancy": 37,
+        "total_beds": 90
+    },
+    "St Joseph\u2019s Health Centre Toronto": {
+        "beds_occupied": 4,
+        "occupancy": 1,
+        "total_beds": 384
+    },
+    "St Joseph\u2019s Healthcare Hamilton": {
+        "beds_occupied": 59,
+        "occupancy": 8,
+        "total_beds": 759
+    },
+    "St Joseph\u2019s Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 5,
+        "total_beds": 104
+    },
+    "St Joseph\u2019s Integrated Care Centre": {
+        "beds_occupied": 5,
+        "occupancy": 100,
+        "total_beds": 5
+    },
+    "St Martha\u2019s Regional Hospital": {
+        "beds_occupied": 92,
+        "occupancy": 100,
+        "total_beds": 92
+    },
+    "St Marys Memorial Hospital": {
+        "beds_occupied": 20,
+        "occupancy": 100,
+        "total_beds": 20
+    },
+    "St Mary\u2019s General Hospital": {
+        "beds_occupied": 130,
+        "occupancy": 77,
+        "total_beds": 168
+    },
+    "St Mary\u2019s Hospital Sechelt": {
+        "beds_occupied": 58,
+        "occupancy": 61,
+        "total_beds": 95
+    },
+    "St Mary\u2019s Memorial Hospital": {
+        "beds_occupied": 6,
+        "occupancy": 100,
+        "total_beds": 6
+    },
+    "St Mary\u2019s of the Lake Hospital": {
+        "beds_occupied": 6,
+        "occupancy": 2,
+        "total_beds": 270
+    },
+    "St Michael\u2019s Centre": {
+        "beds_occupied": 9,
+        "occupancy": 6,
+        "total_beds": 144
+    },
+    "St Michael\u2019s Hospital": {
+        "beds_occupied": 463,
+        "occupancy": 100,
+        "total_beds": 463
+    },
+    "St Paul\u2019s Hospital": {
+        "beds_occupied": 57,
+        "occupancy": 13,
+        "total_beds": 455
+    },
+    "St Theresa General Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 100,
+        "total_beds": 34
+    },
+    "St Therese-St Paul Healthcare Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 70
+    },
+    "St Thomas Elgin General Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 3,
+        "total_beds": 155
+    },
+    "Stan Cassidy Centre for Rehabilitation": {
+        "beds_occupied": 4,
+        "occupancy": 20,
+        "total_beds": 20
+    },
+    "Ste Rose General Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 12,
+        "total_beds": 25
+    },
+    "Stella-Maris-de-Kent Hospital": {
+        "beds_occupied": 20,
+        "occupancy": 100,
+        "total_beds": 20
+    },
+    "Stettler Hospital and Care Centre": {
+        "beds_occupied": 8,
+        "occupancy": 27,
+        "total_beds": 30
+    },
+    "Stevenson Memorial Hospital": {
+        "beds_occupied": 16,
+        "occupancy": 41,
+        "total_beds": 39
+    },
+    "Stonewall and District Health Centre": {
+        "beds_occupied": 15,
+        "occupancy": 100,
+        "total_beds": 15
+    },
+    "Strait Richmond Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 100,
+        "total_beds": 15
+    },
+    "Stratford General Hospital": {
+        "beds_occupied": 24,
+        "occupancy": 22,
+        "total_beds": 111
+    },
+    "Strathmore District Health Services": {
+        "beds_occupied": 23,
+        "occupancy": 100,
+        "total_beds": 23
+    },
+    "Strathroy Middlesex General Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 9,
+        "total_beds": 54
+    },
+    "Stuart Lake Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 3
+    },
+    "Sturgeon Community Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 2,
+        "total_beds": 163
+    },
+    "Summerland Health Centre": {
+        "beds_occupied": 50,
+        "occupancy": 100,
+        "total_beds": 50
+    },
+    "Sundre Hospital and Care Centre": {
+        "beds_occupied": 14,
+        "occupancy": 100,
+        "total_beds": 14
+    },
+    "Sunnybrook Health Sciences Centre": {
+        "beds_occupied": 4,
+        "occupancy": 1,
+        "total_beds": 531
+    },
+    "Surrey Memorial Hospital": {
+        "beds_occupied": 9,
+        "occupancy": 2,
+        "total_beds": 589
+    },
+    "Sussex Health Centre": {
+        "beds_occupied": 25,
+        "occupancy": 100,
+        "total_beds": 25
+    },
+    "Sutherland Harris Memorial Hospital": {
+        "beds_occupied": 11,
+        "occupancy": 29,
+        "total_beds": 38
+    },
+    "Swan Hills Healthcare Centre": {
+        "beds_occupied": 4,
+        "occupancy": 100,
+        "total_beds": 4
+    },
+    "Swan River Valley Hospital": {
+        "beds_occupied": 36,
+        "occupancy": 100,
+        "total_beds": 36
+    },
+    "Taber Health Centre": {
+        "beds_occupied": 19,
+        "occupancy": 100,
+        "total_beds": 19
+    },
+    "Temiskaming Hospital": {
+        "beds_occupied": 6,
+        "occupancy": 12,
+        "total_beds": 48
+    },
+    "Teulon Hunter Memorial Hospital": {
+        "beds_occupied": 18,
+        "occupancy": 100,
+        "total_beds": 18
+    },
+    "The Centennial Centre for Mental Health and Brain Injury": {
+        "beds_occupied": 2,
+        "occupancy": 1,
+        "total_beds": 330
+    },
+    "The Moncton Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 1,
+        "total_beds": 267
+    },
+    "The North Island Hospital Campbell River and District Campus": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 99
+    },
+    "The North Island Hospital Comox Valley Campus": {
+        "beds_occupied": 24,
+        "occupancy": 19,
+        "total_beds": 127
+    },
+    "The Ottawa Hospital": {
+        "beds_occupied": 100,
+        "occupancy": 10,
+        "total_beds": 979
+    },
+    "The Pas Health Complex": {
+        "beds_occupied": 29,
+        "occupancy": 100,
+        "total_beds": 29
+    },
+    "The Richmond Hospital": {
+        "beds_occupied": 57,
+        "occupancy": 25,
+        "total_beds": 228
+    },
+    "The Salvation Army Toronto Grace Health Centre": {
+        "beds_occupied": 120,
+        "occupancy": 100,
+        "total_beds": 120
+    },
+    "Thompson General Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 8,
+        "total_beds": 61
+    },
+    "Three Hills Health Centre": {
+        "beds_occupied": 21,
+        "occupancy": 100,
+        "total_beds": 21
+    },
+    "Thunder Bay Regional Health Sciences Centre": {
+        "beds_occupied": 7,
+        "occupancy": 2,
+        "total_beds": 330
+    },
+    "Tiger Hills Health District": {
+        "beds_occupied": 13,
+        "occupancy": 100,
+        "total_beds": 13
+    },
+    "Tillsonburg District Memorial Hospital": {
+        "beds_occupied": 37,
+        "occupancy": 100,
+        "total_beds": 37
+    },
+    "Timmins and District Hospital": {
+        "beds_occupied": 3,
+        "occupancy": 3,
+        "total_beds": 92
+    },
+    "Tisdale Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 100,
+        "total_beds": 15
+    },
+    "Tofield Health Centre": {
+        "beds_occupied": 5,
+        "occupancy": 31,
+        "total_beds": 16
+    },
+    "Tofino General Hospital": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Tracadie-Sheila Hospital": {
+        "beds_occupied": 59,
+        "occupancy": 100,
+        "total_beds": 59
+    },
+    "Tri-Lake Health District": {
+        "beds_occupied": 5,
+        "occupancy": 23,
+        "total_beds": 22
+    },
+    "Trillium Health Partners": {
+        "beds_occupied": 138,
+        "occupancy": 10,
+        "total_beds": 1332
+    },
+    "Twin Oaks Memorial Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 100,
+        "total_beds": 15
+    },
+    "Two Hills Health Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 83
+    },
+    "U S Memorial Health Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 40
+    },
+    "UBC Hospital": {
+        "beds_occupied": 57,
+        "occupancy": 17,
+        "total_beds": 336
+    },
+    "Unity and District Health Centre": {
+        "beds_occupied": 3,
+        "occupancy": 27,
+        "total_beds": 11
+    },
+    "University Health Network": {
+        "beds_occupied": 1220,
+        "occupancy": 100,
+        "total_beds": 1220
+    },
+    "University Hospital of Northern British Columbia": {
+        "beds_occupied": 21,
+        "occupancy": 9,
+        "total_beds": 223
+    },
+    "University of Alberta Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 4,
+        "total_beds": 846
+    },
+    "University of Ottawa Heart Institute": {
+        "beds_occupied": 100,
+        "occupancy": 73,
+        "total_beds": 137
+    },
+    "Upper River Valley Hospital": {
+        "beds_occupied": 52,
+        "occupancy": 100,
+        "total_beds": 52
+    },
+    "Valley Regional Hospital": {
+        "beds_occupied": 137,
+        "occupancy": 100,
+        "total_beds": 137
+    },
+    "Valleyview Health Centre": {
+        "beds_occupied": 45,
+        "occupancy": 100,
+        "total_beds": 45
+    },
+    "Vancouver General Hospital": {
+        "beds_occupied": 57,
+        "occupancy": 6,
+        "total_beds": 1015
+    },
+    "Vermilion Health Centre": {
+        "beds_occupied": 6,
+        "occupancy": 24,
+        "total_beds": 25
+    },
+    "Vernon Jubilee Hospital": {
+        "beds_occupied": 192,
+        "occupancy": 100,
+        "total_beds": 192
+    },
+    "Victoria County Memorial Hospital": {
+        "beds_occupied": 12,
+        "occupancy": 100,
+        "total_beds": 12
+    },
+    "Victoria General Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 7,
+        "total_beds": 223
+    },
+    "Victoria Hospital": {
+        "beds_occupied": 4,
+        "occupancy": 2,
+        "total_beds": 173
+    },
+    "Victorian Community Health Centre of Kaslo": {
+        "beds_occupied": 20,
+        "occupancy": 100,
+        "total_beds": 20
+    },
+    "Viking Health Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 16
+    },
+    "Virden District Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 4,
+        "total_beds": 25
+    },
+    "Vita and District Health Centre": {
+        "beds_occupied": 3,
+        "occupancy": 30,
+        "total_beds": 10
+    },
+    "Vulcan Community Health Centre": {
+        "beds_occupied": 23,
+        "occupancy": 100,
+        "total_beds": 23
+    },
+    "Wabasca Desmarais Healthcare Centre": {
+        "beds_occupied": 1,
+        "occupancy": 10,
+        "total_beds": 10
+    },
+    "Wadena Hospital": {
+        "beds_occupied": 20,
+        "occupancy": 100,
+        "total_beds": 20
+    },
+    "Wainwright Health Centre": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 94
+    },
+    "Wascana Rehabilitation Centre": {
+        "beds_occupied": 17,
+        "occupancy": 38,
+        "total_beds": 45
+    },
+    "Waterford Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 121
+    },
+    "Watrous Hospital": {
+        "beds_occupied": 2,
+        "occupancy": 25,
+        "total_beds": 8
+    },
+    "Watson Lake Community Hospital": {
+        "beds_occupied": 6,
+        "occupancy": 100,
+        "total_beds": 6
+    },
+    "Wawanesa and District Memorial Health Centre": {
+        "beds_occupied": 6,
+        "occupancy": 100,
+        "total_beds": 6
+    },
+    "Waypoint Centre for Mental Health Care": {
+        "beds_occupied": 16,
+        "occupancy": 5,
+        "total_beds": 301
+    },
+    "West Coast General Hospital": {
+        "beds_occupied": 56,
+        "occupancy": 100,
+        "total_beds": 56
+    },
+    "West Haldimand General Hospital": {
+        "beds_occupied": 23,
+        "occupancy": 100,
+        "total_beds": 23
+    },
+    "West Nipissing General Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 50
+    },
+    "West Park Healthcare Centre": {
+        "beds_occupied": 210,
+        "occupancy": 80,
+        "total_beds": 261
+    },
+    "West Parry Sound Health Centre": {
+        "beds_occupied": 2,
+        "occupancy": 2,
+        "total_beds": 90
+    },
+    "WestView Health Centre": {
+        "beds_occupied": 69,
+        "occupancy": 100,
+        "total_beds": 69
+    },
+    "Western Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 56,
+        "total_beds": 27
+    },
+    "Western Memorial Regional Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 217
+    },
+    "Westlock Healthcare Centre": {
+        "beds_occupied": 121,
+        "occupancy": 73,
+        "total_beds": 166
+    },
+    "Wetaskiwin Hospital and Care Centre": {
+        "beds_occupied": 16,
+        "occupancy": 16,
+        "total_beds": 97
+    },
+    "Weyburn General Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 12,
+        "total_beds": 40
+    },
+    "Whitecourt Healthcare Centre": {
+        "beds_occupied": 22,
+        "occupancy": 100,
+        "total_beds": 22
+    },
+    "Whitehorse General Hospital": {
+        "beds_occupied": 5,
+        "occupancy": 9,
+        "total_beds": 55
+    },
+    "William J Cadzow - Lac La Biche Healthcare Centre": {
+        "beds_occupied": 3,
+        "occupancy": 5,
+        "total_beds": 64
+    },
+    "William Osler Health System": {
+        "beds_occupied": 137,
+        "occupancy": 16,
+        "total_beds": 858
+    },
+    "Winchester District Memorial Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 2,
+        "total_beds": 55
+    },
+    "Windsor Regional Hospital": {
+        "beds_occupied": 100,
+        "occupancy": 18,
+        "total_beds": 549
+    },
+    "Wingham and District Hospital": {
+        "beds_occupied": 1,
+        "occupancy": 3,
+        "total_beds": 32
+    },
+    "Winnipegosis General Hospital": {
+        "beds_occupied": 15,
+        "occupancy": 100,
+        "total_beds": 15
+    },
+    "Wolseley Memorial Hospital": {
+        "beds_occupied": 10,
+        "occupancy": 100,
+        "total_beds": 10
+    },
+    "Woodstock General Hospital": {
+        "beds_occupied": 24,
+        "occupancy": 13,
+        "total_beds": 178
+    },
+    "Wrinch Memorial Hospital": {
+        "beds_occupied": 0,
+        "occupancy": 0,
+        "total_beds": 10
+    },
+    "Wynyard Integrated Hospital": {
+        "beds_occupied": 8,
+        "occupancy": 100,
+        "total_beds": 8
+    },
+    "Yarmouth Regional Hospital": {
+        "beds_occupied": 34,
+        "occupancy": 28,
+        "total_beds": 122
+    },
+    "Yorkton Regional Health Centre": {
+        "beds_occupied": 1,
+        "occupancy": 1,
+        "total_beds": 87
+    }
+}

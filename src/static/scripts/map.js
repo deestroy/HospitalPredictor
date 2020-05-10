@@ -99,7 +99,7 @@ function init_map() {
 
             // update heatmap data
             var occupancy = hospital.percent_occupancy >= 0 ? hospital.percent_occupancy : 0;
-            locations.push({location: location, weight: occupancy / hospital.num_beds});
+            locations.push({location: location, weight: occupancy});
         }
         heatmap.setData(locations);
 

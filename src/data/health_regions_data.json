@@ -1,0 +1,1344 @@
+{
+    "Abitibi-T\u00e9miscamingue": {
+        "cases": 148,
+        "hospitals": [
+            "Assiniboia Union Hospital",
+            "Enfant-J\u00e9sus RHSJ \u2020 Hospital",
+            "Stratford General Hospital",
+            "Taber Health Centre",
+            "The North Island Hospital Comox Valley Campus",
+            "Wawanesa and District Memorial Health Centre",
+            "Whitecourt Healthcare Centre",
+            "Woodstock General Hospital"
+        ],
+        "location": [
+            47.7344268,
+            -77.672777
+        ]
+    },
+    "Algoma": {
+        "cases": 12,
+        "hospitals": [
+            "Carbonear General Hospital",
+            "Kitimat Hospital and Health Centre"
+        ],
+        "location": [
+            47.6459165,
+            -84.7951524
+        ]
+    },
+    "Bas-Saint-Laurent": {
+        "cases": 34,
+        "hospitals": [
+            "Carman Memorial Hospital",
+            "Haida Gwaii Hospital and Health Centre",
+            "Lakes District Hospital and Health Centre",
+            "Northern Haida Gwaii Hospital and Health Centre",
+            "Squamish General Hospital",
+            "Thompson General Hospital",
+            "Weyburn General Hospital"
+        ],
+        "location": [
+            47.828424,
+            -69.5314484
+        ]
+    },
+    "Brant": {
+        "cases": 78,
+        "hospitals": [
+            "Baldur Health Centre",
+            "Brant Community Healthcare System",
+            "Northwest Health Facility",
+            "Services de sant\u00e9 de Chapleau Health Services"
+        ],
+        "location": [
+            43.152667,
+            -80.17159099999999
+        ]
+    },
+    "Calgary": {
+        "cases": 2204,
+        "hospitals": [
+            "Alberta Children\u2019s Hospital",
+            "Foothills Medical Centre",
+            "North Bay Regional Health Centre",
+            "Perth and Smiths Falls District Hospital",
+            "Peter Lougheed Centre",
+            "Roblin District Health Centre",
+            "Rockyview General Hospital"
+        ],
+        "location": [
+            51.04473309999999,
+            -114.0718831
+        ]
+    },
+    "Capitale-Nationale": {
+        "cases": 630,
+        "hospitals": [
+            "Brooks Health Centre",
+            "Dr F H Wigmore Regional Hospital",
+            "Drayton Valley Hospital and Care Centre"
+        ],
+        "location": [
+            46.80773079999999,
+            -71.21955340000001
+        ]
+    },
+    "Central": {
+        "cases": 96,
+        "hospitals": [
+            "Fort Macleod Health Centre",
+            "Summerland Health Centre"
+        ],
+        "location": [
+            53.9332706,
+            -116.5765035
+        ]
+    },
+    "Chatham-Kent": {
+        "cases": 31,
+        "hospitals": [
+            "A M Guy Memorial Health Centre",
+            "Atikokan General Hospital",
+            "Beaverlodge Municipal Hospital",
+            "Bonavista Peninsula Health Centre",
+            "Chatham-Kent Health Alliance",
+            "Four Counties Health Services",
+            "Riverside Health Care Facilities Inc",
+            "Saanich Peninsula Hospital"
+        ],
+        "location": [
+            42.4048028,
+            -82.19103779999999
+        ]
+    },
+    "Chaudi\u00e8re-Appalaches": {
+        "cases": 341,
+        "hospitals": [
+            "Bassano Health Centre",
+            "Sault Area Hospital"
+        ],
+        "location": [
+            46.6981917,
+            -71.2993195
+        ]
+    },
+    "C\u00f4te-Nord": {
+        "cases": 111,
+        "hospitals": [
+            "Churchill Health Centre",
+            "Espanola General Hospital",
+            "Haliburton Highlands Health Services",
+            "Hillsborough Hospital",
+            "Queen Elizabeth Hospital",
+            "Ross Memorial Hospital",
+            "Wetaskiwin Hospital and Care Centre"
+        ],
+        "location": [
+            50.8967416,
+            -66.14970269999999
+        ]
+    },
+    "Durham": {
+        "cases": 712,
+        "hospitals": [
+            "Neepawa Health Centre",
+            "Riverside Health Complex"
+        ],
+        "location": [
+            44.1763254,
+            -80.8185006
+        ]
+    },
+    "Eastern": {
+        "cases": 309,
+        "hospitals": [
+            "Calder Health Centre",
+            "Peace River Community Health Centre",
+            "Trillium Health Partners",
+            "William Osler Health System"
+        ],
+        "location": [
+            43.6668105,
+            -79.6419657
+        ]
+    },
+    "Edmonton": {
+        "cases": 446,
+        "hospitals": [
+            "Alberta Hospital Edmonton",
+            "Covenant Health Grey Nuns Community Hospital",
+            "Covenant Health Misericordia Community Hospital",
+            "Covenant Health St Joseph\u2019s General Hospital",
+            "Cross Cancer Institute",
+            "Devon General Hospital",
+            "Fort Saskatchewan Community Hospital",
+            "Glenrose Rehabilitation Hospital",
+            "Lakeridge Health",
+            "Leduc Community Hospital",
+            "Ontario Shores Centre for Mental Health Sciences",
+            "Royal Alexandra Hospital",
+            "University of Alberta Hospital",
+            "Yarmouth Regional Hospital"
+        ],
+        "location": [
+            53.5461245,
+            -113.4938229
+        ]
+    },
+    "Estrie": {
+        "cases": 794,
+        "hospitals": [
+            "Hanna Health Centre",
+            "H\u00f4pital Glengarry Memorial Hospital",
+            "Pembroke Regional Hospital Inc",
+            "Sackville Memorial Hospital",
+            "Winnipegosis General Hospital"
+        ],
+        "location": [
+            45.7903568,
+            -70.9565703
+        ]
+    },
+    "Far North": {
+        "cases": 13,
+        "hospitals": [
+            "Markham Stouffville Hospital",
+            "Scarborough and Rouge Hospital",
+            "Sturgeon Community Hospital"
+        ],
+        "location": [
+            53.64285109999999,
+            -100.9968588
+        ]
+    },
+    "Fraser": {
+        "cases": 715,
+        "hospitals": [
+            "Hamiota District Health Centre",
+            "Lloydminster Hospital",
+            "Pleasant Valley Health Centre",
+            "Shoal Lake-Strathclair Health Centre",
+            "Vernon Jubilee Hospital",
+            "Vulcan Community Health Centre"
+        ],
+        "location": [
+            59.71711500000001,
+            -135.049219
+        ]
+    },
+    "Gasp\u00e9sie-\u00celes-de-la-Madeleine": {
+        "cases": 138,
+        "hospitals": [
+            "Bethesda Hospital",
+            "DeSalaberry District Health Centre",
+            "East Kootenay Regional Hospital",
+            "Smoky Lake Healthcare Centre",
+            "Southwest Integrated Healthcare Facility"
+        ],
+        "location": [
+            47.5730748,
+            -62.32551119999999
+        ]
+    },
+    "Grey Bruce": {
+        "cases": 64,
+        "hospitals": [
+            "Hudson Bay Health Care Facility",
+            "McCreary Alonsa Health Centre",
+            "Queen Victoria Hospital",
+            "Stella-Maris-de-Kent Hospital"
+        ],
+        "location": [
+            44.4659957,
+            -80.6326916
+        ]
+    },
+    "Haldimand-Norfolk": {
+        "cases": 166,
+        "hospitals": [
+            "Haldimand War Memorial Hospital",
+            "Nanaimo Regional General Hospital",
+            "Pembina Manitou Health Centre",
+            "Rock Lake Health District Hospital",
+            "West Haldimand General Hospital"
+        ],
+        "location": [
+            42.9276849,
+            -79.87619699999999
+        ]
+    },
+    "Haliburton Kawartha Pineridge": {
+        "cases": 134,
+        "hospitals": [
+            "Northumberland Hills Hospital",
+            "Stonewall and District Health Centre",
+            "Teulon Hunter Memorial Hospital",
+            "Wolseley Memorial Hospital"
+        ],
+        "location": [
+            43.9683674,
+            -78.2856082
+        ]
+    },
+    "Halton": {
+        "cases": 386,
+        "hospitals": [
+            "Bow Island Health Centre",
+            "Halton Healthcare Services"
+        ],
+        "location": [
+            43.53253720000001,
+            -79.87448359999999
+        ]
+    },
+    "Hamilton": {
+        "cases": 355,
+        "hospitals": [
+            "Barrhead Healthcare Centre",
+            "Hamilton Health Sciences",
+            "Joseph Brant Hospital",
+            "Kootenay Lake Hospital",
+            "Lorne Memorial Hospital",
+            "Notre Dame Bay Memorial Health Centre",
+            "Notre Dame Hospital",
+            "St Joseph\u2019s Healthcare Hamilton",
+            "St Mary\u2019s Hospital Sechelt",
+            "Tiger Hills Health District"
+        ],
+        "location": [
+            43.2557206,
+            -79.8711024
+        ]
+    },
+    "Hastings Prince Edward": {
+        "cases": 34,
+        "hospitals": [
+            "Covenant Health Mineral Springs Hospital",
+            "Kings County Memorial Hospital",
+            "Soldiers Memorial Hospital",
+            "Stettler Hospital and Care Centre"
+        ],
+        "location": [
+            45.0552886,
+            -77.8633368
+        ]
+    },
+    "Huron Perth": {
+        "cases": 38,
+        "hospitals": [
+            "Alexandra Marine and General Hospital",
+            "Clinton Public Hospital",
+            "Edson Healthcare Centre",
+            "Kelowna General Hospital",
+            "Watson Lake Community Hospital"
+        ],
+        "location": [
+            43.6416566,
+            -81.6911559
+        ]
+    },
+    "Interior": {
+        "cases": 153,
+        "hospitals": [
+            "Altona Community Memorial",
+            "Burnaby Hospital",
+            "Creston Valley Hospital",
+            "Dr Y K Jeon Kittiwake Health Centre",
+            "Eagle Ridge Hospital",
+            "Forensic Psychiatric Hospital",
+            "High Prairie Health Complex",
+            "Hornepayne Community Hospital",
+            "Lions Gate Hospital",
+            "Morris General Hospital",
+            "Mount Saint Joseph Hospital",
+            "Queen\u2019s Park & Fellburn Care Centres",
+            "Ridge Meadows Hospital and Health Care Centre",
+            "Royal Columbian Hospital",
+            "St Michael\u2019s Centre",
+            "Surrey Memorial Hospital"
+        ],
+        "location": [
+            49.2835277,
+            -123.1169394
+        ]
+    },
+    "Interlake-Eastern": {
+        "cases": 17,
+        "hospitals": [
+            "La Loche Health Centre",
+            "Selkirk Regional Health Centre",
+            "Tofield Health Centre"
+        ],
+        "location": [
+            50.1461966,
+            -96.8711685
+        ]
+    },
+    "Island": {
+        "cases": 109,
+        "hospitals": [
+            "Central Butte Regency Hospital",
+            "Erickson District Health Centre",
+            "Hanover and District Hospital",
+            "Maidstone Health Complex",
+            "Minnedosa District Hospital",
+            "South Bruce Grey Health Centre"
+        ],
+        "location": [
+            50.39297269999999,
+            -125.1186076
+        ]
+    },
+    "Kingston Frontenac Lennox & Addington": {
+        "cases": 59,
+        "hospitals": [
+            "Cypress Regional Hospital",
+            "Hinton Healthcare Centre",
+            "Kingston Health Sciences Centre",
+            "Mannville Care Centre",
+            "Nicola Valley Health Centre",
+            "Southeast Integrated Care Centre - Moosomin",
+            "St Mary\u2019s of the Lake Hospital",
+            "Temiskaming Hospital",
+            "Vermilion Health Centre"
+        ],
+        "location": [
+            44.227836,
+            -76.525201
+        ]
+    },
+    "Labrador-Grenfell": {
+        "cases": 6,
+        "hospitals": [
+            "High River General Hospital",
+            "Labrador West Health Centre",
+            "Melfort Hospital",
+            "Overlander Extended Care Hospital",
+            "Royal Inland Hospital",
+            "South Hills Tertiary Psychiatric Rehabilitation Centre",
+            "Wainwright Health Centre"
+        ],
+        "location": [
+            52.9412568,
+            -66.9105666
+        ]
+    },
+    "Lambton": {
+        "cases": 148,
+        "hospitals": [
+            "Cardston Health Centre",
+            "Cold Lake Healthcare Centre",
+            "Dr G B Cross Memorial Hospital",
+            "Fox Creek Healthcare Centre",
+            "Melita Health Centre",
+            "Penticton Regional Hospital",
+            "South Okanagan General Hospital",
+            "Tofino General Hospital"
+        ],
+        "location": [
+            43.0527085,
+            -82.0407137
+        ]
+    },
+    "Lanaudi\u00e8re": {
+        "cases": 1462,
+        "hospitals": [
+            "Hants Community Hospital",
+            "Humboldt District Hospital",
+            "Inverness Consolidated Memorial Hospital",
+            "Upper River Valley Hospital",
+            "Valley Regional Hospital",
+            "Victoria County Memorial Hospital"
+        ],
+        "location": [
+            46.1256124,
+            -73.704151
+        ]
+    },
+    "Laurentides": {
+        "cases": 906,
+        "hospitals": [
+            "Arborg and Districts Health Centre",
+            "Balcarres Integrated Care Centre",
+            "Digby General Hospital",
+            "Gimli Community Health Centre",
+            "Leader Hospital",
+            "Lillooet Hospital and Health Centre"
+        ],
+        "location": [
+            46.6181619,
+            -75.01814929999999
+        ]
+    },
+    "Laval": {
+        "cases": 2199,
+        "hospitals": [
+            "Olds Hospital and Care Centre",
+            "Strait Richmond Hospital",
+            "Sundre Hospital and Care Centre"
+        ],
+        "location": [
+            45.6066487,
+            -73.712409
+        ]
+    },
+    "Leeds Grenville and Lanark": {
+        "cases": 274,
+        "hospitals": [
+            "Brockville General Hospital",
+            "Fort Nelson General Hospital",
+            "G R Baker Memorial Hospital",
+            "Grandview District Hospital",
+            "H\u00f4pital de Mattawa Hospital",
+            "Rossburn District Health Centre",
+            "Shuswap Lake General Hospital",
+            "Strathmore District Health Services",
+            "Tisdale Hospital",
+            "Twin Oaks Memorial Hospital"
+        ],
+        "location": [
+            44.6158208,
+            -75.70300809999999
+        ]
+    },
+    "Mauricie": {
+        "cases": 1015,
+        "hospitals": [
+            "Birtle Health Centre",
+            "Buchanan Memorial Community Health Centre",
+            "Herbert and District Integrated Health Facility",
+            "Labrador Health Centre",
+            "Lynn Lake Hospital",
+            "Russell Health Centre"
+        ],
+        "location": [
+            46.6629657,
+            -72.8512198
+        ]
+    },
+    "Middlesex-London": {
+        "cases": 334,
+        "hospitals": [
+            "Alexandra Hospital",
+            "Central Peace Health Complex",
+            "Dr A A Wilkinson Memorial Health Centre",
+            "Green Bay Health Centre",
+            "Lady Dunn Health Centre",
+            "London Health Sciences Centre",
+            "Raymond Health Centre",
+            "St Joseph\u2019s Health Care London",
+            "St Marys Memorial Hospital",
+            "West Coast General Hospital"
+        ],
+        "location": [
+            42.9849233,
+            -81.2452768
+        ]
+    },
+    "Montr\u00e9al": {
+        "cases": 9348,
+        "hospitals": [
+            "All Saints Springhill Hospital",
+            "H\u00f4pital Notre-Dame Hospital",
+            "Preeceville and District Health Centre",
+            "Wynyard Integrated Hospital"
+        ],
+        "location": [
+            45.5016889,
+            -73.567256
+        ]
+    },
+    "Mont\u00e9r\u00e9gie": {
+        "cases": 2511,
+        "hospitals": [
+            "Bella Coola General Hospital",
+            "Big Country Hospital",
+            "Golden and District General Hospital",
+            "Innisfail Health Centre",
+            "Lillian Fraser Memorial Hospital",
+            "Muskoka Algonquin Healthcare",
+            "North Cumberland Memorial Hospital",
+            "Red Deer Regional Hospital Centre",
+            "Swan River Valley Hospital"
+        ],
+        "location": [
+            45.3290251,
+            -72.81482489999999
+        ]
+    },
+    "NWT": {
+        "cases": 5,
+        "hospitals": [
+            "Covenant Health Our Lady of the Rosary Hospital",
+            "Kindersley and District Health Centre",
+            "Yorkton Regional Health Centre"
+        ],
+        "location": [
+            64.8255441,
+            -124.8457334
+        ]
+    },
+    "Niagara": {
+        "cases": 385,
+        "hospitals": [
+            "Hotel Dieu Shaver Health and Rehabilitation Centre",
+            "Niagara Health System",
+            "Sacred Heart Community Health Centre",
+            "Westlock Healthcare Centre"
+        ],
+        "location": [
+            43.0581645,
+            -79.29021329999999
+        ]
+    },
+    "Nord-du-Qu\u00e9bec": {
+        "cases": 7,
+        "hospitals": [
+            "Cormorant Island Community Health Centre",
+            "Oilfields General Hospital",
+            "Port McNeill and District Hospital",
+            "Sacred Heart Hospital"
+        ],
+        "location": [
+            52.9399159,
+            -73.5491361
+        ]
+    },
+    "North": {
+        "cases": 208,
+        "hospitals": [],
+        "location": [
+            53.9332706,
+            -116.5765035
+        ]
+    },
+    "North Bay Parry Sound": {
+        "cases": 14,
+        "hospitals": [
+            "Biggar Hospital",
+            "Charlotte County Hospital",
+            "Cumberland Regional Health Care Centre",
+            "Eastern Memorial Hospital",
+            "Guysborough Memorial Hospital",
+            "Watrous Hospital",
+            "West Parry Sound Health Centre"
+        ],
+        "location": [
+            45.3591808,
+            -80.0432318
+        ]
+    },
+    "Northern": {
+        "cases": 43,
+        "hospitals": [
+            "Lake of the Woods District Hospital",
+            "University Hospital of Northern British Columbia"
+        ],
+        "location": [
+            53.8922034,
+            -122.8133607
+        ]
+    },
+    "Northwestern": {
+        "cases": 15,
+        "hospitals": [],
+        "location": [
+            64.8255441,
+            -124.8457334
+        ]
+    },
+    "Nunavik": {
+        "cases": 14,
+        "hospitals": [
+            "Aberdeen Hospital",
+            "Kerrobert Integrated Health Centre",
+            "Lanigan Hospital"
+        ],
+        "location": [
+            58.1031447,
+            -68.4017925
+        ]
+    },
+    "Ottawa": {
+        "cases": 899,
+        "hospitals": [
+            "Bruy\u00e8re Continuing Care",
+            "Children\u2019s Hospital of Eastern Ontario",
+            "Colchester East Hants Health Centre",
+            "Consort Hospital and Care Centre",
+            "H\u00f4pital Montfort",
+            "Queensway Carleton Hospital",
+            "Royal Ottawa Health Care Group",
+            "St Theresa General Hospital",
+            "Sussex Health Centre",
+            "The Ottawa Hospital",
+            "Three Hills Health Centre",
+            "University of Ottawa Heart Institute",
+            "Wadena Hospital"
+        ],
+        "location": [
+            45.4215296,
+            -75.69719309999999
+        ]
+    },
+    "Outaouais": {
+        "cases": 219,
+        "hospitals": [
+            "Blind River District Health Centre",
+            "Charles S Curtis Memorial Hospital",
+            "St Mary\u2019s Memorial Hospital"
+        ],
+        "location": [
+            46.0553281,
+            -77.3337707
+        ]
+    },
+    "Peel": {
+        "cases": 1752,
+        "hospitals": [
+            "Arrow Lakes Hospital",
+            "Headwaters Health Care Centre",
+            "MacGregor Health Centre",
+            "Seven Regions Health Centre"
+        ],
+        "location": [
+            43.6766398,
+            -79.7848422
+        ]
+    },
+    "Peterborough": {
+        "cases": 59,
+        "hospitals": [
+            "Bethany Meadows",
+            "Covenant Health St Mary\u2019s Hospital Camrose",
+            "Indian Head Hospital",
+            "Invermere and District Hospital",
+            "Parkland Integrated Health Centre",
+            "Peterborough Regional Health Centre"
+        ],
+        "location": [
+            44.309058,
+            -78.31974699999999
+        ]
+    },
+    "Porcupine": {
+        "cases": 50,
+        "hospitals": [
+            "Abbotsford Regional Hospital and Cancer Centre",
+            "Athabasca Healthcare Centre",
+            "Bingham Memorial Hospital",
+            "Boyle Healthcare Centre",
+            "Chilliwack General Hospital",
+            "Cottage-Worthington Pavilion",
+            "Emerson Hospital",
+            "Emmanuel Care - St Joseph\u2019s Hospital Estevan",
+            "Langley Memorial Hospital",
+            "Menno Hospital",
+            "Mission Memorial Hospital",
+            "Peace Arch Hospital",
+            "Snow Lake Health Centre",
+            "Timmins and District Hospital",
+            "Vita and District Health Centre",
+            "William J Cadzow - Lac La Biche Healthcare Centre"
+        ],
+        "location": [
+            48.49504289999999,
+            -81.19099039999999
+        ]
+    },
+    "Prairie Mountain": {
+        "cases": 13,
+        "hospitals": [
+            "Brandon General Hospital",
+            "Dr Charles L LeGrow Health Centre",
+            "Dr Leonard A Miller Centre",
+            "Health Sciences Centre-St John\u2019s",
+            "Janeway Children\u2019s Health and Rehabilitation Centre",
+            "Listowel Memorial Hospital",
+            "St Clare\u2019s Mercy Hospital",
+            "The North Island Hospital Campbell River and District Campus",
+            "Waterford Hospital"
+        ],
+        "location": [
+            49.84782509999999,
+            -99.9490149
+        ]
+    },
+    "Prince Edward Island": {
+        "cases": 26,
+        "hospitals": [
+            "Bentley Care Centre",
+            "E M Crowe Memorial Hospital",
+            "Grand Manan Hospital",
+            "Lacombe Hospital and Care Centre",
+            "Lakeshore Health Centre",
+            "Orillia Soldiers\u2019 Memorial Hospital",
+            "Ponoka Hospital and Care Centre",
+            "Prince County Hospital",
+            "St Joseph\u2019s General Hospital Elliot Lake",
+            "The Centennial Centre for Mental Health and Brain Injury"
+        ],
+        "location": [
+            46.510712,
+            -63.41681359999999
+        ]
+    },
+    "Regina": {
+        "cases": 71,
+        "hospitals": [
+            "McBride and District Hospital",
+            "Pasqua Hospital",
+            "Regina General Hospital",
+            "Southlake Regional Health Centre",
+            "Wascana Rehabilitation Centre"
+        ],
+        "location": [
+            50.4452112,
+            -104.6188943
+        ]
+    },
+    "Renfrew": {
+        "cases": 14,
+        "hospitals": [
+            "Arnprior & District Memorial Hospital",
+            "Coronation Hospital and Care Centre",
+            "Didsbury District Health Services",
+            "Kamsack Hospital and Nursing Home",
+            "Renfrew Victoria Hospital",
+            "Rosetown Health Centre",
+            "South Cumberland Community Care Centre"
+        ],
+        "location": [
+            45.4749199,
+            -76.6877186
+        ]
+    },
+    "Saguenay": {
+        "cases": 244,
+        "hospitals": [
+            "Boundary Hospital",
+            "Central Newfoundland Regional Health Centre",
+            "Dr Hugh Twomey Health Centre",
+            "Milk River Health Centre",
+            "Norfolk General Hospital",
+            "Queen Elizabeth II Hospital",
+            "Swan Hills Healthcare Centre",
+            "Tillsonburg District Memorial Hospital"
+        ],
+        "location": [
+            48.4280529,
+            -71.0684923
+        ]
+    },
+    "Saskatoon": {
+        "cases": 150,
+        "hospitals": [
+            "Royal University Hospital",
+            "Saskatoon City Hospital"
+        ],
+        "location": [
+            52.1332144,
+            -106.6700458
+        ]
+    },
+    "Simcoe Muskoka": {
+        "cases": 215,
+        "hospitals": [
+            "Battlefords Union Hospital",
+            "Breton Health Centre",
+            "Collingwood General and Marine Hospital",
+            "Georgian Bay General Hospital",
+            "H\u00f4pital priv\u00e9 Beechwood Private Hospital",
+            "Manning Community Health Centre",
+            "Northern Lights Regional Health Centre",
+            "O\u2019Leary Community Hospital",
+            "Rimbey Hospital and Care Centre",
+            "Royal Victoria Regional Health Centre",
+            "Saskatchewan Hospital",
+            "Stevenson Memorial Hospital",
+            "Waypoint Centre for Mental Health Care",
+            "Western Hospital"
+        ],
+        "location": [
+            44.4716525,
+            -79.8296743
+        ]
+    },
+    "South": {
+        "cases": 215,
+        "hospitals": [],
+        "location": [
+            53.9332706,
+            -116.5765035
+        ]
+    },
+    "Southern Health": {
+        "cases": 28,
+        "hospitals": [
+            "Holland Bloorview Kids Rehabilitation Hospital",
+            "North York General Hospital",
+            "Portage District General Hospital",
+            "Sioux Lookout Meno Ya Win Health Centre",
+            "St Joseph\u2019s Health Centre",
+            "St Joseph\u2019s Health Centre Toronto",
+            "Sunnybrook Health Sciences Centre"
+        ],
+        "location": [
+            49.9688516,
+            -98.27963199999999
+        ]
+    },
+    "Southwestern": {
+        "cases": 47,
+        "hospitals": [
+            "Boissevain Health Centre District",
+            "Deloraine Health Centre",
+            "H\u00f4pital de Smooth Rock Falls Hospital",
+            "Lady Minto Hospital",
+            "Mills Memorial Hospital",
+            "St Thomas Elgin General Hospital",
+            "Strathroy Middlesex General Hospital",
+            "Tri-Lake Health District",
+            "Whitehorse General Hospital"
+        ],
+        "location": [
+            42.9195575,
+            -81.2649967
+        ]
+    },
+    "Sudbury": {
+        "cases": 46,
+        "hospitals": [
+            "Annapolis Community Health Centre",
+            "Campbellford Memorial Hospital",
+            "Canmore General Hospital",
+            "Daysland Health Centre",
+            "Emmanuel Care - St Peter\u2019s Hospital Melville",
+            "Health Sciences North Horizon Sant\u00e9-Nord",
+            "Rosthern Hospital",
+            "Souris Hospital",
+            "St Joseph\u2019s Continuing Care Centre McConnell Avenue Site",
+            "Victoria Hospital"
+        ],
+        "location": [
+            46.4917317,
+            -80.99302899999999
+        ]
+    },
+    "Terres-Cries-de-la-Baie-James": {
+        "cases": 5,
+        "hospitals": [
+            "Claresholm General Hospital",
+            "Gillam Hospital Inc",
+            "Placentia Health Centre",
+            "Virden District Hospital"
+        ],
+        "location": [
+            53.7826457,
+            -78.89372139999999
+        ]
+    },
+    "Thunder Bay": {
+        "cases": 51,
+        "hospitals": [
+            "Chemainus Health Care Centre",
+            "Erie Shores HealthCare",
+            "James Paton Memorial Regional Health Centre",
+            "Kootenay Boundary Regional Hospital",
+            "Sant\u00e9 Manitouwadge Health",
+            "St Joseph\u2019s Care Group",
+            "Thunder Bay Regional Health Sciences Centre"
+        ],
+        "location": [
+            48.3808951,
+            -89.2476823
+        ]
+    },
+    "Timiskaming": {
+        "cases": 12,
+        "hospitals": [
+            "Arcola Health Centre",
+            "Bonne Bay Health Centre",
+            "Chetwynd Hospital and Health Centre",
+            "Crowsnest Pass Health Centre",
+            "Elk Valley Hospital",
+            "Englehart and District Hospital",
+            "Fort Smith Health Centre",
+            "Fort St John Hospital and Health Centre",
+            "Fraser Canyon Hospital",
+            "H\u00f4tel-Dieu Saint-Joseph de Saint-Quentin",
+            "Inuvik Regional Hospital",
+            "Pinawa Hospital",
+            "Prince Rupert Regional Hospital",
+            "Shaunavon Hospital and Care Centre",
+            "St John Hospital",
+            "St Therese-St Paul Healthcare Centre",
+            "Two Hills Health Centre"
+        ],
+        "location": [
+            47.8308027,
+            -80.3194903
+        ]
+    },
+    "Toronto": {
+        "cases": 3820,
+        "hospitals": [
+            "Casey House",
+            "Centre for Addiction and Mental Health",
+            "Fogo Island Health Centre",
+            "Hospital for Sick Children",
+            "Medicine Hat Regional Hospital",
+            "Michael Garron Hospital",
+            "Providence Healthcare",
+            "Sinai Health System",
+            "St Claude Health Centre",
+            "St Michael\u2019s Hospital",
+            "The Pas Health Complex",
+            "The Salvation Army Toronto Grace Health Centre",
+            "University Health Network",
+            "Victorian Community Health Centre of Kaslo"
+        ],
+        "location": [
+            43.653226,
+            -79.3831843
+        ]
+    },
+    "Vancouver Coastal": {
+        "cases": 707,
+        "hospitals": [
+            "BC Cancer Agency",
+            "Boundary Trails Health Centre",
+            "Children\u2019s and Women\u2019s Health Centre of British Columbia",
+            "Delta Hospital",
+            "Emmanuel Care - St Paul\u2019s Hospital",
+            "G F Strong Rehabilitation Centre",
+            "George Pearson Centre",
+            "Holy Family Hospital",
+            "Louis Brier Home and Hospital",
+            "Mackenzie and District Hospital and Health Centre",
+            "St Paul\u2019s Hospital",
+            "The Richmond Hospital",
+            "UBC Hospital",
+            "Vancouver General Hospital"
+        ],
+        "location": [
+            49.2827291,
+            -123.1207375
+        ]
+    },
+    "Waterloo": {
+        "cases": 528,
+        "hospitals": [
+            "Carberry Health Center",
+            "Fairview Health Complex",
+            "Geraldton District Hospital",
+            "Glenboro Health Centre",
+            "Grand River Hospital",
+            "Lam\u00e8que Hospital and Community Health Centre",
+            "Mayerthorpe Healthcare Centre",
+            "Powell River General Hospital",
+            "St Mary\u2019s General Hospital",
+            "Tracadie-Sheila Hospital"
+        ],
+        "location": [
+            43.4642578,
+            -80.5204096
+        ]
+    },
+    "Wellington Dufferin Guelph": {
+        "cases": 199,
+        "hospitals": [
+            "Cambridge Memorial Hospital",
+            "Dryden Regional Health Centre",
+            "Groves Memorial Community Hospital",
+            "Guelph General Hospital",
+            "Homewood Health Centre Inc",
+            "St Joseph\u2019s Health Centre Guelph"
+        ],
+        "location": [
+            43.524905,
+            -80.233717
+        ]
+    },
+    "Western": {
+        "cases": 4,
+        "hospitals": [
+            "Hillside Centre",
+            "Juan de Fuca Hospitals",
+            "Kirkland and District Hospital",
+            "Mount St Mary Hospital",
+            "Nipigon District Memorial Hospital",
+            "Queen Alexandra Centre for Children\u2019s Health",
+            "Royal Jubilee Hospital",
+            "Slave Lake Healthcare Centre",
+            "Stuart Lake Hospital",
+            "Western Memorial Regional Hospital",
+            "Wrinch Memorial Hospital"
+        ],
+        "location": [
+            48.9548346,
+            -57.9436708
+        ]
+    },
+    "Windsor-Essex": {
+        "cases": 506,
+        "hospitals": [
+            "Anson General Hospital",
+            "Bulkley Valley District Hospital",
+            "Cowichan District Hospital",
+            "H\u00f4tel-Dieu Grace Healthcare",
+            "La Ronge Health Centre",
+            "Lady Minto Gulf Islands Hospital",
+            "North of Superior Healthcare Group",
+            "Sir Thomas Roddick Hospital",
+            "Valleyview Health Centre",
+            "Windsor Regional Hospital"
+        ],
+        "location": [
+            42.3149367,
+            -83.03636329999999
+        ]
+    },
+    "Winnipeg": {
+        "cases": 194,
+        "hospitals": [
+            "Concordia Hospital",
+            "Deer Lodge Centre",
+            "Grace Hospital",
+            "Grande Cache Community Health Complex",
+            "Health Sciences Centre Winnipeg",
+            "Lamont Health Care Centre",
+            "Manitoba Adolescent Treatment Centre",
+            "Misericordia Health Centre",
+            "Redwater Health Centre",
+            "Riverview Health Centre",
+            "Seven Oaks General Hospital",
+            "St Boniface General Hospital",
+            "Victoria General Hospital"
+        ],
+        "location": [
+            49.895136,
+            -97.13837439999999
+        ]
+    },
+    "York": {
+        "cases": 1200,
+        "hospitals": [
+            "Baycrest",
+            "Humber River Hospital",
+            "Mackenzie Health",
+            "Runnymede Healthcare Centre",
+            "Shouldice Hospital",
+            "West Park Healthcare Centre",
+            "WestView Health Centre"
+        ],
+        "location": [
+            43.6956787,
+            -79.4503544
+        ]
+    },
+    "Yukon": {
+        "cases": 11,
+        "hospitals": [
+            "Sutherland Harris Memorial Hospital"
+        ],
+        "location": [
+            64.2823274,
+            -135
+        ]
+    },
+    "Zone 1 (Moncton area)": {
+        "cases": 22,
+        "hospitals": [
+            "Davidson Health Centre",
+            "Deep River and District Hospital",
+            "Dr Georges-L -Dumont University Hospital Centre",
+            "Rocky Mountain House Health Centre",
+            "Ste Rose General Hospital",
+            "The Moncton Hospital",
+            "Unity and District Health Centre"
+        ],
+        "location": [
+            46.0878165,
+            -64.7782313
+        ]
+    },
+    "Zone 1 - Western": {
+        "cases": 10,
+        "hospitals": [
+            "Ashcroft Hospital and Community Health Centre",
+            "Burin Peninsula Health Care Centre",
+            "Covenant Health Killam Health Care Centre",
+            "Emmanuel Care - St Anthony\u2019s Hospital",
+            "Fishermen\u2019s Memorial Hospital",
+            "Grand Falls General Hospital",
+            "Hardisty Health Centre",
+            "Hotel-Dieu of St Joseph",
+            "Lennox and Addington County General Hospital",
+            "Pine Falls Health Complex",
+            "Port Hardy Hospital",
+            "Quinte Health Care",
+            "Seton (Jasper) Healthcare Centre",
+            "South Shore Regional Hospital",
+            "Viking Health Centre",
+            "West Nipissing General Hospital"
+        ],
+        "location": [
+            44.531403,
+            -64.31450199999999
+        ]
+    },
+    "Zone 2 (Saint John area)": {
+        "cases": 26,
+        "hospitals": [
+            "Centracare",
+            "Manitoulin Health Centre",
+            "Saint John Regional Hospital",
+            "St Joseph\u2019s Hospital",
+            "St Joseph\u2019s Integrated Care Centre"
+        ],
+        "location": [
+            45.2797026,
+            -66.0340003
+        ]
+    },
+    "Zone 2 - Northern": {
+        "cases": 4,
+        "hospitals": [
+            "Dartmouth General Hospital",
+            "IWK Health Centre",
+            "Nova Scotia Hospital",
+            "Queen Elizabeth II Health Sciences Centre",
+            "South Health Campus"
+        ],
+        "location": [
+            44.68198659999999,
+            -63.744311
+        ]
+    },
+    "Zone 3 (Fredericton area)": {
+        "cases": 48,
+        "hospitals": [
+            "Almonte General Hospital",
+            "Cape Breton Healthcare Complex",
+            "Carleton Place and District Memorial Hospital",
+            "Dawson City Community Hospital",
+            "Dr Everett Chalmers Regional Hospital",
+            "Kemptville District Hospital",
+            "Musquodoboit Valley Memorial Hospital",
+            "Northwest Health Centre",
+            "Oromocto Public Hospital",
+            "Outlook and District Health Centre",
+            "Provost Health Centre",
+            "Stan Cassidy Centre for Rehabilitation"
+        ],
+        "location": [
+            45.9635895,
+            -66.6431151
+        ]
+    },
+    "Zone 3 - Eastern": {
+        "cases": 11,
+        "hospitals": [
+            "Cariboo Memorial Hospital",
+            "Cornwall Community Hospital",
+            "Dauphin Regional Health Centre",
+            "Drumheller Health Centre",
+            "Eastern Shore Memorial Hospital",
+            "Grey Bruce Health Services",
+            "Kelvington Hospital",
+            "Porcupine Carragana Hospital",
+            "R W Large Memorial Hospital",
+            "Red Lake Margaret Cochenour Memorial Hospital",
+            "Winchester District Memorial Hospital"
+        ],
+        "location": [
+            45.1245645,
+            -62.46719220000001
+        ]
+    },
+    "Zone 4 (Edmundston area)": {
+        "cases": 7,
+        "hospitals": [
+            "Beausejour District Hospital",
+            "Broadview Union Hospital",
+            "Connaigre Peninsula Health Centre",
+            "Covenant Health Mary Immaculate Care Centre",
+            "Dr S Beckley Health Centre",
+            "Edmundston Regional Hospital",
+            "Kipling Integrated Health Centre",
+            "Queens General Hospital",
+            "Roseway Hospital",
+            "U S Memorial Health Centre"
+        ],
+        "location": [
+            47.3690127,
+            -68.32667409999999
+        ]
+    },
+    "Zone 4 - Central": {
+        "cases": 306,
+        "hospitals": [
+            "100 Mile District General Hospital",
+            "Bayview Memorial Health Centre",
+            "Canora Hospital",
+            "H\u00f4pital g\u00e9n\u00e9ral de Hawkesbury & District General Hospital",
+            "St Francis Memorial Hospital",
+            "St Martha\u2019s Regional Hospital"
+        ],
+        "location": [
+            45.6245357,
+            -61.98411119999999
+        ]
+    },
+    "Zone 5 (Campbellton area)": {
+        "cases": 12,
+        "hospitals": [
+            "Bluewater Health",
+            "Campbellton Regional Hospital",
+            "Covenant Health Bonnyville Healthcare Centre",
+            "Dawson Creek and District Hospital",
+            "Elk Point Healthcare Centre",
+            "Pincher Creek Health Centre",
+            "Princeton General Hospital",
+            "Redvers Health Centre",
+            "Restigouche Hospital Centre",
+            "Sensenbrenner Hospital",
+            "Wabasca Desmarais Healthcare Centre"
+        ],
+        "location": [
+            48.007399,
+            -66.67220569999999
+        ]
+    },
+    "Zone 6 (Bathurst area)": {
+        "cases": 1,
+        "hospitals": [
+            "Baie Verte Peninsula Health Centre",
+            "Chaleur Regional Hospital",
+            "Chinook Regional Hospital",
+            "Covenant Health St Michael\u2019s Health Centre",
+            "Dr Walter Templeman Health Centre",
+            "Rivers Health Centre",
+            "Seaforth Community Hospital",
+            "Souris Health Centre",
+            "South Huron Hospital"
+        ],
+        "location": [
+            47.6183507,
+            -65.6513358
+        ]
+    },
+    "Zone 7 (Miramichi area)": {
+        "cases": 2,
+        "hospitals": [
+            "Miramichi Regional Hospital",
+            "Wingham and District Hospital"
+        ],
+        "location": [
+            47.0295709,
+            -65.50590609999999
+        ]
+    }
+}
