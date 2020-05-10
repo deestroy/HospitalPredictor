@@ -133,6 +133,13 @@ def get_hospital_data():
     return json.dumps(data)
 
 
+# refresh hospital data
+@app.route('/refresh-data', methods = ['GET'])
+def refresh_data():
+    db_query()
+    return jsonify({'Success': True}), 200
+
+
 # retrieve data from db
 def db_query():
     global data
