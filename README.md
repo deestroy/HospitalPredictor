@@ -14,4 +14,5 @@ Canadian COVID-19 cases data is provided by [github.com/ishaberry/Covid19Canada]
 **Cindy Li** - [cindyli-13](https://github.com/cindyli-13)
 * Backend and Google Maps API integration
 
+## Screenshot of hospitalpredictor.ca
 ![Full Screenshot of hospitalpredictor.ca](https://github.com/deestroy/HospitalPredictor/blob/master/screenshots/screen.png)
